@@ -10,9 +10,13 @@ const { locale } = Astro.props;
 <button
   id="search-open"
   aria-label={t(locale, "search.openSearch")}
-  class="rounded-full border border-line bg-surface px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:text-ink"
+  title="⌘K"
+  class="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface text-muted transition-colors hover:text-lagoon"
 >
-  ⌕ <span class="hidden md:inline">⌘K</span>
+  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <circle cx="11" cy="11" r="7"></circle>
+    <path d="m21 21-4.3-4.3"></path>
+  </svg>
 </button>
 
 <dialog
