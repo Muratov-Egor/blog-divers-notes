@@ -87,6 +87,23 @@ h3 {
   @apply rounded-2xl;
 }
 
+/* Leaflet popups and controls follow the theme */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+}
+
+.leaflet-popup-content a {
+  color: var(--lagoon) !important;
+}
+
+.dark .leaflet-control-zoom a {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line);
+}
+
 @media (min-width: 1200px) {
   .prose img {
     margin-left: -72px;

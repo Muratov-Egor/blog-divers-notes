@@ -113,10 +113,31 @@ const typeLabel = (type: string | null | undefined) =>
   const prefix = el.dataset.localePrefix ?? "";
 
   const map = L.map(el).setView([15, 60], 3);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+
+  const light = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18,
-  }).addTo(map);
+  });
+  const dark = L.tileLayer(
+    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 18,
+    },
+  );
+
+  // Follow the site theme, including live toggles of the .dark class.
+  const applyTheme = () => {
+    const isDark = document.documentElement.classList.contains("dark");
+    map.removeLayer(isDark ? light : dark);
+    map.addLayer(isDark ? dark : light);
+  };
+  applyTheme();
+  new MutationObserver(applyTheme).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
 
   const bounds: [number, number][] = [];
   for (const s of sites) {
