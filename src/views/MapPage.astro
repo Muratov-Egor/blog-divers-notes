@@ -75,15 +75,15 @@ const typeLabel = (type: string | null | undefined) =>
           <ul class="mt-4 grid gap-x-10 gap-y-2 lg:grid-cols-2">
             {r.sites.map((s: any) => (
               <li class="flex items-baseline justify-between gap-4 border-b border-line py-1.5 text-[15px] last:border-b-0 lg:nth-last-2:border-b-0">
-                <span class="flex items-baseline gap-2.5">
+                <span class="min-w-0">
                   <a href={s.googleMapsUrl} target="_blank" rel="noopener" class="hover:text-lagoon">
                     {s.name}
                   </a>
-                  <span class="rounded-full bg-lagoon/10 px-2 py-0.5 text-[11px] whitespace-nowrap text-lagoon">
+                  <span class="ml-1.5 inline-block rounded-full bg-lagoon/10 px-2 py-0.5 align-middle text-[11px] whitespace-nowrap text-lagoon">
                     {typeLabel(s.type)}
                   </span>
                 </span>
-                <span class="font-mono text-xs whitespace-nowrap text-muted">
+                <span class="shrink-0 font-mono text-xs whitespace-nowrap text-muted">
                   {s.dives} {diveCount(locale, s.dives)}
                 </span>
               </li>
