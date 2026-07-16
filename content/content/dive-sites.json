@@ -1,0 +1,2395 @@
+[
+  {
+    "region": {
+      "ru": "Рача Яй, Таиланд 🇹🇭",
+      "en": "Racha Yai Island, Thailand 🇹🇭",
+      "links": ["/blog/racha-yai"],
+      "regionName": {
+        "en": "Racha Yai Island",
+        "ru": "Рача Яй"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "racha-yai-island"
+      },
+      "seo": {
+        "intro": {
+          "en": "I called this place «Home dive site», as here I spent most of my dives in Thailand.",
+          "ru": "Я называл это место «Домашний дайв-сайт», так как здесь я провел большую часть моих погружений в Таиланде."
+        },
+        "highlights": {
+          "en": [
+            "There are two bays here, Bay 1 and Bay 2. Bay 1 is a large coral reef with a lot of fish. Bay 2 is a small coral reef with a lot of fish.",
+            "There is a wreck here, the Haruby Star. It is a ship that sank in 1983. It is located at a depth of 20 meters.",
+            "There is a coral garden here, it is a large coral reef with a lot of fish.",
+            "There is a wall here, it is a large wall with a lot of fish.",
+            "There is a reef here, it is a large reef with a lot of fish.",
+            "There is a pinnacle here, it is a large pinnacle with a lot of fish."
+          ],
+          "ru": [
+            "Здесь есть две бухты, Bay 1 и Bay 2. Bay 1 - это большой коралловый риф с множеством рыб. Bay 2 - это маленький коралловый риф с множеством рыб.",
+            "Здесь есть корабль, который затонула в 1983 году. Он расположен на глубине 20 метров.",
+            "Здесь есть коралловый сад, он представляет собой большой коралловый риф с множеством рыб.",
+            "Здесь есть стена, она представляет собой большую стену с множеством рыб.",
+            "Здесь есть риф, он представляет собой большой риф с множеством рыб.",
+            "Здесь есть пикнал, он представляет собой большой пикнал с множеством рыб."
+          ]
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Bay 1",
+        "dives": 91,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.609361,
+          "lng": 98.379114
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.609361,98.379114",
+        "id": "thailand-racha-yai-island-bay-1",
+        "slugs": {
+          "site": "bay-1"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Bay 2",
+        "dives": 15,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.60785,
+          "lng": 98.378363
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.60785,98.378363",
+        "id": "thailand-racha-yai-island-bay-2",
+        "slugs": {
+          "site": "bay-2"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Bay 3",
+        "dives": 9,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.60549,
+          "lng": 98.377418
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.60549,98.377418",
+        "id": "thailand-racha-yai-island-bay-3",
+        "slugs": {
+          "site": "bay-3"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Home Run Reef",
+        "dives": 11,
+        "type": "reef",
+        "coordinates": {
+          "lat": 7.614699,
+          "lng": 98.379049
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.614699,98.379049",
+        "id": "thailand-racha-yai-island-home-run-reef",
+        "slugs": {
+          "site": "home-run-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Marlas Mystery",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 7.6079076,
+          "lng": 98.3800767
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6079076,98.3800767",
+        "id": "thailand-racha-yai-island-marlas-mystery",
+        "slugs": {
+          "site": "marlas-mystery"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Siam Bay",
+        "dives": 22,
+        "type": "coral_garden",
+        "coordinates": {
+          "lat": 7.6129776,
+          "lng": 98.3718318
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6129776,98.3718318",
+        "id": "thailand-racha-yai-island-siam-bay",
+        "slugs": {
+          "site": "siam-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Bungalow Bay / Batok Bay",
+        "dives": 10,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.60821,
+          "lng": 98.336675
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.60821,98.336675",
+        "id": "thailand-racha-yai-island-bungalow-bay-batok-bay",
+        "slugs": {
+          "site": "bungalow-bay-batok-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Bungalow Bay North Wall",
+        "dives": 12,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.6111273,
+          "lng": 98.3638067
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6111273,98.3638067",
+        "id": "thailand-racha-yai-island-bungalow-bay-north-wall",
+        "slugs": {
+          "site": "bungalow-bay-north-wall"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Bungalow Bay South Wall",
+        "dives": 10,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.607469,
+          "lng": 98.3630985
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.607469,98.3630985",
+        "id": "thailand-racha-yai-island-bungalow-bay-south-wall",
+        "slugs": {
+          "site": "bungalow-bay-south-wall"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Рача Ной, Таиланд 🇹🇭",
+      "en": "Racha Noi Island, Thailand 🇹🇭",
+      "links": ["/blog/racha-noi"],
+      "regionName": {
+        "en": "Racha Noi Island",
+        "ru": "Рача Ной"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "racha-noi-island"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Camera Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.5129151,
+          "lng": 98.3257485
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.5129151,98.3257485",
+        "id": "thailand-racha-noi-island-camera-bay",
+        "slugs": {
+          "site": "camera-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Manta Bay",
+        "dives": 8,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.5156635,
+          "lng": 98.3336294
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.5156635,98.3336294",
+        "id": "thailand-racha-noi-island-manta-bay",
+        "slugs": {
+          "site": "manta-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Freedom Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.5010697,
+          "lng": 98.3272779
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.5010697,98.3272779",
+        "id": "thailand-racha-noi-island-freedom-bay",
+        "slugs": {
+          "site": "freedom-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Banana Bay",
+        "dives": 7,
+        "type": "reef",
+        "coordinates": {
+          "lat": 7.496983,
+          "lng": 98.32519
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.496983,98.32519",
+        "id": "thailand-racha-noi-island-banana-bay",
+        "slugs": {
+          "site": "banana-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Пхи Пхи, Таиланд 🇹🇭",
+      "en": "Phi Phi Islands, Thailand 🇹🇭",
+      "links": ["/blog/koh-bida-nok", "/blog/turtle-rock"],
+      "regionName": {
+        "en": "Phi Phi Islands",
+        "ru": "Пхи Пхи"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "phi-phi-islands"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Koh Bida Nok",
+        "dives": 9,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.654001,
+          "lng": 98.766189
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.654001,98.766189",
+        "id": "thailand-phi-phi-islands-koh-bida-nok",
+        "slugs": {
+          "site": "koh-bida-nok"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Koh Bida Nai",
+        "dives": 4,
+        "type": "coral_garden",
+        "coordinates": {
+          "lat": 7.657468,
+          "lng": 98.766961
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.657468,98.766961",
+        "id": "thailand-phi-phi-islands-koh-bida-nai",
+        "slugs": {
+          "site": "koh-bida-nai"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Phi Ley Wall",
+        "dives": 1,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.6853255,
+          "lng": 98.7697578
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6853255,98.7697578",
+        "id": "thailand-phi-phi-islands-phi-ley-wall",
+        "slugs": {
+          "site": "phi-ley-wall"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Turtle Rock",
+        "dives": 5,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.6855072,
+          "lng": 98.7625493
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6855072,98.7625493",
+        "id": "thailand-phi-phi-islands-turtle-rock",
+        "slugs": {
+          "site": "turtle-rock"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Viking Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 7.6912265,
+          "lng": 98.7672043
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.6912265,98.7672043",
+        "id": "thailand-phi-phi-islands-viking-bay",
+        "slugs": {
+          "site": "viking-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Пхукет, Таиланд 🇹🇭",
+      "en": "Phuket, Thailand 🇹🇭",
+      "links": ["/blog/king-cruiser", "/blog/sharkPoint"],
+      "regionName": {
+        "en": "Phuket",
+        "ru": "Пхукет"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "phuket"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "King Cruiser Wreck",
+        "dives": 3,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 7.811684,
+          "lng": 98.644867
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.811684,98.644867",
+        "id": "thailand-phuket-king-cruiser-wreck",
+        "slugs": {
+          "site": "king-cruiser-wreck"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Shark Point",
+        "dives": 12,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 7.805604,
+          "lng": 98.632593
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.805604,98.632593",
+        "id": "thailand-phuket-shark-point",
+        "slugs": {
+          "site": "shark-point"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Koh Doc Mai",
+        "dives": 4,
+        "type": "wall",
+        "coordinates": {
+          "lat": 7.797696,
+          "lng": 98.531399
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=7.797696,98.531399",
+        "id": "thailand-phuket-koh-doc-mai",
+        "slugs": {
+          "site": "koh-doc-mai"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Симиланские острова, Таиланд 🇹🇭",
+      "en": "Similan Islands, Thailand 🇹🇭",
+      "links": ["/blog/diving-safari-similans"],
+      "regionName": {
+        "en": "Similan Islands",
+        "ru": "Симиланские острова"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "similan-islands"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Shark Fin Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 8.50878,
+          "lng": 97.667491
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.50878,97.667491",
+        "id": "thailand-similan-islands-shark-fin-reef",
+        "slugs": {
+          "site": "shark-fin-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Eel Garden",
+        "dives": 1,
+        "type": "coral_garden",
+        "coordinates": {
+          "lat": 8.5688,
+          "lng": 97.645648
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.5688,97.645648",
+        "id": "thailand-similan-islands-eel-garden",
+        "slugs": {
+          "site": "eel-garden"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Honeymoon Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 8.565108,
+          "lng": 97.639554
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.565108,97.639554",
+        "id": "thailand-similan-islands-honeymoon-bay",
+        "slugs": {
+          "site": "honeymoon-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Christmas Point",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 8.6804331,
+          "lng": 97.6397249
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.6804331,97.6397249",
+        "id": "thailand-similan-islands-christmas-point",
+        "slugs": {
+          "site": "christmas-point"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "North Point",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 8.6825427,
+          "lng": 97.6483178
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.6825427,97.6483178",
+        "id": "thailand-similan-islands-north-point",
+        "slugs": {
+          "site": "north-point"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Koh Bon Ridge",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 8.827922,
+          "lng": 97.795658
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=8.827922,97.795658",
+        "id": "thailand-similan-islands-koh-bon-ridge",
+        "slugs": {
+          "site": "koh-bon-ridge"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Tachai Pinnacle",
+        "dives": 1,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 9.057579,
+          "lng": 97.813983
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.057579,97.813983",
+        "id": "thailand-similan-islands-tachai-pinnacle",
+        "slugs": {
+          "site": "tachai-pinnacle"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Tachai Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 9.063766,
+          "lng": 97.816365
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.063766,97.816365",
+        "id": "thailand-similan-islands-tachai-reef",
+        "slugs": {
+          "site": "tachai-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Richelieu Rock",
+        "dives": 3,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 9.3642159,
+          "lng": 98.0228141
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.3642159,98.0228141",
+        "id": "thailand-similan-islands-richelieu-rock",
+        "slugs": {
+          "site": "richelieu-rock"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Ко Тао, Таиланд 🇹🇭",
+      "en": "Koh Tao, Thailand 🇹🇭",
+      "links": ["/blog/koh-tao", "/blog/koh-tao-diving-second-trip"],
+      "regionName": {
+        "en": "Koh Tao",
+        "ru": "Ко Тао"
+      },
+      "country": {
+        "code": "TH",
+        "en": "Thailand",
+        "ru": "Таиланд"
+      },
+      "slugs": {
+        "country": "thailand",
+        "region": "koh-tao"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Japanese garden",
+        "dives": 1,
+        "type": "coral_garden",
+        "coordinates": {
+          "lat": 10.1189757,
+          "lng": 99.8150037
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1189757,99.8150037",
+        "id": "thailand-koh-tao-japanese-garden",
+        "slugs": {
+          "site": "japanese-garden"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Buoyancy World",
+        "dives": 2,
+        "type": "reef",
+        "coordinates": {
+          "lat": 10.1175781,
+          "lng": 99.8127359
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1175781,99.8127359",
+        "id": "thailand-koh-tao-buoyancy-world",
+        "slugs": {
+          "site": "buoyancy-world"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Green rock",
+        "dives": 2,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.1245525,
+          "lng": 99.810766
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1245525,99.810766",
+        "id": "thailand-koh-tao-green-rock",
+        "slugs": {
+          "site": "green-rock"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Red rock",
+        "dives": 1,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.12376,
+          "lng": 99.811547
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.12376,99.811547",
+        "id": "thailand-koh-tao-red-rock",
+        "slugs": {
+          "site": "red-rock"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Hin Pee Wee",
+        "dives": 2,
+        "type": "reef",
+        "coordinates": {
+          "lat": 10.1094938,
+          "lng": 99.8167313
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1094938,99.8167313",
+        "id": "thailand-koh-tao-hin-pee-wee",
+        "slugs": {
+          "site": "hin-pee-wee"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "White Rock",
+        "dives": 2,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.1100219,
+          "lng": 99.8140491
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1100219,99.8140491",
+        "id": "thailand-koh-tao-white-rock",
+        "slugs": {
+          "site": "white-rock"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "South west pinnacle",
+        "dives": 2,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 9.9990956,
+          "lng": 99.7791882
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.9990956,99.7791882",
+        "id": "thailand-koh-tao-south-west-pinnacle",
+        "slugs": {
+          "site": "south-west-pinnacle"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "HTMS Sattakut",
+        "dives": 3,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 10.1055618,
+          "lng": 99.8136191
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1055618,99.8136191",
+        "id": "thailand-koh-tao-htms-sattakut",
+        "slugs": {
+          "site": "htms-sattakut"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Nang Yuan Drop",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 10.1206587,
+          "lng": 99.8154892
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1206587,99.8154892",
+        "id": "thailand-koh-tao-nang-yuan-drop",
+        "slugs": {
+          "site": "nang-yuan-drop"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Twins Pinnacle",
+        "dives": 2,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.11741,
+          "lng": 99.8130099
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.11741,99.8130099",
+        "id": "thailand-koh-tao-twins-pinnacle",
+        "slugs": {
+          "site": "twins-pinnacle"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "HTMS Suphairin 313",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 10.1151954,
+          "lng": 99.8107657
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1151954,99.8107657",
+        "id": "thailand-koh-tao-htms-suphairin-313",
+        "slugs": {
+          "site": "htms-suphairin-313"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Junkyard Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 10.0866034,
+          "lng": 99.8230292
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0866034,99.8230292",
+        "id": "thailand-koh-tao-junkyard-reef",
+        "slugs": {
+          "site": "junkyard-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Chumphon Pinnacle",
+        "dives": 1,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.172483,
+          "lng": 99.778683
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.172483,99.778683",
+        "id": "thailand-koh-tao-chumphon-pinnacle",
+        "slugs": {
+          "site": "chumphon-pinnacle"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Mango Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 10.1220013,
+          "lng": 99.8348572
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1220013,99.8348572",
+        "id": "thailand-koh-tao-mango-bay",
+        "slugs": {
+          "site": "mango-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Nang Yuan Pinnacle",
+        "dives": 1,
+        "type": "pinnacle",
+        "coordinates": {
+          "lat": 10.1188048,
+          "lng": 99.8159384
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.1188048,99.8159384",
+        "id": "thailand-koh-tao-nang-yuan-pinnacle",
+        "slugs": {
+          "site": "nang-yuan-pinnacle"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Aow Leuk",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 10.0711285,
+          "lng": 99.8407474
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0711285,99.8407474",
+        "id": "thailand-koh-tao-aow-leuk",
+        "slugs": {
+          "site": "aow-leuk"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Tanote Bay",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 10.0840703,
+          "lng": 99.8489005
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10.0840703,99.8489005",
+        "id": "thailand-koh-tao-tanote-bay",
+        "slugs": {
+          "site": "tanote-bay"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Белград, Сербия 🇷🇸",
+      "en": "Belgrade, Serbia 🇷🇸",
+      "regionName": {
+        "en": "Belgrade",
+        "ru": "Белград"
+      },
+      "country": {
+        "code": "RS",
+        "en": "Serbia",
+        "ru": "Сербия"
+      },
+      "slugs": {
+        "country": "serbia",
+        "region": "belgrade"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Ada Lake",
+        "dives": 3,
+        "type": "lake",
+        "coordinates": {
+          "lat": 44.7765494,
+          "lng": 20.3747271
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.7765494,20.3747271",
+        "id": "serbia-belgrade-ada-lake",
+        "slugs": {
+          "site": "ada-lake"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Barge",
+        "dives": 1,
+        "type": "river",
+        "coordinates": {
+          "lat": 44.797727,
+          "lng": 20.4256299
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=44.797727,20.4256299",
+        "id": "serbia-belgrade-barge",
+        "slugs": {
+          "site": "barge"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Херцег Нови, Черногория 🇲🇪",
+      "en": "Herceg Novi, Montenegro 🇲🇪",
+      "links": ["blog/montenegro-expectations-vs-reality"],
+      "regionName": {
+        "en": "Herceg Novi",
+        "ru": "Херцег Нови"
+      },
+      "country": {
+        "code": "ME",
+        "en": "Montenegro",
+        "ru": "Черногория"
+      },
+      "slugs": {
+        "country": "montenegro",
+        "region": "herceg-novi"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Rafaello Beach",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 42.4568573,
+          "lng": 18.5218411
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4568573,18.5218411",
+        "id": "montenegro-herceg-novi-rafaello-beach",
+        "slugs": {
+          "site": "rafaello-beach"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Jakubic Cave",
+        "dives": 1,
+        "type": "cave",
+        "coordinates": {
+          "lat": 42.4032,
+          "lng": 18.56238
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4032,18.56238",
+        "id": "montenegro-herceg-novi-jakubic-cave",
+        "slugs": {
+          "site": "jakubic-cave"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Jakubic Grotto",
+        "dives": 1,
+        "type": "cave",
+        "coordinates": {
+          "lat": 42.40338,
+          "lng": 18.56469
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.40338,18.56469",
+        "id": "montenegro-herceg-novi-jakubic-grotto",
+        "slugs": {
+          "site": "jakubic-grotto"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Cape Kobila",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 42.42293,
+          "lng": 18.52907
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.42293,18.52907",
+        "id": "montenegro-herceg-novi-cape-kobila",
+        "slugs": {
+          "site": "cape-kobila"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Submarines tunnels",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 42.42378,
+          "lng": 18.54904
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.42378,18.54904",
+        "id": "montenegro-herceg-novi-submarines-tunnels",
+        "slugs": {
+          "site": "submarines-tunnels"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Будва, Черногория 🇲🇪",
+      "en": "Budva, Montenegro 🇲🇪",
+      "links": ["blog/montenegro-expectations-vs-reality"],
+      "regionName": {
+        "en": "Budva",
+        "ru": "Будва"
+      },
+      "country": {
+        "code": "ME",
+        "en": "Montenegro",
+        "ru": "Черногория"
+      },
+      "slugs": {
+        "country": "montenegro",
+        "region": "budva"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "The Tunnels. St. Nicholas Island",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 42.2699151,
+          "lng": 18.8451467
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.2699151,18.8451467",
+        "id": "montenegro-budva-the-tunnels-st-nicholas-island",
+        "slugs": {
+          "site": "the-tunnels-st-nicholas-island"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Mogren Cove",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 42.2741953,
+          "lng": 18.8301825
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.2741953,18.8301825",
+        "id": "montenegro-budva-mogren-cove",
+        "slugs": {
+          "site": "mogren-cove"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "Каш, Турция 🇹🇷",
+      "en": "Kaş, Turkey 🇹🇷",
+      "links": ["blog/diving-in-kas"],
+      "regionName": {
+        "en": "Kaş",
+        "ru": "Каш"
+      },
+      "country": {
+        "code": "TR",
+        "en": "Turkey",
+        "ru": "Турция"
+      },
+      "slugs": {
+        "country": "turkey",
+        "region": "kas"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Neptune Gardens",
+        "dives": 2,
+        "type": "reef",
+        "coordinates": {
+          "lat": 36.18915,
+          "lng": 29.60987
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.18915,29.60987",
+        "id": "turkey-kas-neptune-gardens",
+        "slugs": {
+          "site": "neptune-gardens"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "TCSG-119 Wreck",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 36.18725,
+          "lng": 29.60959
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.18725,29.60959",
+        "id": "turkey-kas-tcsg-119-wreck",
+        "slugs": {
+          "site": "tcsg-119-wreck"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Güvercin Island",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 36.19013,
+          "lng": 29.61066
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.19013,29.61066",
+        "id": "turkey-kas-guvercin-island",
+        "slugs": {
+          "site": "guvercin-island"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "C47 plane wreck",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 36.18227,
+          "lng": 29.64273
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.18227,29.64273",
+        "id": "turkey-kas-c47-plane-wreck",
+        "slugs": {
+          "site": "c47-plane-wreck"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Pina Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 36.16227,
+          "lng": 29.62418
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.16227,29.62418",
+        "id": "turkey-kas-pina-reef",
+        "slugs": {
+          "site": "pina-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Oasis reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 36.15312,
+          "lng": 29.62811
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.15312,29.62811",
+        "id": "turkey-kas-oasis-reef",
+        "slugs": {
+          "site": "oasis-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "The Canyon",
+        "dives": 1,
+        "type": "wall",
+        "coordinates": {
+          "lat": 36.15199,
+          "lng": 29.62675
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.15199,29.62675",
+        "id": "turkey-kas-the-canyon",
+        "slugs": {
+          "site": "the-canyon"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Amphora Corner",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 36.15316,
+          "lng": 29.63212
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=36.15316,29.63212",
+        "id": "turkey-kas-amphora-corner",
+        "slugs": {
+          "site": "amphora-corner"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "region": {
+      "ru": "North & Tiran, Египет 🇪🇬",
+      "en": "North & Tiran, Egypt 🇪🇬",
+      "links": ["blog/diving-safari-egypt-north-and-tiran"],
+      "regionName": {
+        "en": "North & Tiran",
+        "ru": "North & Tiran"
+      },
+      "country": {
+        "code": "EG",
+        "en": "Egypt",
+        "ru": "Египет"
+      },
+      "slugs": {
+        "country": "egypt",
+        "region": "north-and-tiran"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Poseidon Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.39921,
+          "lng": 33.86231
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.39921,33.86231",
+        "id": "egypt-north-and-tiran-poseidon-reef",
+        "slugs": {
+          "site": "poseidon-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Shaab El Erg",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.41962,
+          "lng": 33.86089
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.41962,33.86089",
+        "id": "egypt-north-and-tiran-shaab-el-erg",
+        "slugs": {
+          "site": "shaab-el-erg"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Dolphin House",
+        "dives": 3,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.41881,
+          "lng": 33.86198
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.41881,33.86198",
+        "id": "egypt-north-and-tiran-dolphin-house",
+        "slugs": {
+          "site": "dolphin-house"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Giannis D",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 27.57787,
+          "lng": 33.92321
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.57787,33.92321",
+        "id": "egypt-north-and-tiran-giannis-d",
+        "slugs": {
+          "site": "giannis-d"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Shark & Yolanda Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.72521,
+          "lng": 34.25889
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.72521,34.25889",
+        "id": "egypt-north-and-tiran-shark-and-yolanda-reef",
+        "slugs": {
+          "site": "shark-and-yolanda-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Gordon Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.98667,
+          "lng": 34.4521
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.98667,34.4521",
+        "id": "egypt-north-and-tiran-gordon-reef",
+        "slugs": {
+          "site": "gordon-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Thomas Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.99228,
+          "lng": 34.46094
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.99228,34.46094",
+        "id": "egypt-north-and-tiran-thomas-reef",
+        "slugs": {
+          "site": "thomas-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Jackson Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 28.00615,
+          "lng": 34.47158
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=28.00615,34.47158",
+        "id": "egypt-north-and-tiran-jackson-reef",
+        "slugs": {
+          "site": "jackson-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Lara Wreck",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 28.01197,
+          "lng": 34.47257
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=28.01197,34.47257",
+        "id": "egypt-north-and-tiran-lara-wreck",
+        "slugs": {
+          "site": "lara-wreck"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Temple",
+        "dives": 1,
+        "type": "bay",
+        "coordinates": {
+          "lat": 27.84731,
+          "lng": 34.30884
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.84731,34.30884",
+        "id": "egypt-north-and-tiran-temple",
+        "slugs": {
+          "site": "temple"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Jackfish Alley",
+        "dives": 1,
+        "type": "wall",
+        "coordinates": {
+          "lat": 27.75525,
+          "lng": 34.25237
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.75525,34.25237",
+        "id": "egypt-north-and-tiran-jackfish-alley",
+        "slugs": {
+          "site": "jackfish-alley"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "SS Thistlegorm Wreck",
+        "dives": 2,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 27.8085,
+          "lng": 33.91866
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.8085,33.91866",
+        "id": "egypt-north-and-tiran-ss-thistlegorm-wreck",
+        "slugs": {
+          "site": "ss-thistlegorm-wreck"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Small Gubal Reef",
+        "dives": 2,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.66781,
+          "lng": 33.81157
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.66781,33.81157",
+        "id": "egypt-north-and-tiran-small-gubal-reef",
+        "slugs": {
+          "site": "small-gubal-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Small Gubal Barge",
+        "dives": 1,
+        "type": "wreck",
+        "coordinates": {
+          "lat": 27.69447,
+          "lng": 33.80219
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.69447,33.80219",
+        "id": "egypt-north-and-tiran-small-gubal-barge",
+        "slugs": {
+          "site": "small-gubal-barge"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
+  }
+]

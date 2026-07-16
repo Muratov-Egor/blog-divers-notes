@@ -1,0 +1,30 @@
+{
+  "name": "starry-saturn",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^7.1.0",
+    "leaflet": "^1.9.4",
+    "marked": "^18.0.6",
+    "pagefind": "^1.5.2",
+    "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1087.0",
+    "@types/leaflet": "^1.9.21",
+    "sharp": "^0.35.3"
+  }
+}

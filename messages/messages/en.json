@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "siteDescription": "Notes about diving and the underwater world",
+    "logoAlt": "Diver's Notes Logo"
+  },
+  "nav": {
+    "blog": "Blog",
+    "marineLife": "Marine Life",
+    "map": "Map"
+  },
+  "footer": {
+    "copyright": "© 2023–2026 Egor Muratov",
+    "description": "Diver's Notes — a personal diving blog: dive notes, dive site reviews, and underwater photography.",
+    "rss": "RSS Feed",
+    "contacts": "Contacts"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "openSearch": "Open search",
+    "closeSearch": "Close search",
+    "clearField": "Clear field",
+    "searchSite": "Search the site",
+    "loading": "Loading...",
+    "noResults": "Nothing found",
+    "minChars": "Enter at least 2 characters",
+    "categoryBlog": "Blog",
+    "categoryMarineLife": "Marine Life"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "toc": {
+    "show": "Show table of contents",
+    "title": "Table of Contents"
+  },
+  "copyLink": {
+    "copy": "🔗 Copy link",
+    "copied": "✔️ Link copied",
+    "copyAriaLabel": "Copy link",
+    "copiedAriaLabel": "Link copied"
+  },
+  "marineLifeInfo": {
+    "briefInfo": "Quick Facts",
+    "names": "Name / Latin",
+    "description": "Brief description",
+    "size": "Size:",
+    "depth": "Depth:",
+    "habitat": "Habitat:",
+    "family": "Family:",
+    "type": "Type:",
+    "activity": "Activity:",
+    "conservationStatus": "Conservation status:"
+  },
+  "image": {
+    "loading": "Loading…",
+    "loadFailed": "Failed to load image",
+    "retry": "Retry"
+  },
+  "pagination": {
+    "ariaLabel": "Pagination",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "pageNumbers": "Page numbers",
+    "page": "Page {page}",
+    "pageOfTotal": "Page {current} of {total}"
+  },
+  "home": {
+    "title": "Diver's Notes — Diving Blog",
+    "metaDescription": "Diver's Notes — a personal diving archive by Egor, PADI Assistant Instructor and underwater photographer. Dive notes, dive site reviews, dive map, and a marine life database.",
+    "heroAlt": "Hi, I'm Egor.",
+    "intro1": "Hi, I'm Egor — a PADI Assistant Instructor and underwater photographer. Since 2023, I've been documenting my experience: where I've dived, what I've seen, and what I've learned underwater.",
+    "intro2": "This is my personal dive log, notes about diving, dive site descriptions, marine life, and other interesting things in the world of diving.",
+    "totalDives": "Dives",
+    "diveSites": "Dive Sites",
+    "countries": "Countries",
+    "regions": "Regions",
+    "latestPosts": "Latest Posts"
+  },
+  "blog": {
+    "title": "Blog",
+    "metaDescription": "Dive notes, dive site reviews, and theory for divers.",
+    "subtitle": "Articles about diving: theory, dive site reviews, and personal experience.",
+    "noArticles": "No articles yet.",
+    "readingTime": "{minutes} min read"
+  },
+  "marineLife": {
+    "title": "Marine Life I've Encountered Underwater",
+    "metaDescription": "Photos and descriptions of marine life encountered during dives. Behavior, habitats, and interesting facts about each species.",
+    "subtitle": "Photos and descriptions of marine life encountered during dives. Behavior, habitats, and interesting facts.",
+    "noEntries": "No entries yet.",
+    "readingTime": "{minutes} min read"
+  },
+  "map": {
+    "title": "My Dive Map",
+    "metaDescription": "My dive map: coordinates and dive site list grouped by regions.",
+    "totalDives": "Total dives:",
+    "uniqueSites": "Unique dive sites:",
+    "countriesVisited": "Countries visited:",
+    "regionsVisited": "Regions visited:",
+    "coordinates": "Coordinates:",
+    "openInMaps": "Open in Google Maps",
+    "noData": "No dive site data yet.",
+    "interactiveMap": "Interactive map",
+    "diveSitesList": "Dive sites by region",
+    "mapIframeTitle": "Dive sites map (Google My Maps)",
+    "diveSite": "dive site",
+    "openNote": "Open note",
+    "diveCount": "{count, plural, one {dive} other {dives}}"
+  },
+  "tags": {
+    "title": "Tags",
+    "metaDescription": "All tags for articles and marine life entries.",
+    "subtitle": "All tags for articles and marine life entries.",
+    "noTags": "No tags yet.",
+    "noMaterials": "No materials",
+    "materialsCount": "{count} {count, plural, one {item} other {items}}",
+    "tagTitle": "Tag: {name}",
+    "tagDescription": "All articles and marine life entries tagged \"{name}\"",
+    "foundMaterials": "Materials found: {count}",
+    "noMaterialsWithTag": "No materials with this tag yet."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page Not Found",
+    "description": "The requested page does not exist or has been moved.",
+    "hint": "Check the URL or go back to the homepage.",
+    "goHome": "Go Home"
+  },
+  "article": {
+    "author": "Egor Muratov",
+    "tagsLabel": "Tags:"
+  },
+  "diveSiteTypes": {
+    "bay": "bay",
+    "reef": "reef",
+    "wall": "wall",
+    "wreck": "wreck",
+    "cave": "cave",
+    "drift": "drift",
+    "pinnacle": "pinnacle",
+    "muck": "muck dive",
+    "open-water": "open water",
+    "lagoon": "lagoon",
+    "channel": "channel",
+    "seamount": "seamount",
+    "coral_garden": "coral garden",
+    "lake": "lake",
+    "river": "river",
+    "default": "other"
+  }
+}
