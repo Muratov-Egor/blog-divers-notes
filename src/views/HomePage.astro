@@ -33,11 +33,11 @@ const stats = [
       <h1 class="text-4xl leading-tight font-semibold sm:text-5xl">Diver's Notes</h1>
       <p class="mt-5 max-w-2xl text-lg leading-relaxed">{t(locale, "home.intro1")}</p>
       <p class="mt-3 max-w-2xl leading-relaxed text-muted">{t(locale, "home.intro2")}</p>
-      <div class="mt-8 flex flex-wrap gap-3">
+      <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
         {stats.map(([label, value]) => (
-          <div class="rounded-xl border border-line bg-surface px-4 py-2.5 font-mono text-sm">
-            <b class="font-semibold text-lagoon">{value}</b>
-            <span class="ml-1.5 text-muted">{label}</span>
+          <div class="rounded-2xl bg-surface px-4 py-3 text-center shadow-card">
+            <div class="font-mono text-xl font-semibold text-lagoon">{value}</div>
+            <div class="mt-0.5 text-xs text-muted">{label}</div>
           </div>
         ))}
       </div>
