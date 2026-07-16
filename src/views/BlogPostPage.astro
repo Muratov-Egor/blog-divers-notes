@@ -50,7 +50,6 @@ const minutes = readingTime(post.body);
           {" · "}
           {t(locale, "blog.readingTime").replace("{minutes}", String(minutes))}
         </p>
-        <TagList tags={post.data.tags} locale={locale} class="mt-4" />
         {post.data.cover && (
           <CdnImage
             src={post.data.cover}
@@ -63,6 +62,7 @@ const minutes = readingTime(post.body);
       <div class="prose max-w-none">
         <Content />
       </div>
+      <TagList tags={post.data.tags} locale={locale} class="mt-10" />
     </article>
   </div>
 
