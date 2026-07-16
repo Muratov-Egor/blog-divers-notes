@@ -47,11 +47,11 @@ const typeLabel = (type: string | null | undefined) =>
 >
   <h1 class="text-3xl font-semibold sm:text-4xl">{t(locale, "map.title")}</h1>
 
-  <div class="mt-6 mb-8 grid grid-cols-2 gap-3 sm:max-w-2xl sm:grid-cols-4">
+  <div class="mt-6 mb-8 grid grid-cols-2 gap-3 sm:flex sm:flex-wrap">
     {stats.map(([label, value]) => (
-      <div class="rounded-2xl bg-surface px-4 py-3 text-center shadow-card">
-        <div class="font-mono text-xl font-semibold text-lagoon">{value}</div>
-        <div class="mt-0.5 text-xs text-muted">{label}</div>
+      <div class="rounded-2xl bg-surface px-4 py-3 text-center shadow-card sm:flex sm:items-baseline sm:gap-2 sm:rounded-xl sm:border sm:border-line sm:px-4 sm:py-2.5 sm:text-left sm:shadow-none">
+        <div class="font-mono text-xl font-semibold text-lagoon sm:text-base">{value}</div>
+        <div class="mt-0.5 text-xs text-muted sm:mt-0 sm:text-sm">{label}</div>
       </div>
     ))}
   </div>
