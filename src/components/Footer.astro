@@ -5,19 +5,59 @@ interface Props {
   locale: Locale;
 }
 const { locale } = Astro.props;
+
+const socials = [
+  {
+    href: "https://instagram.com/diver_egor",
+    label: "Instagram",
+    icon: "M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 3.1a6.7 6.7 0 1 0 0 13.4 6.7 6.7 0 0 0 0-13.4Zm0 2.4a4.3 4.3 0 1 1 0 8.6 4.3 4.3 0 0 1 0-8.6Zm6.9-2.9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z",
+  },
+  {
+    href: "https://www.youtube.com/@diversnotes",
+    label: "YouTube",
+    icon: "M23 7.3s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C16.6 3.7 12 3.7 12 3.7s-4.6 0-7.8.3c-.4.1-1.4.1-2.3 1-.7.7-.9 2.3-.9 2.3S.8 9.2.8 11v1.9c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.9.9 2 .9 2.5 1 1.8.2 7.6.3 7.6.3s4.6 0 7.8-.3c.4-.1 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V11c0-1.8-.2-3.7-.2-3.7ZM9.7 15.1V8.4l6.2 3.4-6.2 3.3Z",
+  },
+  {
+    href: "https://t.me/diversnotes",
+    label: "Telegram",
+    icon: "M21.9 4.4 18.6 19.7c-.2 1.1-.9 1.4-1.8.9l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.2-8.3c.4-.4-.1-.6-.6-.2l-11.4 7.2-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2.7c.9-.3 1.7.2 1.4 1.7Z",
+  },
+  {
+    href: "mailto:egor_muratov@hotmail.com",
+    label: "Email",
+    icon: "M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 6.2L19.8 6H4.2ZM20 8.1l-7.4 5.9a1 1 0 0 1-1.2 0L4 8.1V18h16V8.1Z",
+  },
+];
 ---
 
 <footer class="border-t border-line py-10 text-sm text-muted">
-  <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 sm:flex-row sm:items-center sm:justify-between">
+  <div class="mx-auto flex max-w-7xl flex-col gap-6 px-6 sm:flex-row sm:items-center sm:justify-between">
     <div>
       <p class="font-display font-semibold text-ink">Diver's Notes</p>
       <p class="mt-1 max-w-md">{t(locale, "footer.description")}</p>
     </div>
-    <div class="flex items-center gap-5">
-      <a href={localePath(locale, "/rss.xml")} class="text-lagoon hover:underline">
-        {t(locale, "footer.rss")}
-      </a>
-      <span class="font-mono text-xs">{t(locale, "footer.copyright")}</span>
+    <div class="flex flex-col gap-3 sm:items-end">
+      <div class="flex items-center gap-2">
+        {socials.map((s) => (
+          <a
+            href={s.href}
+            aria-label={s.label}
+            target={s.href.startsWith("http") ? "_blank" : undefined}
+            rel={s.href.startsWith("http") ? "noopener" : undefined}
+            class="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface text-muted transition-colors hover:text-lagoon"
+          >
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor" aria-hidden="true">
+              <path d={s.icon}></path>
+            </svg>
+          </a>
+        ))}
+      </div>
+      <div class="flex items-center gap-5">
+        <a href={localePath(locale, "/rss.xml")} class="text-lagoon hover:underline">
+          {t(locale, "footer.rss")}
+        </a>
+        <span class="font-mono text-xs">{t(locale, "footer.copyright")}</span>
+      </div>
     </div>
   </div>
 </footer>

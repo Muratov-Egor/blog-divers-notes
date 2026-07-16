@@ -29,6 +29,16 @@ export function alternatePath(locale: Locale, path: string): string {
   return localePath(locale === "ru" ? "en" : "ru", path);
 }
 
+/** Russian-aware plural for dive counts: "1 погружение / 2 погружения / 5 погружений". */
+export function diveCount(locale: Locale, count: number): string {
+  if (locale === "en") return count === 1 ? "dive" : "dives";
+  const mod10 = count % 10;
+  const mod100 = count % 100;
+  if (mod10 === 1 && mod100 !== 11) return "погружение";
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return "погружения";
+  return "погружений";
+}
+
 export function formatDate(date: Date, locale: Locale): string {
   return date.toLocaleDateString(locale === "ru" ? "ru-RU" : "en-US", {
     year: "numeric",

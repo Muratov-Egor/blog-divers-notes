@@ -1,12 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { t, localePath, type Locale } from "../lib/i18n";
+import { t, localePath, diveCount, type Locale } from "../lib/i18n";
+import { getBlogPosts } from "../lib/content";
 import diveSites from "../../content/dive-sites.json";
 
 interface Props {
   locale: Locale;
 }
 const { locale } = Astro.props;
+
+const posts = await getBlogPosts(locale);
+const titleBySlug = new Map(posts.map((p) => [`/blog/${p.data.slug}`, p.data.title]));
+const noteLinks = (links: string[] | undefined) =>
+  (links ?? []).map((link) => ({ link, title: titleBySlug.get(link) ?? t(locale, "map.openNote") }));
 
 const regions = diveSites as any[];
 const sites = regions.flatMap((r) =>
@@ -16,18 +22,21 @@ const sites = regions.flatMap((r) =>
     lat: s.coordinates?.lat,
     lng: s.coordinates?.lng,
     region: r.region?.[locale] ?? "",
-    link: r.region?.links?.[0] ?? null,
+    links: noteLinks(r.region?.links),
   })),
 ).filter((s) => s.lat && s.lng);
 
 const totalDives = sites.reduce((sum, s) => sum + (s.dives ?? 0), 0);
 const countries = new Set(regions.map((r) => r.region?.country?.code)).size;
+const chip = (key: string) => t(locale, key).replace(/:$/, "");
 const stats = [
-  [t(locale, "map.totalDives"), totalDives],
-  [t(locale, "map.uniqueSites"), sites.length],
-  [t(locale, "map.countriesVisited"), countries],
-  [t(locale, "map.regionsVisited"), regions.length],
+  [chip("map.totalDives"), totalDives],
+  [chip("map.uniqueSites"), sites.length],
+  [chip("map.countriesVisited"), countries],
+  [chip("map.regionsVisited"), regions.length],
 ];
+const typeLabel = (type: string | null | undefined) =>
+  t(locale, `diveSiteTypes.${type && type !== "default" ? type : "default"}`);
 ---
 
 <BaseLayout
@@ -51,34 +60,43 @@ const stats = [
     id="dive-map"
     class="z-0 h-[28rem] w-full rounded-3xl shadow-card"
     data-sites={JSON.stringify(sites)}
-    data-open-note={t(locale, "map.openNote")}
     data-locale-prefix={locale === "en" ? "/en" : ""}
   >
   </div>
 
-  <section class="mt-12 max-w-4xl">
+  <section class="mt-12">
     <h2 class="mb-6 text-2xl font-semibold">{t(locale, "map.diveSitesList")}</h2>
     <div class="flex flex-col gap-3">
       {regions.map((r) => (
-        <details class="rounded-2xl bg-surface p-5 shadow-card">
-          <summary class="cursor-pointer font-display font-semibold">{r.region?.[locale]}</summary>
-          <ul class="mt-3 grid gap-1.5 pl-1 text-[15px] sm:grid-cols-2">
+        <details class="rounded-2xl bg-surface p-5 shadow-card sm:p-6">
+          <summary class="cursor-pointer font-display text-lg font-semibold">
+            {r.region?.[locale]}
+          </summary>
+          <ul class="mt-4 grid gap-x-10 gap-y-2 lg:grid-cols-2">
             {r.sites.map((s: any) => (
-              <li class="flex justify-between gap-3">
-                <a href={s.googleMapsUrl} target="_blank" rel="noopener" class="hover:text-lagoon">
-                  {s.name}
-                </a>
-                <span class="font-mono text-xs text-muted">{s.dives}</span>
+              <li class="flex items-baseline justify-between gap-4 border-b border-line py-1.5 text-[15px] last:border-b-0 lg:nth-last-2:border-b-0">
+                <span class="flex items-baseline gap-2.5">
+                  <a href={s.googleMapsUrl} target="_blank" rel="noopener" class="hover:text-lagoon">
+                    {s.name}
+                  </a>
+                  <span class="rounded-full bg-lagoon/10 px-2 py-0.5 text-[11px] whitespace-nowrap text-lagoon">
+                    {typeLabel(s.type)}
+                  </span>
+                </span>
+                <span class="font-mono text-xs whitespace-nowrap text-muted">
+                  {s.dives} {diveCount(locale, s.dives)}
+                </span>
               </li>
             ))}
           </ul>
-          {r.region?.links?.[0] && (
-            <a
-              href={localePath(locale, r.region.links[0])}
-              class="mt-3 inline-block text-sm text-lagoon hover:underline"
-            >
-              {t(locale, "map.openNote")} →
-            </a>
+          {noteLinks(r.region?.links).length > 0 && (
+            <div class="mt-4 flex flex-wrap gap-x-6 gap-y-1">
+              {noteLinks(r.region?.links).map(({ link, title }) => (
+                <a href={localePath(locale, link)} class="text-sm text-lagoon hover:underline">
+                  {title} →
+                </a>
+              ))}
+            </div>
           )}
         </details>
       ))}
@@ -93,7 +111,6 @@ const stats = [
   const el = document.getElementById("dive-map")!;
   const sites = JSON.parse(el.dataset.sites!);
   const prefix = el.dataset.localePrefix ?? "";
-  const openNote = el.dataset.openNote ?? "";
 
   const map = L.map(el).setView([15, 60], 3);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -104,7 +121,9 @@ const stats = [
   const bounds: [number, number][] = [];
   for (const s of sites) {
     bounds.push([s.lat, s.lng]);
-    const link = s.link ? `<br><a href="${prefix}${s.link}">${openNote} →</a>` : "";
+    const links = s.links
+      .map((l: { link: string; title: string }) => `<a href="${prefix}${l.link}">${l.title} →</a>`)
+      .join("<br>");
     L.circleMarker([s.lat, s.lng], {
       radius: 6,
       color: "#1F6E7B",
@@ -112,7 +131,7 @@ const stats = [
       fillOpacity: 0.85,
     })
       .addTo(map)
-      .bindPopup(`<b>${s.name}</b><br>${s.region}${link}`);
+      .bindPopup(`<b>${s.name}</b><br>${s.region}${links ? "<br>" + links : ""}`);
   }
   if (bounds.length) map.fitBounds(bounds, { padding: [30, 30] });
 </script>

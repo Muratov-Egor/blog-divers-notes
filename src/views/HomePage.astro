@@ -10,7 +10,7 @@ interface Props {
 }
 const { locale } = Astro.props;
 const posts = await getBlogPosts(locale);
-const latest = posts.slice(0, 6);
+const latest = posts.slice(0, 3);
 
 const regions = diveSites as any[];
 const sites = regions.flatMap((r) => r.sites);
@@ -45,7 +45,7 @@ const stats = [
     <img
       src="/mainPage/hero.png"
       alt={t(locale, "home.heroAlt")}
-      class="w-full max-w-xs rounded-3xl shadow-card lg:max-w-sm"
+      class="w-full max-w-sm rounded-3xl shadow-card lg:max-w-md xl:max-w-lg"
       width="768"
       height="768"
       loading="eager"
