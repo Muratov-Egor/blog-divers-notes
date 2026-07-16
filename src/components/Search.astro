@@ -1,0 +1,61 @@
+---
+import { t, type Locale } from "../lib/i18n";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+---
+
+<button
+  id="search-open"
+  aria-label={t(locale, "search.openSearch")}
+  class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-ocean-800"
+>
+  🔍
+</button>
+
+<dialog
+  id="search-dialog"
+  class="m-auto w-full max-w-xl rounded-xl bg-white p-4 shadow-xl backdrop:bg-black/50 dark:bg-ocean-900 dark:text-slate-200"
+>
+  <div class="mb-2 flex items-center justify-between">
+    <h2 class="font-semibold">{t(locale, "search.searchSite")}</h2>
+    <button id="search-close" aria-label={t(locale, "search.closeSearch")} class="p-1">✕</button>
+  </div>
+  <div id="pagefind-search" data-placeholder={t(locale, "search.placeholder")}></div>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("search-dialog") as HTMLDialogElement;
+  let loaded = false;
+
+  async function openSearch() {
+    dialog.showModal();
+    if (loaded) return;
+    loaded = true;
+    const el = document.getElementById("pagefind-search")!;
+    try {
+      // Pagefind assets exist only in the production build (postbuild step).
+      const { PagefindUI } = await import(/* @vite-ignore */ "/pagefind/pagefind-ui.js");
+      new PagefindUI({
+        element: el,
+        showSubResults: true,
+        translations: { placeholder: el.dataset.placeholder },
+      });
+    } catch {
+      el.textContent = "Search index is available in the production build only.";
+    }
+  }
+
+  document.getElementById("search-open")?.addEventListener("click", openSearch);
+  document.getElementById("search-close")?.addEventListener("click", () => dialog.close());
+  document.addEventListener("keydown", (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+      e.preventDefault();
+      dialog.open ? dialog.close() : openSearch();
+    }
+  });
+</script>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />

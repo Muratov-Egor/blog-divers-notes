@@ -1,0 +1,68 @@
+---
+import { render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CdnImage from "../components/CdnImage.astro";
+import TagList from "../components/TagList.astro";
+import { t, type Locale } from "../lib/i18n";
+import type { MarineEntry } from "../lib/content";
+import { resolveImage } from "../lib/images";
+
+interface Props {
+  locale: Locale;
+  entry: MarineEntry;
+}
+const { locale, entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const ogImage = d.images[0] ? resolveImage(d.images[0]).src : undefined;
+
+const facts: [string, string | undefined][] = [
+  [t(locale, "marineLifeInfo.size"), d.size],
+  [t(locale, "marineLifeInfo.depth"), d.depthRange],
+  [t(locale, "marineLifeInfo.habitat"), d.locations.join("; ") || undefined],
+  [t(locale, "marineLifeInfo.family"), d.family],
+  [t(locale, "marineLifeInfo.type"), d.category],
+  [t(locale, "marineLifeInfo.activity"), d.activity],
+  [t(locale, "marineLifeInfo.conservationStatus"), d.conservationStatus],
+];
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${d.title} — Diver's Notes`}
+  description={d.description}
+  path={`/marine-life/${d.slug}`}
+  ogImage={ogImage}
+  ogType="article"
+>
+  <article data-pagefind-body data-pagefind-filter={`type:marine`}>
+    <h1 class="mb-1 text-3xl font-bold">{d.title}</h1>
+    <p class="mb-4 text-slate-500 italic dark:text-slate-400">
+      {[d.nameEn, d.latinName].filter(Boolean).join(" · ")}
+    </p>
+
+    {d.images[0] && (
+      <CdnImage src={d.images[0]} alt={d.title} loading="eager" class="mb-6 w-full rounded-xl" />
+    )}
+
+    <section class="mb-6 rounded-xl bg-ocean-50 p-4 dark:bg-ocean-900">
+      <h2 class="mb-3 font-semibold">{t(locale, "marineLifeInfo.briefInfo")}</h2>
+      <dl class="grid gap-2 text-sm sm:grid-cols-2">
+        {facts
+          .filter(([, v]) => v)
+          .map(([label, value]) => (
+            <div>
+              <dt class="font-medium text-ocean-700 dark:text-ocean-200">{label}</dt>
+              <dd class="text-slate-600 dark:text-slate-300">{value}</dd>
+            </div>
+          ))}
+      </dl>
+    </section>
+
+    <div class="prose prose-slate max-w-none dark:prose-invert">
+      <Content />
+    </div>
+
+    <TagList tags={d.tags} locale={locale} class="mt-6" />
+  </article>
+</BaseLayout>

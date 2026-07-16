@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-ocean-50: #eef7fb;
+  --color-ocean-100: #d8edf7;
+  --color-ocean-200: #b3dcef;
+  --color-ocean-300: #7fc3e2;
+  --color-ocean-400: #45a3cf;
+  --color-ocean-500: #2287b6;
+  --color-ocean-600: #196c99;
+  --color-ocean-700: #17577c;
+  --color-ocean-800: #184a67;
+  --color-ocean-900: #193e57;
+  --color-ocean-950: #10283b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased dark:bg-ocean-950 dark:text-slate-200;
+}
+
+.prose img {
+  @apply rounded-xl;
+}

@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CdnImage from "../components/CdnImage.astro";
+import { t, localePath, type Locale } from "../lib/i18n";
+import { getMarineLife } from "../lib/content";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const entries = await getMarineLife(locale);
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${t(locale, "marineLife.title")} — Diver's Notes`}
+  description={t(locale, "marineLife.metaDescription")}
+  path="/marine-life"
+>
+  <h1 class="mb-2 text-2xl font-bold">{t(locale, "marineLife.title")}</h1>
+  <p class="mb-6 text-slate-600 dark:text-slate-300">{t(locale, "marineLife.subtitle")}</p>
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+    {entries.map((entry) => (
+      <a
+        href={localePath(locale, `/marine-life/${entry.data.slug}`)}
+        class="group overflow-hidden rounded-xl border border-slate-200 dark:border-ocean-800"
+      >
+        {entry.data.images[0] && (
+          <CdnImage
+            src={entry.data.images[0]}
+            alt={entry.data.title}
+            sizes="(max-width: 640px) 50vw, 260px"
+            class="aspect-square w-full object-cover transition-transform group-hover:scale-105"
+          />
+        )}
+        <div class="p-3">
+          <h2 class="text-sm font-semibold group-hover:text-ocean-600 dark:group-hover:text-ocean-300">
+            {entry.data.title}
+          </h2>
+          {entry.data.latinName && (
+            <p class="text-xs text-slate-500 italic dark:text-slate-400">{entry.data.latinName}</p>
+          )}
+        </div>
+      </a>
+    ))}
+  </div>
+</BaseLayout>

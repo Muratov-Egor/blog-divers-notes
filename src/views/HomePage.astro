@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { t, localePath, type Locale } from "../lib/i18n";
+import { getBlogPosts, getMarineLife } from "../lib/content";
+import diveSites from "../../content/dive-sites.json";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const posts = await getBlogPosts(locale);
+const marine = await getMarineLife(locale);
+const latest = posts.slice(0, 5);
+const countries = new Set(diveSites.map((s: any) => s.region?.country?.code)).size;
+---
+
+<BaseLayout
+  locale={locale}
+  title={`Diver's Notes — ${t(locale, "metadata.siteDescription")}`}
+  path="/"
+>
+  <section class="mb-10 flex flex-col items-center gap-6 sm:flex-row">
+    <img
+      src="/mainPage/hero.png"
+      alt="Diver's Notes"
+      class="w-full max-w-sm rounded-2xl"
+      width="768"
+      height="768"
+      loading="eager"
+    />
+    <div>
+      <h1 class="mb-3 text-3xl font-bold">Diver's Notes</h1>
+      <p class="text-lg text-slate-600 dark:text-slate-300">
+        {t(locale, "metadata.siteDescription")}
+      </p>
+      <dl class="mt-6 grid grid-cols-3 gap-4 text-center">
+        <div>
+          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{posts.length}</dt>
+          <dd class="text-sm text-slate-500 dark:text-slate-400">{t(locale, "nav.blog")}</dd>
+        </div>
+        <div>
+          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{marine.length}</dt>
+          <dd class="text-sm text-slate-500 dark:text-slate-400">{t(locale, "nav.marineLife")}</dd>
+        </div>
+        <div>
+          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{countries}</dt>
+          <dd class="text-sm text-slate-500 dark:text-slate-400">🌍</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <div class="mb-4 flex items-center justify-between">
+      <h2 class="text-xl font-semibold">{t(locale, "nav.blog")}</h2>
+      <a href={localePath(locale, "/blog")} class="text-sm text-ocean-600 hover:underline dark:text-ocean-300">
+        →
+      </a>
+    </div>
+    <div class="flex flex-col gap-4">
+      {latest.map((post) => <PostCard post={post} locale={locale} />)}
+    </div>
+  </section>
+</BaseLayout>

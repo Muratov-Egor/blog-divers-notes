@@ -1,0 +1,33 @@
+---
+import { localePath, type Locale } from "../lib/i18n";
+import { tagByName, tagLabel } from "../lib/content";
+
+interface Props {
+  tags: string[];
+  locale: Locale;
+  class?: string;
+}
+const { tags, locale, class: cls } = Astro.props;
+---
+
+{tags.length > 0 && (
+  <ul class:list={["flex flex-wrap gap-1.5", cls]}>
+    {tags.map((tag) => {
+      const meta = tagByName(tag);
+      const label = tagLabel(tag, locale);
+      const chip =
+        "rounded-full bg-ocean-50 px-2.5 py-0.5 text-xs text-ocean-700 dark:bg-ocean-800 dark:text-ocean-200";
+      return (
+        <li>
+          {meta ? (
+            <a href={localePath(locale, `/tags/${meta.slug}`)} class={`${chip} hover:bg-ocean-100 dark:hover:bg-ocean-700`}>
+              {label}
+            </a>
+          ) : (
+            <span class={chip}>{label}</span>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+)}

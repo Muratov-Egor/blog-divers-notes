@@ -1,0 +1,59 @@
+---
+import { render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CdnImage from "../components/CdnImage.astro";
+import PostCard from "../components/PostCard.astro";
+import TagList from "../components/TagList.astro";
+import { t, formatDate, type Locale } from "../lib/i18n";
+import { getBlogPosts, relatedPosts, type BlogPost } from "../lib/content";
+import { resolveImage } from "../lib/images";
+
+interface Props {
+  locale: Locale;
+  post: BlogPost;
+}
+const { locale, post } = Astro.props;
+const { Content } = await render(post);
+const all = await getBlogPosts(locale);
+const related = relatedPosts(post, all);
+const ogImage = post.data.cover ? resolveImage(post.data.cover).src : undefined;
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${post.data.title} — Diver's Notes`}
+  description={post.data.description}
+  path={`/blog/${post.data.slug}`}
+  ogImage={ogImage}
+  ogType="article"
+>
+  <article data-pagefind-body data-pagefind-filter={`type:blog`}>
+    <header class="mb-6">
+      <h1 class="mb-2 text-3xl font-bold">{post.data.title}</h1>
+      <time class="text-sm text-slate-500 dark:text-slate-400" datetime={post.data.date.toISOString()}>
+        {formatDate(post.data.date, locale)}
+      </time>
+      <TagList tags={post.data.tags} locale={locale} class="mt-3" />
+      {post.data.cover && (
+        <CdnImage
+          src={post.data.cover}
+          alt={post.data.title}
+          loading="eager"
+          class="mt-4 w-full rounded-xl"
+        />
+      )}
+    </header>
+    <div class="prose prose-slate max-w-none dark:prose-invert">
+      <Content />
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="mt-10">
+      <h2 class="mb-4 text-xl font-semibold">{locale === "ru" ? "Похожие статьи" : "Related posts"}</h2>
+      <div class="flex flex-col gap-4">
+        {related.map((p) => <PostCard post={p} locale={locale} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>

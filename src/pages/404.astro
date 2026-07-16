@@ -1,0 +1,18 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { t } from "@/lib/i18n";
+---
+
+<BaseLayout locale="ru" title="404 — Diver's Notes" path="/404">
+  <div class="py-16 text-center">
+    <p class="text-6xl font-bold text-ocean-600 dark:text-ocean-300">404</p>
+    <h1 class="mt-4 text-2xl font-semibold">{t("ru", "notFound.title")}</h1>
+    <p class="mt-2 text-slate-500 dark:text-slate-400">{t("ru", "notFound.description")}</p>
+    <a
+      href="/"
+      class="mt-6 inline-block rounded-lg bg-ocean-600 px-4 py-2 text-white hover:bg-ocean-700"
+    >
+      {t("ru", "notFound.goHome")}
+    </a>
+  </div>
+</BaseLayout>

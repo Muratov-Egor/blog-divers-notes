@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { t, localePath, type Locale } from "../lib/i18n";
+import { getBlogPosts, getMarineLife, type TagMeta } from "../lib/content";
+
+interface Props {
+  locale: Locale;
+  tag: TagMeta;
+}
+const { locale, tag } = Astro.props;
+const names = [tag.ru, tag.en];
+const posts = (await getBlogPosts(locale)).filter((p) =>
+  p.data.tags.some((x) => names.includes(x)),
+);
+const marine = (await getMarineLife(locale)).filter((m) =>
+  m.data.tags.some((x) => names.includes(x)),
+);
+const title = t(locale, "tags.tagTitle").replace("{name}", tag[locale]);
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${title} — Diver's Notes`}
+  description={t(locale, "tags.tagDescription").replace("{name}", tag[locale])}
+  path={`/tags/${tag.slug}`}
+>
+  <h1 class="mb-6 text-2xl font-bold">{title}</h1>
+
+  {posts.length === 0 && marine.length === 0 && (
+    <p class="text-slate-500">{t(locale, "tags.noMaterialsWithTag")}</p>
+  )}
+
+  {posts.length > 0 && (
+    <section class="mb-8">
+      <h2 class="mb-4 text-xl font-semibold">{t(locale, "nav.blog")}</h2>
+      <div class="flex flex-col gap-4">
+        {posts.map((post) => <PostCard post={post} locale={locale} />)}
+      </div>
+    </section>
+  )}
+
+  {marine.length > 0 && (
+    <section>
+      <h2 class="mb-4 text-xl font-semibold">{t(locale, "nav.marineLife")}</h2>
+      <ul class="grid grid-cols-2 gap-2 sm:grid-cols-3">
+        {marine.map((m) => (
+          <li>
+            <a
+              href={localePath(locale, `/marine-life/${m.data.slug}`)}
+              class="text-ocean-600 hover:underline dark:text-ocean-300"
+            >
+              {m.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</BaseLayout>

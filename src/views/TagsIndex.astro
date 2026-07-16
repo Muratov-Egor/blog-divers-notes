@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { t, localePath, type Locale } from "../lib/i18n";
+import { allTags, getBlogPosts, getMarineLife } from "../lib/content";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const posts = await getBlogPosts(locale);
+const marine = await getMarineLife(locale);
+
+const counts = allTags
+  .map((tag) => {
+    const names = [tag.ru, tag.en];
+    const count =
+      posts.filter((p) => p.data.tags.some((x) => names.includes(x))).length +
+      marine.filter((m) => m.data.tags.some((x) => names.includes(x))).length;
+    return { tag, count };
+  })
+  .filter((x) => x.count > 0)
+  .sort((a, b) => b.count - a.count);
+---
+
+<BaseLayout
+  locale={locale}
+  title={`${t(locale, "tags.title")} — Diver's Notes`}
+  description={t(locale, "tags.metaDescription")}
+  path="/tags"
+>
+  <h1 class="mb-6 text-2xl font-bold">{t(locale, "tags.title")}</h1>
+  <ul class="flex flex-wrap gap-2">
+    {counts.map(({ tag, count }) => (
+      <li>
+        <a
+          href={localePath(locale, `/tags/${tag.slug}`)}
+          class="rounded-full bg-ocean-50 px-3 py-1 text-sm text-ocean-700 hover:bg-ocean-100 dark:bg-ocean-800 dark:text-ocean-200 dark:hover:bg-ocean-700"
+        >
+          {tag[locale]} <span class="text-xs opacity-70">{count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

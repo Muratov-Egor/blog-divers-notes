@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { t, localePath, alternatePath, type Locale } from "../lib/i18n";
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description?: string;
+  /** Locale-agnostic path of the current page, e.g. "/blog/my-post". */
+  path: string;
+  ogImage?: string;
+  ogType?: "website" | "article";
+}
+
+const { locale, title, description, path, ogImage, ogType = "website" } = Astro.props;
+const site = Astro.site!.href.replace(/\/$/, "");
+const canonical = site + localePath(locale, path);
+const alternate = site + alternatePath(locale, path);
+const desc = description ?? t(locale, "metadata.siteDescription");
+const og = ogImage ?? `${site}/og-default.png`;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={locale === "ru" ? "en" : "ru"} href={alternate} />
+    <link rel="alternate" hreflang={locale} href={canonical} />
+    <link rel="icon" href="/logo.png" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Diver's Notes"
+      href={localePath(locale, "/rss.xml")}
+    />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={og} />
+    <meta property="og:locale" content={locale === "ru" ? "ru_RU" : "en_US"} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script is:inline>
+      const theme =
+        localStorage.getItem("theme") ??
+        (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.classList.toggle("dark", theme === "dark");
+    </script>
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Diver's Notes",
+        url: site,
+        description: desc,
+      })}
+    />
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <Header locale={locale} path={path} />
+    <main class="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
+      <slot />
+    </main>
+    <Footer locale={locale} />
+  </body>
+</html>

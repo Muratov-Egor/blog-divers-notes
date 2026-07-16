@@ -1,5 +1,5 @@
 {
-  "name": "starry-saturn",
+  "name": "diversnotes",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -7,20 +7,24 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "check": "astro check",
+    "images:sync": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.2.1",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.2",
-    "astro": "^7.1.0",
+    "astro": "7.0.9",
     "leaflet": "^1.9.4",
     "marked": "^18.0.6",
     "pagefind": "^1.5.2",
-    "tailwindcss": "^4.3.2"
+    "rehype-slug": "^6.0.0",
+    "tailwindcss": "^4.3.2",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1087.0",

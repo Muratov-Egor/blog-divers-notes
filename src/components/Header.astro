@@ -1,0 +1,58 @@
+---
+import { t, localePath, alternatePath, type Locale } from "../lib/i18n";
+import Search from "./Search.astro";
+
+interface Props {
+  locale: Locale;
+  path: string;
+}
+const { locale, path } = Astro.props;
+
+const nav = [
+  { href: "/blog", label: t(locale, "nav.blog") },
+  { href: "/marine-life", label: t(locale, "nav.marineLife") },
+  { href: "/map", label: t(locale, "nav.map") },
+];
+---
+
+<header
+  class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-ocean-800 dark:bg-ocean-950/90"
+>
+  <div class="mx-auto flex max-w-4xl items-center gap-4 px-4 py-3">
+    <a href={localePath(locale, "/")} class="flex items-center gap-2 font-bold">
+      <img src="/logo.png" alt={t(locale, "metadata.logoAlt")} class="h-8 w-8" width="32" height="32" />
+      <span class="hidden sm:inline">Diver's Notes</span>
+    </a>
+    <nav class="flex flex-1 items-center gap-4 text-sm">
+      {nav.map((item) => (
+        <a
+          href={localePath(locale, item.href)}
+          class="text-slate-600 hover:text-ocean-600 dark:text-slate-300 dark:hover:text-ocean-300"
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+    <Search locale={locale} />
+    <button
+      id="theme-toggle"
+      aria-label={t(locale, "theme.toggle")}
+      class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-ocean-800"
+    >
+      <span class="dark:hidden">🌙</span><span class="hidden dark:inline">☀️</span>
+    </button>
+    <a
+      href={alternatePath(locale, path)}
+      class="rounded-lg border border-slate-300 px-2 py-1 text-xs font-semibold uppercase hover:bg-slate-100 dark:border-ocean-700 dark:hover:bg-ocean-800"
+    >
+      {locale === "ru" ? "EN" : "RU"}
+    </a>
+  </div>
+</header>
+
+<script>
+  document.getElementById("theme-toggle")?.addEventListener("click", () => {
+    const dark = document.documentElement.classList.toggle("dark");
+    localStorage.setItem("theme", dark ? "dark" : "light");
+  });
+</script>

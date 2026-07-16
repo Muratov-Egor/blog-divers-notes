@@ -1,0 +1,17 @@
+---
+import { t, localePath, type Locale } from "../lib/i18n";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+---
+
+<footer class="border-t border-slate-200 py-6 text-sm text-slate-500 dark:border-ocean-800 dark:text-slate-400">
+  <div class="mx-auto flex max-w-4xl flex-col gap-2 px-4 sm:flex-row sm:items-center sm:justify-between">
+    <p>{t(locale, "footer.copyright")}</p>
+    <a href={localePath(locale, "/rss.xml")} class="hover:text-ocean-600 dark:hover:text-ocean-300">
+      {t(locale, "footer.rss")}
+    </a>
+  </div>
+</footer>
