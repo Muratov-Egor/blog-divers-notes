@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import { t, localePath, type Locale } from "../lib/i18n";
-import { getBlogPosts, getMarineLife } from "../lib/content";
+import { getBlogPosts } from "../lib/content";
 import diveSites from "../../content/dive-sites.json";
 
 interface Props {
@@ -10,55 +10,56 @@ interface Props {
 }
 const { locale } = Astro.props;
 const posts = await getBlogPosts(locale);
-const marine = await getMarineLife(locale);
-const latest = posts.slice(0, 5);
-const countries = new Set(diveSites.map((s: any) => s.region?.country?.code)).size;
+const latest = posts.slice(0, 6);
+
+const regions = diveSites as any[];
+const sites = regions.flatMap((r) => r.sites);
+const stats = [
+  [t(locale, "home.totalDives"), sites.reduce((s, x) => s + (x.dives ?? 0), 0)],
+  [t(locale, "home.diveSites"), sites.length],
+  [t(locale, "home.countries"), new Set(regions.map((r) => r.region?.country?.code)).size],
+  [t(locale, "home.regions"), regions.length],
+];
 ---
 
 <BaseLayout
   locale={locale}
-  title={`Diver's Notes — ${t(locale, "metadata.siteDescription")}`}
+  title={t(locale, "home.title")}
+  description={t(locale, "home.metaDescription")}
   path="/"
 >
-  <section class="mb-10 flex flex-col items-center gap-6 sm:flex-row">
+  <section class="flex flex-col-reverse items-center gap-10 py-8 lg:flex-row lg:gap-16">
+    <div class="flex-1">
+      <h1 class="text-4xl leading-tight font-semibold sm:text-5xl">Diver's Notes</h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed">{t(locale, "home.intro1")}</p>
+      <p class="mt-3 max-w-2xl leading-relaxed text-muted">{t(locale, "home.intro2")}</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        {stats.map(([label, value]) => (
+          <div class="rounded-xl border border-line bg-surface px-4 py-2.5 font-mono text-sm">
+            <b class="font-semibold text-lagoon">{value}</b>
+            <span class="ml-1.5 text-muted">{label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
     <img
       src="/mainPage/hero.png"
-      alt="Diver's Notes"
-      class="w-full max-w-sm rounded-2xl"
+      alt={t(locale, "home.heroAlt")}
+      class="w-full max-w-xs rounded-3xl shadow-card lg:max-w-sm"
       width="768"
       height="768"
       loading="eager"
     />
-    <div>
-      <h1 class="mb-3 text-3xl font-bold">Diver's Notes</h1>
-      <p class="text-lg text-slate-600 dark:text-slate-300">
-        {t(locale, "metadata.siteDescription")}
-      </p>
-      <dl class="mt-6 grid grid-cols-3 gap-4 text-center">
-        <div>
-          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{posts.length}</dt>
-          <dd class="text-sm text-slate-500 dark:text-slate-400">{t(locale, "nav.blog")}</dd>
-        </div>
-        <div>
-          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{marine.length}</dt>
-          <dd class="text-sm text-slate-500 dark:text-slate-400">{t(locale, "nav.marineLife")}</dd>
-        </div>
-        <div>
-          <dt class="text-2xl font-bold text-ocean-600 dark:text-ocean-300">{countries}</dt>
-          <dd class="text-sm text-slate-500 dark:text-slate-400">🌍</dd>
-        </div>
-      </dl>
-    </div>
   </section>
 
-  <section>
-    <div class="mb-4 flex items-center justify-between">
-      <h2 class="text-xl font-semibold">{t(locale, "nav.blog")}</h2>
-      <a href={localePath(locale, "/blog")} class="text-sm text-ocean-600 hover:underline dark:text-ocean-300">
-        →
+  <section class="mt-12">
+    <div class="mb-6 flex items-baseline justify-between">
+      <h2 class="text-2xl font-semibold">{t(locale, "home.latestPosts")}</h2>
+      <a href={localePath(locale, "/blog")} class="text-sm text-lagoon hover:underline">
+        {t(locale, "nav.blog")} →
       </a>
     </div>
-    <div class="flex flex-col gap-4">
+    <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
       {latest.map((post) => <PostCard post={post} locale={locale} />)}
     </div>
   </section>

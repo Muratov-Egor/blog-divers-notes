@@ -7,11 +7,17 @@ interface Props {
 const { locale } = Astro.props;
 ---
 
-<footer class="border-t border-slate-200 py-6 text-sm text-slate-500 dark:border-ocean-800 dark:text-slate-400">
-  <div class="mx-auto flex max-w-4xl flex-col gap-2 px-4 sm:flex-row sm:items-center sm:justify-between">
-    <p>{t(locale, "footer.copyright")}</p>
-    <a href={localePath(locale, "/rss.xml")} class="hover:text-ocean-600 dark:hover:text-ocean-300">
-      {t(locale, "footer.rss")}
-    </a>
+<footer class="border-t border-line py-10 text-sm text-muted">
+  <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <p class="font-display font-semibold text-ink">Diver's Notes</p>
+      <p class="mt-1 max-w-md">{t(locale, "footer.description")}</p>
+    </div>
+    <div class="flex items-center gap-5">
+      <a href={localePath(locale, "/rss.xml")} class="text-lagoon hover:underline">
+        {t(locale, "footer.rss")}
+      </a>
+      <span class="font-mono text-xs">{t(locale, "footer.copyright")}</span>
+    </div>
   </div>
 </footer>

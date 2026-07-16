@@ -43,6 +43,12 @@ export async function getMarineLife(locale: Locale): Promise<MarineEntry[]> {
   return entries.sort((a, b) => a.data.title.localeCompare(b.data.title));
 }
 
+/** Reading time in minutes at ~180 wpm (Cyrillic-friendly). */
+export function readingTime(body: string | undefined): number {
+  const words = (body ?? "").split(/\s+/).length;
+  return Math.max(1, Math.round(words / 180));
+}
+
 /** Related posts: same series (10 pts) + shared tags (3 pts each). */
 export function relatedPosts(post: BlogPost, all: BlogPost[], limit = 3): BlogPost[] {
   return all

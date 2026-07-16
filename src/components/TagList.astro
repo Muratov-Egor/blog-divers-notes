@@ -8,19 +8,18 @@ interface Props {
   class?: string;
 }
 const { tags, locale, class: cls } = Astro.props;
+const chip = "rounded-full bg-lagoon/10 px-3 py-1 text-xs text-lagoon";
 ---
 
 {tags.length > 0 && (
-  <ul class:list={["flex flex-wrap gap-1.5", cls]}>
+  <ul class:list={["flex flex-wrap gap-2", cls]}>
     {tags.map((tag) => {
       const meta = tagByName(tag);
       const label = tagLabel(tag, locale);
-      const chip =
-        "rounded-full bg-ocean-50 px-2.5 py-0.5 text-xs text-ocean-700 dark:bg-ocean-800 dark:text-ocean-200";
       return (
         <li>
           {meta ? (
-            <a href={localePath(locale, `/tags/${meta.slug}`)} class={`${chip} hover:bg-ocean-100 dark:hover:bg-ocean-700`}>
+            <a href={localePath(locale, `/tags/${meta.slug}`)} class={`${chip} transition-colors hover:bg-lagoon/20`}>
               {label}
             </a>
           ) : (

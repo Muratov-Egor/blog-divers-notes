@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
+import CdnImage from "../components/CdnImage.astro";
 import { t, localePath, type Locale } from "../lib/i18n";
 import { getBlogPosts, getMarineLife, type TagMeta } from "../lib/content";
 
@@ -25,16 +26,19 @@ const title = t(locale, "tags.tagTitle").replace("{name}", tag[locale]);
   description={t(locale, "tags.tagDescription").replace("{name}", tag[locale])}
   path={`/tags/${tag.slug}`}
 >
-  <h1 class="mb-6 text-2xl font-bold">{title}</h1>
+  <h1 class="text-3xl font-semibold sm:text-4xl">{title}</h1>
+  <p class="mt-3 mb-10 font-mono text-sm text-muted">
+    {t(locale, "tags.foundMaterials").replace("{count}", String(posts.length + marine.length))}
+  </p>
 
   {posts.length === 0 && marine.length === 0 && (
-    <p class="text-slate-500">{t(locale, "tags.noMaterialsWithTag")}</p>
+    <p class="text-muted">{t(locale, "tags.noMaterialsWithTag")}</p>
   )}
 
   {posts.length > 0 && (
-    <section class="mb-8">
-      <h2 class="mb-4 text-xl font-semibold">{t(locale, "nav.blog")}</h2>
-      <div class="flex flex-col gap-4">
+    <section class="mb-12">
+      <h2 class="mb-6 text-2xl font-semibold">{t(locale, "nav.blog")}</h2>
+      <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => <PostCard post={post} locale={locale} />)}
       </div>
     </section>
@@ -42,19 +46,29 @@ const title = t(locale, "tags.tagTitle").replace("{name}", tag[locale]);
 
   {marine.length > 0 && (
     <section>
-      <h2 class="mb-4 text-xl font-semibold">{t(locale, "nav.marineLife")}</h2>
-      <ul class="grid grid-cols-2 gap-2 sm:grid-cols-3">
+      <h2 class="mb-6 text-2xl font-semibold">{t(locale, "nav.marineLife")}</h2>
+      <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
         {marine.map((m) => (
-          <li>
-            <a
-              href={localePath(locale, `/marine-life/${m.data.slug}`)}
-              class="text-ocean-600 hover:underline dark:text-ocean-300"
-            >
-              {m.data.title}
-            </a>
-          </li>
+          <a
+            href={localePath(locale, `/marine-life/${m.data.slug}`)}
+            class="group overflow-hidden rounded-3xl bg-surface shadow-card transition-transform duration-300 motion-safe:hover:-translate-y-1"
+          >
+            {m.data.images[0] && (
+              <CdnImage
+                src={m.data.images[0]}
+                alt={m.data.title}
+                sizes="(max-width: 640px) 50vw, 300px"
+                class="aspect-square w-full object-cover"
+              />
+            )}
+            <div class="p-4">
+              <h3 class="font-display text-[15px] leading-snug font-semibold group-hover:text-lagoon">
+                {m.data.title}
+              </h3>
+            </div>
+          </a>
         ))}
-      </ul>
+      </div>
     </section>
   )}
 </BaseLayout>

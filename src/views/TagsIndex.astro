@@ -28,15 +28,17 @@ const counts = allTags
   description={t(locale, "tags.metaDescription")}
   path="/tags"
 >
-  <h1 class="mb-6 text-2xl font-bold">{t(locale, "tags.title")}</h1>
-  <ul class="flex flex-wrap gap-2">
+  <h1 class="text-3xl font-semibold sm:text-4xl">{t(locale, "tags.title")}</h1>
+  <p class="mt-3 mb-10 max-w-2xl text-muted">{t(locale, "tags.subtitle")}</p>
+  <ul class="flex max-w-4xl flex-wrap gap-3">
     {counts.map(({ tag, count }) => (
       <li>
         <a
           href={localePath(locale, `/tags/${tag.slug}`)}
-          class="rounded-full bg-ocean-50 px-3 py-1 text-sm text-ocean-700 hover:bg-ocean-100 dark:bg-ocean-800 dark:text-ocean-200 dark:hover:bg-ocean-700"
+          class="inline-flex items-center gap-2 rounded-full bg-lagoon/10 px-4 py-2 text-sm text-lagoon transition-colors hover:bg-lagoon/20"
         >
-          {tag[locale]} <span class="text-xs opacity-70">{count}</span>
+          {tag[locale]}
+          <span class="font-mono text-xs opacity-70">{count}</span>
         </a>
       </li>
     ))}

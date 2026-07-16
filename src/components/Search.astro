@@ -10,18 +10,18 @@ const { locale } = Astro.props;
 <button
   id="search-open"
   aria-label={t(locale, "search.openSearch")}
-  class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-ocean-800"
+  class="rounded-full border border-line bg-surface px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:text-ink"
 >
-  🔍
+  ⌕ <span class="hidden md:inline">⌘K</span>
 </button>
 
 <dialog
   id="search-dialog"
-  class="m-auto w-full max-w-xl rounded-xl bg-white p-4 shadow-xl backdrop:bg-black/50 dark:bg-ocean-900 dark:text-slate-200"
+  class="m-auto w-full max-w-xl rounded-3xl bg-surface p-6 text-ink shadow-card backdrop:bg-[#0A1B24]/60"
 >
-  <div class="mb-2 flex items-center justify-between">
-    <h2 class="font-semibold">{t(locale, "search.searchSite")}</h2>
-    <button id="search-close" aria-label={t(locale, "search.closeSearch")} class="p-1">✕</button>
+  <div class="mb-3 flex items-center justify-between">
+    <h2 class="font-display font-semibold">{t(locale, "search.searchSite")}</h2>
+    <button id="search-close" aria-label={t(locale, "search.closeSearch")} class="p-1 text-muted hover:text-ink">✕</button>
   </div>
   <div id="pagefind-search" data-placeholder={t(locale, "search.placeholder")}></div>
 </dialog>

@@ -1,20 +1,50 @@
+@import "@fontsource-variable/piazzolla";
+@import "@fontsource-variable/inter";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/600.css";
+
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
-  --color-ocean-50: #eef7fb;
-  --color-ocean-100: #d8edf7;
-  --color-ocean-200: #b3dcef;
-  --color-ocean-300: #7fc3e2;
-  --color-ocean-400: #45a3cf;
-  --color-ocean-500: #2287b6;
-  --color-ocean-600: #196c99;
-  --color-ocean-700: #17577c;
-  --color-ocean-800: #184a67;
-  --color-ocean-900: #193e57;
-  --color-ocean-950: #10283b;
+/* "Water column" palette: light = surface water, dark = night dive. */
+:root {
+  --ground: #f2f7f7;
+  --surface: #ffffff;
+  --ink: #12313b;
+  --muted: #5a7682;
+  --lagoon: #177e89;
+  --action: #1f6e7b;
+  --line: #dce9eb;
+  --card-shadow: 0 6px 24px rgba(18, 49, 59, 0.1), 0 1px 3px rgba(18, 49, 59, 0.06);
+}
+
+.dark {
+  --ground: #0a1b24;
+  --surface: #102833;
+  --ink: #d9e7ec;
+  --muted: #7f98a3;
+  --lagoon: #45c4d3;
+  --action: #4fb3c4;
+  --line: #1c3947;
+  --card-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-lagoon: var(--lagoon);
+  --color-action: var(--action);
+  --color-line: var(--line);
+
+  --font-display: "Piazzolla Variable", Georgia, serif;
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --shadow-card: var(--card-shadow);
 }
 
 html {
@@ -22,9 +52,46 @@ html {
 }
 
 body {
-  @apply bg-white text-slate-800 antialiased dark:bg-ocean-950 dark:text-slate-200;
+  @apply bg-ground font-sans text-ink antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display tracking-tight;
+}
+
+.prose {
+  --tw-prose-body: var(--ink);
+  --tw-prose-headings: var(--ink);
+  --tw-prose-bold: var(--ink);
+  --tw-prose-links: var(--lagoon);
+  --tw-prose-quotes: var(--muted);
+  --tw-prose-quote-borders: var(--lagoon);
+  --tw-prose-code: var(--ink);
+  --tw-prose-hr: var(--line);
+  --tw-prose-th-borders: var(--line);
+  --tw-prose-td-borders: var(--line);
+  --tw-prose-captions: var(--muted);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  font-size: 1.09rem;
+  line-height: 1.75;
+}
+
+.prose :where(h1, h2, h3, h4) {
+  font-family: var(--font-display);
 }
 
 .prose img {
-  @apply rounded-xl;
+  @apply rounded-2xl;
+}
+
+@media (min-width: 1200px) {
+  .prose img {
+    margin-left: -72px;
+    margin-right: -72px;
+    max-width: none;
+    width: calc(100% + 144px);
+  }
 }

@@ -17,28 +17,32 @@ const entries = await getMarineLife(locale);
   description={t(locale, "marineLife.metaDescription")}
   path="/marine-life"
 >
-  <h1 class="mb-2 text-2xl font-bold">{t(locale, "marineLife.title")}</h1>
-  <p class="mb-6 text-slate-600 dark:text-slate-300">{t(locale, "marineLife.subtitle")}</p>
-  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+  <h1 class="max-w-3xl text-3xl leading-tight font-semibold sm:text-4xl">
+    {t(locale, "marineLife.title")}
+  </h1>
+  <p class="mt-3 mb-10 max-w-2xl text-muted">{t(locale, "marineLife.subtitle")}</p>
+  <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
     {entries.map((entry) => (
       <a
         href={localePath(locale, `/marine-life/${entry.data.slug}`)}
-        class="group overflow-hidden rounded-xl border border-slate-200 dark:border-ocean-800"
+        class="group overflow-hidden rounded-3xl bg-surface shadow-card transition-transform duration-300 motion-safe:hover:-translate-y-1"
       >
         {entry.data.images[0] && (
-          <CdnImage
-            src={entry.data.images[0]}
-            alt={entry.data.title}
-            sizes="(max-width: 640px) 50vw, 260px"
-            class="aspect-square w-full object-cover transition-transform group-hover:scale-105"
-          />
+          <div class="overflow-hidden">
+            <CdnImage
+              src={entry.data.images[0]}
+              alt={entry.data.title}
+              sizes="(max-width: 640px) 50vw, 300px"
+              class="aspect-square w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.04]"
+            />
+          </div>
         )}
-        <div class="p-3">
-          <h2 class="text-sm font-semibold group-hover:text-ocean-600 dark:group-hover:text-ocean-300">
+        <div class="p-4">
+          <h2 class="font-display text-[15px] leading-snug font-semibold group-hover:text-lagoon">
             {entry.data.title}
           </h2>
           {entry.data.latinName && (
-            <p class="text-xs text-slate-500 italic dark:text-slate-400">{entry.data.latinName}</p>
+            <p class="mt-0.5 text-xs text-muted italic">{entry.data.latinName}</p>
           )}
         </div>
       </a>

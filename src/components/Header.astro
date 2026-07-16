@@ -13,21 +13,31 @@ const nav = [
   { href: "/marine-life", label: t(locale, "nav.marineLife") },
   { href: "/map", label: t(locale, "nav.map") },
 ];
+const isActive = (href: string) => path === href || path.startsWith(href + "/");
 ---
 
-<header
-  class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-ocean-800 dark:bg-ocean-950/90"
->
-  <div class="mx-auto flex max-w-4xl items-center gap-4 px-4 py-3">
-    <a href={localePath(locale, "/")} class="flex items-center gap-2 font-bold">
-      <img src="/logo.png" alt={t(locale, "metadata.logoAlt")} class="h-8 w-8" width="32" height="32" />
-      <span class="hidden sm:inline">Diver's Notes</span>
+<header class="sticky top-0 z-40 border-b border-line bg-ground/90 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center gap-6 px-6 py-4">
+    <a href={localePath(locale, "/")} class="flex items-center gap-2.5">
+      <img
+        src="/logo.png"
+        alt={t(locale, "metadata.logoAlt")}
+        class="h-9 w-9 rounded-full"
+        width="36"
+        height="36"
+      />
+      <span class="hidden font-display text-lg font-semibold sm:inline">Diver's Notes</span>
     </a>
-    <nav class="flex flex-1 items-center gap-4 text-sm">
+    <nav class="flex flex-1 items-center gap-6 text-[15px]">
       {nav.map((item) => (
         <a
           href={localePath(locale, item.href)}
-          class="text-slate-600 hover:text-ocean-600 dark:text-slate-300 dark:hover:text-ocean-300"
+          class:list={[
+            "pb-0.5 transition-colors",
+            isActive(item.href)
+              ? "border-b-2 border-action font-medium text-ink"
+              : "text-muted hover:text-ink",
+          ]}
         >
           {item.label}
         </a>
@@ -37,13 +47,13 @@ const nav = [
     <button
       id="theme-toggle"
       aria-label={t(locale, "theme.toggle")}
-      class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-ocean-800"
+      class="rounded-full border border-line bg-surface px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:text-ink"
     >
-      <span class="dark:hidden">🌙</span><span class="hidden dark:inline">☀️</span>
+      <span class="dark:hidden">☾</span><span class="hidden dark:inline">☀</span>
     </button>
     <a
       href={alternatePath(locale, path)}
-      class="rounded-lg border border-slate-300 px-2 py-1 text-xs font-semibold uppercase hover:bg-slate-100 dark:border-ocean-700 dark:hover:bg-ocean-800"
+      class="rounded-full border border-line bg-surface px-3 py-1.5 font-mono text-xs text-muted transition-colors hover:text-ink"
     >
       {locale === "ru" ? "EN" : "RU"}
     </a>

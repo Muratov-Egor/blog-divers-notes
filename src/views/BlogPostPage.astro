@@ -5,7 +5,7 @@ import CdnImage from "../components/CdnImage.astro";
 import PostCard from "../components/PostCard.astro";
 import TagList from "../components/TagList.astro";
 import { t, formatDate, type Locale } from "../lib/i18n";
-import { getBlogPosts, relatedPosts, type BlogPost } from "../lib/content";
+import { getBlogPosts, relatedPosts, readingTime, type BlogPost } from "../lib/content";
 import { resolveImage } from "../lib/images";
 
 interface Props {
@@ -17,6 +17,7 @@ const { Content } = await render(post);
 const all = await getBlogPosts(locale);
 const related = relatedPosts(post, all);
 const ogImage = post.data.cover ? resolveImage(post.data.cover).src : undefined;
+const minutes = readingTime(post.body);
 ---
 
 <BaseLayout
@@ -27,33 +28,69 @@ const ogImage = post.data.cover ? resolveImage(post.data.cover).src : undefined;
   ogImage={ogImage}
   ogType="article"
 >
-  <article data-pagefind-body data-pagefind-filter={`type:blog`}>
-    <header class="mb-6">
-      <h1 class="mb-2 text-3xl font-bold">{post.data.title}</h1>
-      <time class="text-sm text-slate-500 dark:text-slate-400" datetime={post.data.date.toISOString()}>
-        {formatDate(post.data.date, locale)}
-      </time>
-      <TagList tags={post.data.tags} locale={locale} class="mt-3" />
-      {post.data.cover && (
-        <CdnImage
-          src={post.data.cover}
-          alt={post.data.title}
-          loading="eager"
-          class="mt-4 w-full rounded-xl"
-        />
-      )}
-    </header>
-    <div class="prose prose-slate max-w-none dark:prose-invert">
-      <Content />
+  <div class="relative mx-auto max-w-[72ch]">
+    <!-- Depth scale: reading progress rendered as a dive from 0 m -->
+    <div
+      id="depth-scale"
+      class="absolute top-0 bottom-0 -left-16 hidden w-10 font-mono text-[11px] text-muted xl:block"
+      aria-hidden="true"
+    >
+      <div class="absolute top-0 bottom-0 left-1/2 w-0.5 bg-line"></div>
+      <div id="depth-fill" class="absolute top-0 left-1/2 w-0.5 bg-lagoon" style="height:0%"></div>
+      <span class="absolute top-0">0м</span>
+      <span id="depth-label" class="absolute text-lagoon" style="top:0%">−0</span>
+      <span class="absolute bottom-0">−30</span>
     </div>
-  </article>
+
+    <article data-pagefind-body data-pagefind-filter="type:blog">
+      <header class="mb-8">
+        <h1 class="text-3xl leading-tight font-semibold sm:text-[2.6rem]">{post.data.title}</h1>
+        <p class="mt-3 font-mono text-[13px] text-muted">
+          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, locale)}</time>
+          {" · "}
+          {t(locale, "blog.readingTime").replace("{minutes}", String(minutes))}
+        </p>
+        <TagList tags={post.data.tags} locale={locale} class="mt-4" />
+        {post.data.cover && (
+          <CdnImage
+            src={post.data.cover}
+            alt={post.data.title}
+            loading="eager"
+            class="mt-6 w-full rounded-3xl shadow-card"
+          />
+        )}
+      </header>
+      <div class="prose max-w-none">
+        <Content />
+      </div>
+    </article>
+  </div>
 
   {related.length > 0 && (
-    <section class="mt-10">
-      <h2 class="mb-4 text-xl font-semibold">{locale === "ru" ? "Похожие статьи" : "Related posts"}</h2>
-      <div class="flex flex-col gap-4">
+    <section class="mx-auto mt-16 max-w-5xl">
+      <h2 class="mb-6 text-2xl font-semibold">
+        {locale === "ru" ? "Похожие статьи" : "Related posts"}
+      </h2>
+      <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
         {related.map((p) => <PostCard post={p} locale={locale} />)}
       </div>
     </section>
   )}
 </BaseLayout>
+
+<script>
+  const fill = document.getElementById("depth-fill");
+  const label = document.getElementById("depth-label");
+  if (fill && label) {
+    const update = () => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - innerHeight;
+      const p = max > 0 ? Math.min(1, Math.max(0, scrollY / max)) : 0;
+      fill.style.height = `${p * 100}%`;
+      label.style.top = `${p * 100}%`;
+      label.textContent = `−${Math.round(p * 30)}`;
+    };
+    addEventListener("scroll", update, { passive: true });
+    update();
+  }
+</script>
