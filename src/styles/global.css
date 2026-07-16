@@ -53,6 +53,7 @@ html {
 
 body {
   @apply bg-ground font-sans text-ink antialiased;
+  overflow-x: clip;
 }
 
 h1,
@@ -85,6 +86,21 @@ h3 {
 
 .prose img {
   @apply rounded-2xl;
+}
+
+/* No horizontal page scroll on small screens: wide content scrolls inside */
+.prose {
+  overflow-wrap: break-word;
+}
+
+.prose pre {
+  overflow-x: auto;
+}
+
+.prose table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .prose .yt-embed {
