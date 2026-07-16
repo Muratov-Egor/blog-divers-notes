@@ -1,22 +1,17 @@
-## Development
+# Diver's Notes — agent notes
 
-When starting the dev server, use background mode:
+Static Astro 7 bilingual diving blog. See README.md for architecture and deploy.
 
-```
-astro dev --background
-```
-
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
-
-## Documentation
-
-Full documentation: https://docs.astro.build
-
-Consult these guides before working on related tasks:
-
-- [Adding pages, dynamic routes, or middleware](https://docs.astro.build/en/guides/routing/)
-- [Working with Astro components](https://docs.astro.build/en/basics/astro-components/)
-- [Using React, Vue, Svelte, or other framework components](https://docs.astro.build/en/guides/framework-components/)
-- [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
-- [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
-- [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+- Content lives in `content/` (markdown + json), NOT in `src/`. Frontmatter `slug`
+  is a data field; collection ids are file paths via `generateId` (both locales
+  share slugs — do not remove `generateId` or entries collide).
+- Locale routing: shared views in `src/views/`, thin routes in `src/pages` (ru)
+  and `src/pages/en`. Add new pages in both trees.
+- Images: never commit binaries; content references bucket URLs. Run
+  `pnpm images:sync` after adding images so `content/image-manifest.json`
+  gets srcset variants. `PUBLIC_IMAGE_CDN` rewrites the host at build time.
+- i18n strings: `messages/{ru,en}.json` via `t(locale, "dot.path")`.
+- Build: `pnpm build` (includes Pagefind index). Search UI only works on the
+  built site, not in `pnpm dev`.
+- pnpm has a `minimumReleaseAge` supply-chain policy — freshly published
+  package versions are rejected; pin an older version if install fails.
