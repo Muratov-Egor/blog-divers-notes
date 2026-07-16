@@ -37,7 +37,13 @@ const { locale } = Astro.props;
     const el = document.getElementById("pagefind-search")!;
     try {
       // Pagefind assets exist only in the production build (postbuild step).
-      const { PagefindUI } = await import(/* @vite-ignore */ "/pagefind/pagefind-ui.js");
+      // The path is computed so Vite doesn't try to resolve it at dev/build time.
+      const base = "/pagefind";
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = `${base}/pagefind-ui.css`;
+      document.head.append(css);
+      const { PagefindUI } = await import(/* @vite-ignore */ `${base}/pagefind-ui.js`);
       new PagefindUI({
         element: el,
         showSubResults: true,
@@ -57,5 +63,3 @@ const { locale } = Astro.props;
     }
   });
 </script>
-
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
