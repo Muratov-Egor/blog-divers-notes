@@ -4,6 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeSlug from "rehype-slug";
 import { rehypeImages } from "./src/lib/rehype-images.mjs";
+import { rehypeYoutube } from "./src/lib/rehype-youtube.mjs";
 
 export default defineConfig({
   site: "https://diversnotes.com",
@@ -16,6 +17,6 @@ export default defineConfig({
   integrations: [sitemap()],
   vite: { plugins: [tailwindcss()] },
   markdown: {
-    rehypePlugins: [rehypeSlug, rehypeImages],
+    rehypePlugins: [rehypeSlug, rehypeImages, rehypeYoutube],
   },
 });

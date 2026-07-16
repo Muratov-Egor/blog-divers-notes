@@ -87,6 +87,14 @@ h3 {
   @apply rounded-2xl;
 }
 
+.prose .yt-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+}
+
 /* Leaflet popups and controls follow the theme */
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
@@ -104,11 +112,3 @@ h3 {
   border-color: var(--line);
 }
 
-@media (min-width: 1200px) {
-  .prose img {
-    margin-left: -72px;
-    margin-right: -72px;
-    max-width: none;
-    width: calc(100% + 144px);
-  }
-}
