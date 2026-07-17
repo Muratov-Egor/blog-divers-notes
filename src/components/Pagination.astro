@@ -1,0 +1,47 @@
+---
+import { t, localePath, type Locale } from "../lib/i18n";
+
+interface Props {
+  locale: Locale;
+  current: number;
+  total: number;
+  /** Locale-agnostic base path, e.g. "/blog". Page 1 is the base path itself. */
+  basePath: string;
+}
+const { locale, current, total, basePath } = Astro.props;
+const pageHref = (n: number) =>
+  localePath(locale, n === 1 ? basePath : `${basePath}/page/${n}`);
+const pages = Array.from({ length: total }, (_, i) => i + 1);
+const btn =
+  "flex h-10 min-w-10 items-center justify-center rounded-xl px-3 font-mono text-sm transition-colors";
+---
+
+{total > 1 && (
+  <nav aria-label={t(locale, "pagination.ariaLabel")} class="mt-12 flex items-center justify-center gap-1.5">
+    {current > 1 && (
+      <a href={pageHref(current - 1)} aria-label={t(locale, "pagination.prevPage")} class={`${btn} text-muted hover:text-lagoon`}>
+        ←
+      </a>
+    )}
+    {pages.map((n) =>
+      n === current ? (
+        <span aria-current="page" class={`${btn} bg-action font-semibold text-white dark:text-[#06171F]`}>
+          {n}
+        </span>
+      ) : (
+        <a
+          href={pageHref(n)}
+          aria-label={t(locale, "pagination.page").replace("{page}", String(n))}
+          class={`${btn} text-muted hover:text-lagoon`}
+        >
+          {n}
+        </a>
+      ),
+    )}
+    {current < total && (
+      <a href={pageHref(current + 1)} aria-label={t(locale, "pagination.nextPage")} class={`${btn} text-muted hover:text-lagoon`}>
+        →
+      </a>
+    )}
+  </nav>
+)}

@@ -1,0 +1,13 @@
+---
+import BlogIndex from "@/views/BlogIndex.astro";
+import { getBlogPosts, blogTotalPages } from "@/lib/content";
+
+export async function getStaticPaths() {
+  const total = blogTotalPages((await getBlogPosts("ru")).length);
+  return Array.from({ length: total - 1 }, (_, i) => ({ params: { page: String(i + 2) } }));
+}
+
+const page = Number(Astro.params.page);
+---
+
+<BlogIndex locale="ru" page={page} />

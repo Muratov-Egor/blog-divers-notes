@@ -1,27 +1,36 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import CdnImage from "../components/CdnImage.astro";
+import Pagination from "../components/Pagination.astro";
 import { t, localePath, type Locale } from "../lib/i18n";
-import { getMarineLife } from "../lib/content";
+import { getMarineLife, MARINE_PER_PAGE } from "../lib/content";
 
 interface Props {
   locale: Locale;
+  page?: number;
 }
-const { locale } = Astro.props;
-const entries = await getMarineLife(locale);
+const { locale, page = 1 } = Astro.props;
+const all = await getMarineLife(locale);
+const totalPages = Math.max(1, Math.ceil(all.length / MARINE_PER_PAGE));
+const entries = all.slice((page - 1) * MARINE_PER_PAGE, page * MARINE_PER_PAGE);
+const path = page === 1 ? "/marine-life" : `/marine-life/page/${page}`;
+const pageSuffix =
+  page > 1
+    ? ` — ${t(locale, "pagination.pageOfTotal").replace("{current}", String(page)).replace("{total}", String(totalPages))}`
+    : "";
 ---
 
 <BaseLayout
   locale={locale}
-  title={`${t(locale, "marineLife.title")} — Diver's Notes`}
+  title={`${t(locale, "marineLife.title")}${pageSuffix} — Diver's Notes`}
   description={t(locale, "marineLife.metaDescription")}
-  path="/marine-life"
+  path={path}
 >
   <h1 class="max-w-3xl text-3xl leading-tight font-semibold sm:text-4xl">
     {t(locale, "marineLife.title")}
   </h1>
   <p class="mt-3 mb-10 max-w-2xl text-muted">{t(locale, "marineLife.subtitle")}</p>
-  <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+  <div class="grid grid-cols-2 gap-6 sm:grid-cols-3">
     {entries.map((entry) => (
       <a
         href={localePath(locale, `/marine-life/${entry.data.slug}`)}
@@ -32,7 +41,7 @@ const entries = await getMarineLife(locale);
             <CdnImage
               src={entry.data.images[0]}
               alt={entry.data.title}
-              sizes="(max-width: 640px) 50vw, 300px"
+              sizes="(max-width: 640px) 50vw, 400px"
               class="aspect-square w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.04]"
             />
           </div>
@@ -48,4 +57,5 @@ const entries = await getMarineLife(locale);
       </a>
     ))}
   </div>
+  <Pagination locale={locale} current={page} total={totalPages} basePath="/marine-life" />
 </BaseLayout>
