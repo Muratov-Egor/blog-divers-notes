@@ -1,0 +1,52 @@
+---
+// Fullscreen image viewer: any article image with data-full opens the
+// original (max quality) in an overlay; inline images keep serving the
+// smaller srcset variants.
+---
+
+<dialog
+  id="lightbox"
+  class="m-0 h-dvh max-h-none w-screen max-w-none bg-transparent p-0 backdrop:bg-[#050e14]/95"
+>
+  <button id="lightbox-close" aria-label="Close" class="fixed top-4 right-4 z-10 flex h-11 w-11 items-center justify-center rounded-full bg-black/50 text-2xl text-white">
+    ✕
+  </button>
+  <div id="lightbox-body" class="flex h-full w-full items-center justify-center p-4">
+    <img id="lightbox-img" src="" alt="" class="max-h-full max-w-full rounded-lg object-contain" />
+  </div>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("lightbox") as HTMLDialogElement;
+  const img = document.getElementById("lightbox-img") as HTMLImageElement;
+
+  const open = (el: HTMLImageElement) => {
+    // Show what the browser already has, then swap in the full-size original.
+    img.src = el.currentSrc || el.src;
+    img.alt = el.alt;
+    dialog.showModal();
+    const full = el.dataset.full;
+    if (full && full !== img.src) {
+      const hi = new Image();
+      hi.onload = () => {
+        if (dialog.open) img.src = full;
+      };
+      hi.src = full;
+    }
+  };
+
+  document.querySelectorAll<HTMLImageElement>("article img[data-full]").forEach((el) => {
+    el.classList.add("cursor-zoom-in");
+    el.addEventListener("click", () => open(el));
+  });
+
+  const close = () => {
+    dialog.close();
+    img.src = "";
+  };
+  document.getElementById("lightbox-close")?.addEventListener("click", close);
+  document.getElementById("lightbox-body")?.addEventListener("click", (e) => {
+    if (e.target !== img) close();
+  });
+  img.addEventListener("click", close);
+</script>

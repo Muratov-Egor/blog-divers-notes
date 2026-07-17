@@ -39,6 +39,8 @@ export function rehypeImages() {
       node.properties.decoding = "async";
       if (!key) return;
 
+      // Full-quality original for the lightbox; inline <img> may use variants.
+      node.properties.dataFull = `${CDN}/${key}`;
       const entry = manifest[key];
       if (entry?.variants?.length) {
         const largest = entry.variants[entry.variants.length - 1];

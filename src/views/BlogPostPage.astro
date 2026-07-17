@@ -2,6 +2,7 @@
 import { render } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import CdnImage from "../components/CdnImage.astro";
+import Lightbox from "../components/Lightbox.astro";
 import PostCard from "../components/PostCard.astro";
 import TagList from "../components/TagList.astro";
 import { t, formatDate, type Locale } from "../lib/i18n";
@@ -80,6 +81,7 @@ const maxDepth = Math.min(60, Math.max(10, minutes * 5));
       </div>
     </section>
   )}
+  <Lightbox />
 </BaseLayout>
 
 <script>

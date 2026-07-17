@@ -2,6 +2,7 @@
 import { render } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import CdnImage from "../components/CdnImage.astro";
+import Lightbox from "../components/Lightbox.astro";
 import TagList from "../components/TagList.astro";
 import { t, type Locale } from "../lib/i18n";
 import type { MarineEntry } from "../lib/content";
@@ -67,4 +68,5 @@ const facts: [string, string | undefined][] = [
       <TagList tags={d.tags} locale={locale} class="mt-8" />
     </article>
   </div>
+  <Lightbox />
 </BaseLayout>
