@@ -29,7 +29,11 @@ import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 
 const WIDTHS = [480, 800, 1200, 1920];
 const QUALITY = 60; // AVIF; visually near-lossless for photos
-const SOURCE_HOST = "https://f003.backblazeb2.com/file/diversnotes-images/";
+// Where to download originals from: the CDN domain once images live behind it,
+// falling back to the legacy Backblaze endpoint.
+const SOURCE_HOST =
+  (process.env.PUBLIC_IMAGE_CDN?.replace(/\/$/, "") ??
+    "https://f003.backblazeb2.com/file/diversnotes-images") + "/";
 const MANIFEST = new URL("../content/image-manifest.json", import.meta.url);
 
 const dryRun = process.argv.includes("--dry-run");
