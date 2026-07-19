@@ -1,6 +1,6 @@
 ---
 title: "Атмосферное давление в дайвинге"
-description: "Что происходит с телом, когда мы погружаемся под воду?"
+description: "Как атмосферное и гидростатическое давление действуют на тело дайвера под водой: физика погружения, которую обязан понимать каждый дайвер."
 slug: atmospheric-pressure
 date: 2023-07-24
 cover: "https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_Preview_ri2keb.png"

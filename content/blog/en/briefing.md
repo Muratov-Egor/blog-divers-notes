@@ -2,7 +2,7 @@
 cover: >-
   https://images.diversnotes.com/briefing/Briefing_Preview_d3mu9z.png
 date: 2023-07-13
-description: Briefing for certified divers
+description: "A sample dive briefing for certified divers (OW and AOW): a divemaster-course exercise walking through the dive plan, conditions and safety."
 slug: briefing
 tags:
   - Training

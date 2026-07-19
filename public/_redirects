@@ -1,0 +1,2 @@
+# Canonical host: consolidate www → apex (SEO: avoid duplicate content).
+https://www.diversnotes.com/* https://diversnotes.com/:splat 301!

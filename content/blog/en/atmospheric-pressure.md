@@ -1,6 +1,6 @@
 ---
 title: Atmospheric Pressure in Diving
-description: What happens to the body when we go underwater?
+description: "How atmospheric and hydrostatic pressure affect a diver's body underwater — the physics of descending that every diver needs to understand."
 slug: atmospheric-pressure
 date: 2023-07-24
 cover: >-

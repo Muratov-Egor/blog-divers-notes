@@ -1,6 +1,6 @@
 ---
 title: "Вторая поездка на Ко Тао"
-description: "Возвращение на остров дайверов"
+description: "Вторая поездка на тайский остров Ко Тао: чему научила первая, дайв-сайты заново, планирование погружений и что изменилось за год."
 slug: koh-tao-diving-second-trip
 date: 2025-05-03
 cover: "https://images.diversnotes.com/kohTao2/Preview_rqo7h0.png"

@@ -1,6 +1,6 @@
 ---
 title: "Брифинг"
-description: "Брифинг для сертифицированных дайверов"
+description: "Пример дайв-брифинга для сертифицированных дайверов (OW и AOW): учебное задание с курса дайвмастера с разбором условий, плана и безопасности погружения."
 slug: briefing
 date: 2023-07-13
 cover: "https://images.diversnotes.com/briefing/Briefing_Preview_d3mu9z.png"

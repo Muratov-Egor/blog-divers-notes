@@ -14,6 +14,8 @@ interface Props {
   ogType?: "website" | "article";
   /** Whether the same page exists in the other locale (controls hreflang). */
   hasAlternate?: boolean;
+  /** Keep the page out of the index (e.g. the 404 page). */
+  noindex?: boolean;
   /** Extra JSON-LD to emit alongside the site-wide WebSite schema. */
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -26,6 +28,7 @@ const {
   ogImage,
   ogType = "website",
   hasAlternate = true,
+  noindex = false,
   jsonLd,
 } = Astro.props;
 const site = Astro.site!.href.replace(/\/$/, "");
@@ -46,6 +49,7 @@ const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={desc} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang={locale} href={canonical} />
     {hasAlternate && (

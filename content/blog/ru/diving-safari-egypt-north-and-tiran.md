@@ -1,6 +1,6 @@
 ---
 title: "Египет: Дайвинг сафари на Север и Тиран"
-description: "Неделя на лодке в Красном море"
+description: "Неделя на дайв-сафари в Красном море: маршрут Север и Тиран, лучшие дайв-сайты, рэки и рифы Египта и впечатления от жизни на лодке."
 slug: diving-safari-egypt-north-and-tiran
 date: 2025-12-25
 cover: "https://images.diversnotes.com/egyptNorthAndTiran/preview_f2q9ii.png"

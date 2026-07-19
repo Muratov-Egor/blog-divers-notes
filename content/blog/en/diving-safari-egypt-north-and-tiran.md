@@ -1,6 +1,6 @@
 ---
 title: 'Egypt: Diving Safari to the North & Tiran'
-description: A week on a boat in the Red Sea
+description: "A week on a Red Sea liveaboard safari: the North and Tiran route, Egypt's best dive sites, wrecks and reefs, and life aboard the boat."
 slug: diving-safari-egypt-north-and-tiran
 date: 2025-12-25
 cover: >-

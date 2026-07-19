@@ -1,6 +1,6 @@
 ---
 title: "Дайвинг в Черногории: ожидания против реальности"
-description: "Почему Черногория в мае — не лучшая идея"
+description: "Дайвинг в Черногории в мае: почему ожидания не совпали с реальностью, какие ошибки я допустил и что стоит знать перед поездкой в начале сезона."
 slug: montenegro-expectations-vs-reality
 date: 2025-06-16
 cover: "https://images.diversnotes.com/montenegro/DSC00814-Enhanced-NR_pyober.png"

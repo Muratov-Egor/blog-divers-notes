@@ -1,6 +1,6 @@
 ---
 title: Montenegro 2026. Herceg Novi
-description: Gave Montenegro diving a second chance
+description: "A second shot at diving in Montenegro — Herceg Novi: the dive sites of the Bay of Kotor, visibility, marine life and whether it's worth a trip."
 slug: diving-in-herceg-novi-montenegro
 date: 2026-07-12
 cover: >-

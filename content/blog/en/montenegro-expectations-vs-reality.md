@@ -2,7 +2,7 @@
 cover: >-
   https://images.diversnotes.com/montenegro/DSC00814-Enhanced-NR_pyober.png
 date: 2025-06-16
-description: Why Montenegro in May is not the best idea
+description: "Diving in Montenegro in May: why my expectations didn't match reality, the mistakes I made and what to know before an early-season trip."
 slug: montenegro-expectations-vs-reality
 tags:
   - Photo & Video

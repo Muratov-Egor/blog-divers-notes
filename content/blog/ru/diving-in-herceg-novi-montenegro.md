@@ -1,6 +1,6 @@
 ---
 title: "Черногория 2026. Херцег-Нови"
-description: "Дал второй шанс дайвингу в Черногории"
+description: "Второй заход на дайвинг в Черногории — Херцег-Нови: дайв-сайты Боко-Которского залива, видимость, морская жизнь и стоит ли сюда ехать нырять."
 slug: diving-in-herceg-novi-montenegro
 date: 2026-07-12
 cover: "https://images.diversnotes.com/montenegro-herceg-novi/preview.png"

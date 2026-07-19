@@ -2,7 +2,7 @@
 cover: >-
   https://images.diversnotes.com/kohTao2/Preview_rqo7h0.png
 date: 2025-05-03
-description: Returning to the island of divers
+description: "A second trip to Thailand's Koh Tao: lessons from the first visit, the dive sites revisited, better dive planning and what changed in a year."
 slug: koh-tao-diving-second-trip
 tags:
   - Photo & Video

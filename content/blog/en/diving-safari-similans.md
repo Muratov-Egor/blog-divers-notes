@@ -1,6 +1,6 @@
 ---
 title: Similan Islands
-description: Diving liveaboard safari around the Similan Islands
+description: "My first liveaboard safari to Thailand's Similan Islands: how a liveaboard works, the route, the famous Andaman Sea dive sites and my impressions."
 slug: diving-safari-similans
 date: 2023-11-18
 cover: >-

@@ -1,6 +1,6 @@
 ---
 title: "Первый пост"
-description: "Как я пришел к дайвингу"
+description: "Как я пришёл в дайвинг: от случайного пробного погружения на фестивале до сертификации. Первый пост блога Diver's Notes и знакомство с автором."
 slug: first-post
 date: 2023-07-01
 cover: "https://images.diversnotes.com/firstPost/First_Post_Preview_xyp5qr.png"

@@ -2,7 +2,7 @@
 cover: >-
   https://images.diversnotes.com/deepDiving/Deep_Diving_Preview_y3dv83.png
 date: 2023-10-07
-description: What is deep diving?
+description: "What deep diving is, why divers go below 30 metres, the goals and risks involved, and how to prepare for it — explained from personal experience."
 slug: deep-diving
 tags:
   - Training

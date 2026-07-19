@@ -1,6 +1,6 @@
 ---
 title: "Симиланские острова"
-description: "Дайвинг-сафари по Симиланским островам"
+description: "Первое дайвинг-сафари на Симиланские острова Таиланда: что такое лайфборд, маршрут, знаменитые дайв-сайты Андаманского моря и мои впечатления."
 slug: diving-safari-similans
 date: 2023-11-18
 cover: "https://images.diversnotes.com/divingSafariSimilans/Diving_Safari_Similans_Preview_bg8hcq.png"

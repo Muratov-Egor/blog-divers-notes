@@ -1,6 +1,6 @@
 ---
 title: "Глубоководное погружение"
-description: "Что такое глубоководное погружение?"
+description: "Что такое глубоководное погружение, зачем нырять глубже 30 метров, какие цели и риски это несёт и как к нему готовиться. Разбираю на своём опыте."
 slug: deep-diving
 date: 2023-10-07
 cover: "https://images.diversnotes.com/deepDiving/Deep_Diving_Preview_y3dv83.png"

@@ -1,6 +1,6 @@
 ---
 title: First Post
-description: How I got into diving
+description: "How I got into diving — from a random try-dive at a festival to certification. The first post of the Diver's Notes blog and an intro to the author."
 slug: first-post
 date: 2023-07-01
 cover: >-
