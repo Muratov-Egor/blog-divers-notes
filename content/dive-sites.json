@@ -1514,7 +1514,7 @@
     "region": {
       "ru": "Херцег Нови, Черногория 🇲🇪",
       "en": "Herceg Novi, Montenegro 🇲🇪",
-      "links": ["blog/montenegro-expectations-vs-reality"],
+      "links": ["/blog/montenegro-expectations-vs-reality", "/blog/diving-in-herceg-novi-montenegro"],
       "regionName": {
         "en": "Herceg Novi",
         "ru": "Херцег Нови"
@@ -1676,7 +1676,7 @@
     "region": {
       "ru": "Будва, Черногория 🇲🇪",
       "en": "Budva, Montenegro 🇲🇪",
-      "links": ["blog/montenegro-expectations-vs-reality"],
+      "links": ["/blog/montenegro-expectations-vs-reality"],
       "regionName": {
         "en": "Budva",
         "ru": "Будва"
@@ -1760,7 +1760,7 @@
     "region": {
       "ru": "Каш, Турция 🇹🇷",
       "en": "Kaş, Turkey 🇹🇷",
-      "links": ["blog/diving-in-kas"],
+      "links": ["/blog/diving-in-kas"],
       "regionName": {
         "en": "Kaş",
         "ru": "Каш"
@@ -2000,7 +2000,7 @@
     "region": {
       "ru": "North & Tiran, Египет 🇪🇬",
       "en": "North & Tiran, Egypt 🇪🇬",
-      "links": ["blog/diving-safari-egypt-north-and-tiran"],
+      "links": ["/blog/diving-safari-egypt-north-and-tiran"],
       "regionName": {
         "en": "North & Tiran",
         "ru": "North & Tiran"
