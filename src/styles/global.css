@@ -111,20 +111,42 @@ h3 {
   margin: 1.5rem 0;
 }
 
-/* Leaflet popups and controls follow the theme */
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
+/* MapLibre popups and controls follow the theme */
+.maplibregl-popup-content {
   background: var(--surface) !important;
   color: var(--ink) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
 }
 
-.leaflet-popup-content a {
+.maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: var(--surface) !important;
+}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--surface) !important;
+}
+.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--surface) !important;
+}
+.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--surface) !important;
+}
+
+.maplibregl-popup-content a {
   color: var(--lagoon) !important;
 }
 
-.dark .leaflet-control-zoom a {
+.maplibregl-popup-close-button {
+  color: var(--muted);
+}
+
+.dark .maplibregl-ctrl-group {
   background: var(--surface);
-  color: var(--ink);
-  border-color: var(--line);
+}
+.dark .maplibregl-ctrl-group button {
+  background: var(--surface);
+}
+.dark .maplibregl-ctrl-group button + button {
+  border-top-color: var(--line);
 }
 

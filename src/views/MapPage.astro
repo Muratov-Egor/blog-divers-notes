@@ -50,8 +50,8 @@ const typeLabel = (type: string | null | undefined) =>
   <div class="mt-6 mb-8 grid grid-cols-2 gap-3 sm:flex sm:flex-wrap">
     {stats.map(([label, value]) => (
       <div class="rounded-2xl bg-surface px-4 py-3 text-center shadow-card sm:flex sm:items-baseline sm:gap-2 sm:rounded-xl sm:border sm:border-line sm:px-4 sm:py-2.5 sm:text-left sm:shadow-none">
-        <div class="font-mono text-xl font-semibold text-lagoon sm:text-base">{value}</div>
-        <div class="mt-0.5 text-xs text-muted sm:mt-0 sm:text-sm">{label}</div>
+        <div class="text-xs text-muted sm:text-sm">{label}</div>
+        <div class="mt-0.5 font-mono text-xl font-semibold text-lagoon sm:mt-0 sm:text-base">{value}</div>
       </div>
     ))}
   </div>
@@ -105,54 +105,73 @@ const typeLabel = (type: string | null | undefined) =>
 </BaseLayout>
 
 <script>
-  import L from "leaflet";
-  import "leaflet/dist/leaflet.css";
+  import maplibregl from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
 
   const el = document.getElementById("dive-map")!;
   const sites = JSON.parse(el.dataset.sites!);
   const prefix = el.dataset.localePrefix ?? "";
 
-  const map = L.map(el).setView([15, 60], 3);
+  // Vector basemaps let us override label languages at render time.
+  // Liberty is a colourful OSM-style basemap with rich place labels (incl. islands).
+  const LIGHT_STYLE = "https://tiles.openfreemap.org/styles/liberty";
+  const DARK_STYLE = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
+  const isDark = () => document.documentElement.classList.contains("dark");
 
-  const light = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 18,
+  const map = new maplibregl.Map({
+    container: el,
+    style: isDark() ? DARK_STYLE : LIGHT_STYLE,
+    center: [60, 15],
+    zoom: 2,
   });
-  const dark = L.tileLayer(
-    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-    {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      maxZoom: 18,
-    },
-  );
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
 
-  // Follow the site theme, including live toggles of the .dark class.
-  const applyTheme = () => {
-    const isDark = document.documentElement.classList.contains("dark");
-    map.removeLayer(isDark ? light : dark);
-    map.addLayer(isDark ? dark : light);
+  // Force every text label (cities, countries, oceans, …) to English.
+  const englishLabels = () => {
+    const nameEn = [
+      "coalesce",
+      ["get", "name:en"],
+      ["get", "name_en"],
+      ["get", "name_int"],
+      ["get", "name:latin"],
+      ["get", "name"],
+    ];
+    for (const layer of map.getStyle().layers ?? []) {
+      if (layer.type === "symbol" && (layer.layout as any)?.["text-field"] !== undefined) {
+        map.setLayoutProperty(layer.id, "text-field", nameEn as any);
+      }
+    }
   };
-  applyTheme();
-  new MutationObserver(applyTheme).observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["class"],
-  });
 
-  const bounds: [number, number][] = [];
+  // DOM markers + popups survive setStyle, so add them once.
   for (const s of sites) {
-    bounds.push([s.lat, s.lng]);
     const links = s.links
       .map((l: { link: string; title: string }) => `<a href="${prefix}${l.link}">${l.title} →</a>`)
       .join("<br>");
-    L.circleMarker([s.lat, s.lng], {
-      radius: 6,
-      color: "#1F6E7B",
-      fillColor: "#45C4D3",
-      fillOpacity: 0.85,
-    })
-      .addTo(map)
-      .bindPopup(`<b>${s.name}</b><br>${s.region}${links ? "<br>" + links : ""}`);
+    const dot = document.createElement("div");
+    dot.style.cssText =
+      "width:14px;height:14px;border-radius:50%;background:#45C4D3;border:2px solid #1F6E7B;box-shadow:0 0 0 1px rgba(0,0,0,.15);cursor:pointer";
+    new maplibregl.Marker({ element: dot })
+      .setLngLat([s.lng, s.lat])
+      .setPopup(
+        new maplibregl.Popup({ offset: 12 }).setHTML(
+          `<b>${s.name}</b><br>${s.region}${links ? "<br>" + links : ""}`,
+        ),
+      )
+      .addTo(map);
   }
-  if (bounds.length) map.fitBounds(bounds, { padding: [30, 30] });
+
+  const bounds = new maplibregl.LngLatBounds();
+  for (const s of sites) bounds.extend([s.lng, s.lat]);
+  if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 40, maxZoom: 8, animate: false });
+
+  map.on("style.load", englishLabels);
+
+  // Follow live theme toggles.
+  new MutationObserver(() => {
+    map.setStyle(isDark() ? DARK_STYLE : LIGHT_STYLE);
+  }).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
 </script>
