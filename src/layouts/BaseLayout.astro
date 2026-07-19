@@ -20,6 +20,7 @@ const canonical = site + localePath(locale, path);
 const alternate = site + alternatePath(locale, path);
 const desc = description ?? t(locale, "metadata.siteDescription");
 const og = ogImage ?? `${site}/og-default.png`;
+const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
 ---
 
 <!doctype html>
@@ -63,6 +64,16 @@ const og = ogImage ?? `${site}/og-default.png`;
         description: desc,
       })}
     />
+    {
+      cfAnalyticsToken && (
+        <script
+          is:inline
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}
+        />
+      )
+    }
   </head>
   <body class="flex min-h-screen flex-col">
     <Header locale={locale} path={path} />
