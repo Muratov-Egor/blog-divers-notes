@@ -23,10 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# build output
-dist/
-.astro/
-
 # test/screenshot artifacts
 home.png
 .playwright-mcp/
