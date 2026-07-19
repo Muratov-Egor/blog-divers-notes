@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_lvl4hd.png"
+  - "https://images.diversnotes.com/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_lvl4hd.png"
 tags:
   - Атлантический океан
   - Индийский океан
@@ -32,7 +32,7 @@ The coloration of the green sea turtle, depending on the habitat, varies from ol
 
 The head of the green turtle is also covered with large symmetrical scutes, and the front part of the snout is rounded. One pair of scutes is present above the nose. The eyes of the green turtle are large, like those of other sea turtles, with a round pupil and a beautiful lens-shaped eyelid slit, directed backward and upward.
 
-![Green sea turtle](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_1_ehzlki.png "Green sea turtle")
+![Green sea turtle](https://images.diversnotes.com/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_1_ehzlki.png "Green sea turtle")
 
 Males are easily distinguished from females by their more flattened and elongated shell, and especially by their much longer tail (more than 20 cm). Powerful front limbs – flippers, more like paddles, help them move at speeds up to 10 kilometers per hour.
 
@@ -41,4 +41,4 @@ During rest, adult turtles can stay underwater for several hours. Young turtles 
 
 The documented lifespan of green turtles is 75 years. The green turtle got its name from the color of the fat that accumulates in its body. In nature, the green turtle feeds on algae, seagrasses, mollusks, corals, and other marine organisms.
 
-![Green sea turtle](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_2400x1349_pmhdpn.png "Green sea turtle")
+![Green sea turtle](https://images.diversnotes.com/0_maineLife/GreenSeaTurtle/Green_Sea_Turtle_2400x1349_pmhdpn.png "Green sea turtle")

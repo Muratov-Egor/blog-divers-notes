@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Western Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GiantMoray/Giant_Moray_2722x1532_x84ubq.png"
+  - "https://images.diversnotes.com/0_maineLife/GiantMoray/Giant_Moray_2722x1532_x84ubq.png"
 tags:
   - Красное море
   - Индийский океан
@@ -32,7 +32,7 @@ Juveniles have brown-yellow coloration with many large black spots. In adult gia
 
 The moray's body is compressed laterally and covered with a layer of mucus, providing safe sliding and penetration into shelters, as well as protection from mechanical damage and parasites.
 
-![Giant Moray](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GiantMoray/Giant_Moray_3096x1740_ox8oa5.png "Giant Moray")
+![Giant Moray](https://images.diversnotes.com/0_maineLife/GiantMoray/Giant_Moray_3096x1740_ox8oa5.png "Giant Moray")
 
 The dorsal fin extends along the entire body, providing the moray with high speed without loss of maneuverability.
 

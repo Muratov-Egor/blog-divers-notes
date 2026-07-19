@@ -9,7 +9,7 @@ locations:
   - Индо-Тихоокеанский регион
   - Красное море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_h8cpwr.png"
+  - "https://images.diversnotes.com/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_h8cpwr.png"
 tags:
   - Красное море
   - Индийский океан
@@ -33,6 +33,6 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Фистуларии — хищники и питаются в основном мелкими рыбами и ракообразными. Они используют свои вытянутые рылки для быстрого всасывания добычи.
 
-![Bluespotted сornetfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_4783x2690_haibtl.png "Bluespotted сornetfish")
+![Bluespotted сornetfish](https://images.diversnotes.com/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_4783x2690_haibtl.png "Bluespotted сornetfish")
 
 Синепятнистая флейта обычно не представляет опасности для дайверов. Они пугливы и склонны избегать контакта с людьми. Тем не менее, как и все морские обитатели, их следует наблюдать на расстоянии, чтобы избежать стресса у животного или непреднамеренной реакции.

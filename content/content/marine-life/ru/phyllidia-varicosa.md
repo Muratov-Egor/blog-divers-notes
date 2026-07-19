@@ -11,7 +11,7 @@ locations:
   - Красное море
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_2_k3squx.png"
+  - "https://images.diversnotes.com/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_2_k3squx.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -34,7 +34,7 @@ conservationStatus: Not Evaluated (NE) — вид не оценивался IUCN
 
 Кроме широкого ареала, варикозная филлидия впечатляет и своими размерами. Средняя длина варикозной филлидии составляет 8–10 см, но отдельные особи вырастают до 12 см.
 
-![Phyllidia varicosa](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_bo6ozi.png "Phyllidia varicosa")
+![Phyllidia varicosa](https://images.diversnotes.com/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_bo6ozi.png "Phyllidia varicosa")
 
 Варикозная филлидия имеет удлинённое овальное тело, покрытое характерными продольными гребнями, которые делают её легко узнаваемой. Гребни и основания бугорков окрашены в серо-голубой или синий цвет, а верхушки бугорков имеют яркий жёлтый оттенок. Гребни бывают как сплошными, так и прерывистыми, с чёрным пространством между ними. На краях мантии также расположены полукруглые гребни с жёлтыми бугорками. Ринофоры (чувствительные органы моллюска) окрашены в яркий жёлтый цвет. Подошва ноги имеет чёрную продольную полосу.
 

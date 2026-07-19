@@ -8,7 +8,7 @@ depthRange: 2–50 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish_bluwhj_g6ysss.png"
+  - "https://images.diversnotes.com/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish_bluwhj_g6ysss.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -30,10 +30,10 @@ conservationStatus: —
 
 Внешний вид длинношипой рыбы-ёж впечатляет длинными острыми шипами, которые в покое сложены назад и прижаты к телу. В случае угрозы рыба раздувает тело до шарообразной формы, а её шипы принимают вертикальное положение. На спине, между головой и спинным плавником, располагается от 16 до 20 шипов. Окраска тела варьирует от светло-коричневого до светло-фиолетового, с многочисленными тёмными пятнами, а брюхо имеет белый оттенок.
 
-![Spot-fin porcupinefishl](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish-3_i0sykg_wldjfq.png "Spot-fin porcupinefish")
+![Spot-fin porcupinefishl](https://images.diversnotes.com/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish-3_i0sykg_wldjfq.png "Spot-fin porcupinefish")
 
 Данный вид обитает в тропических и субтропических зонах Индо-Тихоокеанского региона, предпочитая лагуны и внешние склоны коралловых рифов на глубинах от 2 до 50 метров. Часто встречается в пещерах и расщелинах мелководных рифов. Молодые особи, примерно до 20 см, предпочитают пелагический образ жизни, плавая в свободной воде.
 
 Эти рыбы обычно встречаются в одиночестве и активно охотятся за беспозвоночными, такими как морские ежи, брюхоногие и раки-отшельники, особенно ночью.
 
-![Spot-fin porcupinefishl](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish-2_gringi_cyidbg.png "Spot-fin porcupinefish")
+![Spot-fin porcupinefishl](https://images.diversnotes.com/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish-2_gringi_cyidbg.png "Spot-fin porcupinefish")

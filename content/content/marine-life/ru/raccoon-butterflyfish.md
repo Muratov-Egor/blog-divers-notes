@@ -11,7 +11,7 @@ locations:
   - Красное море
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RaccoonButterflyfish/Raccoon_Butterflyfish_mxrwh7.png"
+  - "https://images.diversnotes.com/0_maineLife/RaccoonButterflyfish/Raccoon_Butterflyfish_mxrwh7.png"
 tags:
   - Индийский океан
   - Тихий океан

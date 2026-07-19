@@ -9,7 +9,7 @@ locations:
   - Индийский океан
   - Западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailCorisWrasse/2_Yellowtail_coris_wrasse_xyhh7t.png"
+  - "https://images.diversnotes.com/0_maineLife/YellowtailCorisWrasse/2_Yellowtail_coris_wrasse_xyhh7t.png"
 tags:
   - Индийский океан
   - Тихий океан

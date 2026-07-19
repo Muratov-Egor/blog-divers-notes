@@ -9,8 +9,8 @@ locations:
   - Western Indian Ocean
   - Southeast Polynesia
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueSeaStar/Blue_Sea_Star_ced6cn.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueSeaStar/Blue_Sea_Star_2_bygmml.png"
+  - "https://images.diversnotes.com/0_maineLife/BlueSeaStar/Blue_Sea_Star_ced6cn.png"
+  - "https://images.diversnotes.com/0_maineLife/BlueSeaStar/Blue_Sea_Star_2_bygmml.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -34,4 +34,4 @@ Linckia reproduces both sexually and asexually. Sexual reproduction occurs throu
 
 It is not poisonous and not aggressive. These sea stars are usually slow-moving and do not harm humans. However, divers are advised not to touch sea stars and other marine inhabitants to avoid stress for the animals and potential damage to their delicate skin.
 
-![Blue sea star](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueSeaStar/Blue_Sea_Star_2_bygmml.png "Blue sea star")
+![Blue sea star](https://images.diversnotes.com/0_maineLife/BlueSeaStar/Blue_Sea_Star_2_bygmml.png "Blue sea star")

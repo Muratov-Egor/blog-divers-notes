@@ -13,7 +13,7 @@ locations:
   - Австралия
   - Новая Каледония
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlacktipGrouper/Blacktip_Grouper_anhw6o.png"
+  - "https://images.diversnotes.com/0_maineLife/BlacktipGrouper/Blacktip_Grouper_anhw6o.png"
 tags:
   - Красное море
   - Индийский океан

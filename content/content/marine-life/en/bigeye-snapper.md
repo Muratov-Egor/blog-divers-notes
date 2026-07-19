@@ -11,8 +11,8 @@ locations:
   - Southeast Asia
   - Northern Australia
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2477x1394_amj3km.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png"
+  - "https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2477x1394_amj3km.png"
+  - "https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png"
 tags:
   - Красное море
   - Индийский океан
@@ -38,4 +38,4 @@ The bigeye snapper reproduces through external fertilization. During spawning, w
 
 It feeds mainly on small fish and crustaceans. They often hunt in groups, using their large eyes to detect prey in low-light conditions. They also consume various invertebrates.
 
-![Bigeye snapper](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png "Bigeye snapper")
+![Bigeye snapper](https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png "Bigeye snapper")

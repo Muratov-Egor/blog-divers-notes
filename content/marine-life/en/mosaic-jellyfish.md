@@ -8,7 +8,7 @@ locations:
   - Indian Ocean
   - Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_h6mfnd.png"
+  - "https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_h6mfnd.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -25,7 +25,7 @@ The mosaic jellyfish has a dome-shaped body up to 35 cm in diameter. Its colour 
 
 It lives in the warm waters of the Indo-Pacific, especially off Australia, Japan and India. It inhabits shallow lagoons and outer reef slopes at depths of 2 to 55 metres.
 
-![Mosaic jellyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_2400x1350_ina0fx.png "Mosaic jellyfish")
+![Mosaic jellyfish](https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_2400x1350_ina0fx.png "Mosaic jellyfish")
 
 It feeds on plankton, small fish and crustaceans. The mosaic jellyfish filters water with its tentacles to capture food.
 
@@ -33,4 +33,4 @@ It is not especially dangerous to humans, although contact with its tentacles ca
 
 The mosaic jellyfish is an important part of coral reef ecosystems, as it is involved in feeding and the movement of nutrients.
 
-![Mosaic jellyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_3_cc5e6w.png "Mosaic jellyfish")
+![Mosaic jellyfish](https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_3_cc5e6w.png "Mosaic jellyfish")

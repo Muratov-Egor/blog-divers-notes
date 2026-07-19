@@ -7,7 +7,7 @@ depthRange: 1–50 m
 locations:
   - Indo-Pacific region
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlotcheyeSoldierfish/Blotcheye_Soldierfish_hq8ct5.png"
+  - "https://images.diversnotes.com/0_maineLife/BlotcheyeSoldierfish/Blotcheye_Soldierfish_hq8ct5.png"
 tags:
   - Индийский океан
   - Тихий океан

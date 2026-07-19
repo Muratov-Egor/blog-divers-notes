@@ -8,7 +8,7 @@ depthRange: до 40 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/TitanTriggerfish/Titan_Triggerfish_2412x1357_ucg6dc.png"
+  - "https://images.diversnotes.com/0_maineLife/TitanTriggerfish/Titan_Triggerfish_2412x1357_ucg6dc.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,7 +31,7 @@ conservationStatus: —
 
 Они обитают на глубинах до 40 метров и легко узнаваемы по сетчатому узору на теле, белому хвостовому плавнику и белой нижней части головы.
 
-![Titan triggerfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/TitanTriggerfish/Titan_Triggerfish_2457x1382_tjksc6.png "Titan triggerfish")
+![Titan triggerfish](https://images.diversnotes.com/0_maineLife/TitanTriggerfish/Titan_Triggerfish_2457x1382_tjksc6.png "Titan triggerfish")
 
 Голубоперые балистоды имеют крупные размеры и яркую внешность. Последнее характерно для большинства обитателей коралловых рифов, но вот крупные и острые зубы выдают в балистодах опасных хищников. Они добывают себе пропитание весьма необычным способом - используют быстрые движения тела, чтобы создать водовороты в донном иле и обнаружить мелких морских животных, которые становятся их добычей. Также они питаются коралловыми полипами, откусывая от них кусочки. В основном они питаются различными видами кораллов, морскими ежами, морскими звездами и двустворчатыми моллюсками.
 

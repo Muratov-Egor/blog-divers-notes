@@ -8,7 +8,7 @@ depthRange: до 50 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_2_byvmgv.png"
+  - "https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_2_byvmgv.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,7 +31,7 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Длиннопёрый групер живёт в Индо-Тихоокеанском регионе, включая воды Индомалайского архипелага, Андаманских островов и северного побережья Австралии. Предпочитает илистые рифы и песчаное дно на глубинах до 50 метров.
 
-![Longfin grouper](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_t5tugn.png "Longfin grouper")
+![Longfin grouper](https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_t5tugn.png "Longfin grouper")
 
 Питается червями, мелкими рыбами и ракообразными. Это активный хищник, часто охотящийся из засады.
 
@@ -41,4 +41,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Этот вид впервые был описан в 1830 году французским зоологом Ахиллем Валенсьеном и назван в честь натуралиста Жана Рене Констана Куа.
 
-![Longfin grouper](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_3_uzw5ne.png "Longfin grouper")
+![Longfin grouper](https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_3_uzw5ne.png "Longfin grouper")

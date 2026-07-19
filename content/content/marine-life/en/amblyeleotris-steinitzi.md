@@ -6,9 +6,9 @@ description: A small bottom-dwelling fish with a long body and large eyes. It ha
 locations:
   - Indo-Pacific region (from the Red Sea through the Indian Ocean to the western Pacific)
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_vkukxv.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_2400x1350_uvkxaw.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_1_rb3hyj.png"
+  - "https://images.diversnotes.com/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_vkukxv.png"
+  - "https://images.diversnotes.com/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_2400x1350_uvkxaw.png"
+  - "https://images.diversnotes.com/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_1_rb3hyj.png"
 tags:
   - Красное море
   - Индийский океан
@@ -31,7 +31,7 @@ Steinitz' prawn-goby (Amblyeleotris steinitzi) is a small bottom-dwelling fish t
 
 Steinitz' prawn-goby lives in the Indo-Pacific region, especially in shallow coastal waters and on coral reefs. It prefers sandy or gravelly bottoms where it can easily dig burrows. This species is well known for its symbiotic relationship with alpheid shrimps, also called pistol shrimps. The goby and the shrimp share a burrow: the shrimp keeps the burrow clean and in good shape, while the goby acts as a guard and warns about predators.
 
-![Steinitz' prawn-goby in its burrow with a shrimp](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_2400x1350_uvkxaw.png "Steinitz' Prawn-goby")
+![Steinitz' prawn-goby in its burrow with a shrimp](https://images.diversnotes.com/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_2400x1350_uvkxaw.png "Steinitz' Prawn-goby")
 
 Amblyeleotris steinitzi reproduces by external fertilization. During the breeding season, males and females form pairs. The female lays eggs in a safe place inside the burrow. The male fertilizes the eggs, and both parents guard them until they hatch. The larvae are pelagic — they drift in the open water before settling down and growing into young fish.
 
@@ -39,4 +39,4 @@ The goby mostly eats small invertebrates like crustaceans and worms. It uses its
 
 This is a shy fish that quickly hides in its burrow at the first sign of danger. Its small size and peaceful nature make it completely harmless to humans.
 
-![Steinitz' prawn-goby](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_1_rb3hyj.png "Steinitz' Prawn-goby")
+![Steinitz' prawn-goby](https://images.diversnotes.com/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_1_rb3hyj.png "Steinitz' Prawn-goby")

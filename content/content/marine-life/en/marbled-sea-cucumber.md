@@ -9,7 +9,7 @@ locations:
   - Pacific Ocean
   - Red Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MarbledSeaCucumber/Marbled_Sea_Cucumber_o2q4mq.png"
+  - "https://images.diversnotes.com/0_maineLife/MarbledSeaCucumber/Marbled_Sea_Cucumber_o2q4mq.png"
 tags:
   - Индийский океан
   - Тихий океан

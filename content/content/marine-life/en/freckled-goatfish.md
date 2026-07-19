@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Western Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/FreckledGoatfish/Freckled_Goatfish_bo6wfj.png"
+  - "https://images.diversnotes.com/0_maineLife/FreckledGoatfish/Freckled_Goatfish_bo6wfj.png"
 tags:
   - Красное море
   - Индийский океан

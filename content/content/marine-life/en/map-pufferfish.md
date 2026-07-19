@@ -7,7 +7,7 @@ depthRange: 4–30 m
 locations:
   - Indo-Pacific region
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_Pufferfish_idt0bd.png"
+  - "https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_Pufferfish_idt0bd.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -28,7 +28,7 @@ The map pufferfish lives in the warm waters of the Indo-Pacific, including the c
 
 It feeds mainly on hard-shelled invertebrates such as molluscs, crabs and sea urchins. It uses its powerful jaws to crush shells and coral.
 
-![Map pufferfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_pufferfish__vf7cw0.png "Map pufferfish")
+![Map pufferfish](https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_pufferfish__vf7cw0.png "Map pufferfish")
 
 Like many pufferfish, the map pufferfish can be dangerous to humans because its tissues may contain tetrodotoxin. This poison is deadly if the fish is eaten. However, when met underwater it is not a threat as it is not aggressive.
 
@@ -38,4 +38,4 @@ In Japan, pufferfish are considered a delicacy, but preparing them requires a sp
 
 When threatened, the pufferfish can inflate to look larger and deter predators.
 
-![Map pufferfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_pufferfish_2_jb5faz.png "Map pufferfish")
+![Map pufferfish](https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_pufferfish_2_jb5faz.png "Map pufferfish")

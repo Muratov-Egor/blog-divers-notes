@@ -7,7 +7,7 @@ depthRange: 1–70 m
 locations:
   - Indo-West Pacific
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_jsp7bs.png"
+  - "https://images.diversnotes.com/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_jsp7bs.png"
 tags:
   - Тихий океан
   - Рыбы
@@ -33,4 +33,4 @@ Clark's anemonefish are protandrous hermaphrodites, meaning they can change sex 
 
 Clark's anemonefish can become aggressive when defending their territory if they feel threatened. Bites can be unpleasant, but they are not poisonous and do not pose a serious threat.
 
-![Clark's anemonefish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_2477x1392_yqzuzi.png "Clark's anemonefish")
+![Clark's anemonefish](https://images.diversnotes.com/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_2477x1392_yqzuzi.png "Clark's anemonefish")

@@ -10,7 +10,7 @@ locations:
   - Red Sea
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PharaohCuttlefish/Pharaoh_Cuttlefish_k3pspu.png"
+  - "https://images.diversnotes.com/0_maineLife/PharaohCuttlefish/Pharaoh_Cuttlefish_k3pspu.png"
 tags:
   - Индийский океан
   - Моллюски
@@ -34,4 +34,4 @@ Cuttlefish have excellent vision thanks to special filters that sharpen their si
 
 Cuttlefish are always hungry and constantly search for food. They eat fish and marine worms, and their favourite prey is small crabs. They hunt by blending into the environment, but they can also use pulsating, colourful patterns to hypnotise prey and catch it. They are not dangerous to humans and are safe to swim near.
 
-![Pharaoh cuttlefish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PharaohCuttlefish/Pharaoh_cuttlefish_aa7jfk.png "Pharaoh cuttlefish")
+![Pharaoh cuttlefish](https://images.diversnotes.com/0_maineLife/PharaohCuttlefish/Pharaoh_cuttlefish_aa7jfk.png "Pharaoh cuttlefish")

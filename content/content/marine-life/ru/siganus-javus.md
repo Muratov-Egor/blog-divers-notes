@@ -8,7 +8,7 @@ depthRange: 2–20 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SiganusJavus/0_Siganus_javus_lwvi25.png"
+  - "https://images.diversnotes.com/0_maineLife/SiganusJavus/0_Siganus_javus_lwvi25.png"
 tags:
   - Индийский океан
   - Тихий океан

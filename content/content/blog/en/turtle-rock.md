@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/turtleRock/Turtle_Rock_Preview_4123x2319_djkysl.png
+  https://images.diversnotes.com/turtleRock/Turtle_Rock_Preview_4123x2319_djkysl.png
 date: 2024-05-17
 description: 'Dive site of the Phi Phi archipelago: Turtle Rock'
 slug: turtle-rock
@@ -85,7 +85,7 @@ beautiful soft corals and rocky formations that attract large schools of
 snappers. If you swim closer to the island, you can discover a grotto
 that can be explored.
 
-![Grotto](https://f003.backblazeb2.com/file/diversnotes-images/turtleRock/Turtle_Rock_Cave_4625x2602_asz8f3.png "Grotto")
+![Grotto](https://images.diversnotes.com/turtleRock/Turtle_Rock_Cave_4625x2602_asz8f3.png "Grotto")
 
 Before entering the grotto, you should make your safety stop. The
 entrance starts at about 7--8 meters, but after swimming through, the
@@ -101,7 +101,7 @@ place for ascent. The biggest danger here is the fast-moving speedboats
 entering Maya Bay.
 
 ![Turtle Rock
-map](https://f003.backblazeb2.com/file/diversnotes-images/turtleRock/Turtle_Rock_Map_wffkmn.png "Turtle Rock map")
+map](https://images.diversnotes.com/turtleRock/Turtle_Rock_Map_wffkmn.png "Turtle Rock map")
 
 Overall, Turtle Rock is an excellent dive site that almost guarantees
 turtle encounters and can offer many pleasant surprises.

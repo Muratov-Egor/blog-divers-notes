@@ -10,7 +10,7 @@ locations:
   - Индийский океан
   - западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenChromis/5_Green_chromis_3_zubozu.png"
+  - "https://images.diversnotes.com/0_maineLife/GreenChromis/5_Green_chromis_3_zubozu.png"
 tags:
   - Красное море
   - Индийский океан
@@ -32,10 +32,10 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 В естественной среде зелёные хромисы питаются различными видами планктона: ракообразными (копеподами и амфиподами), личинками креветок, рыбьими икринками и полихетами. Летом их рацион становится более разнообразным и включает нитчатые водоросли, фитопланктон и зоопланктон.
 
-![Green chromis](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenChromis/5_Green_chromis_2_ka122o.png "Green chromis")
+![Green chromis](https://images.diversnotes.com/0_maineLife/GreenChromis/5_Green_chromis_2_ka122o.png "Green chromis")
 
 Во время нереста самцы подготавливают гнездо на песчаном дне или среди коралловых обломков, привлекая нескольких самок. В этот период их окраска становится более желтоватой. После откладывания икры самец охраняет кладку, активно обмахивая её плавниками для лучшей аэрации. Он также поедает неоплодотворённые яйца, чтобы предотвратить развитие микроорганизмов, которые могут навредить выжившим икринкам. Через 2–3 дня из яиц появляются личинки.
 
 Эти рыбы широко распространены в Индо-Тихоокеанском регионе, включая Красное море, и населяют коралловые рифы и лагуны на глубинах от 1 до 12 метров. Они образуют крупные стаи, иногда насчитывающие сотни особей. Предпочитают сублиторальные лагуны и рифовые платформы, собираясь над ветвистыми кораллами рода Acropora, которые служат им укрытием и местом отдыха в ночное время.
 
-![Green chromis](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GreenChromis/5_Green_chromis_ubiu56.png "Green chromis")
+![Green chromis](https://images.diversnotes.com/0_maineLife/GreenChromis/5_Green_chromis_ubiu56.png "Green chromis")

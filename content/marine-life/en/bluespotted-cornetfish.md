@@ -8,7 +8,7 @@ locations:
   - Indo-Pacific region
   - Red Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_h8cpwr.png"
+  - "https://images.diversnotes.com/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_h8cpwr.png"
 tags:
   - Красное море
   - Индийский океан
@@ -32,6 +32,6 @@ Fistularias usually reproduce in warm waters. They reproduce through external fe
 
 Fistularias are predators and feed mainly on small fish and crustaceans. They use their elongated snouts to quickly suck in prey.
 
-![Bluespotted cornetfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_4783x2690_haibtl.png "Bluespotted cornetfish")
+![Bluespotted cornetfish](https://images.diversnotes.com/0_maineLife/BluespottedCornetfish/Bluespotted_Cornetfish_4783x2690_haibtl.png "Bluespotted cornetfish")
 
 The bluespotted flutemouth usually poses no danger to divers. They are shy and tend to avoid contact with humans. However, like all marine inhabitants, they should be observed from a distance to avoid stress to the animal or an unintended reaction.

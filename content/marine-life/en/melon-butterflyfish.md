@@ -9,7 +9,7 @@ locations:
   - Red Sea
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2634x1482_hgallk.png"
+  - "https://images.diversnotes.com/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2634x1482_hgallk.png"
 tags:
   - Индийский океан
   - Рыбы
@@ -35,4 +35,4 @@ The diet of the melon butterflyfish consists mainly of coral polyps, so they are
 
 They are known for being shy and peaceful. Although they may approach divers out of curiosity, they are not dangerous.
 
-![Melon butterflyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2_sc6yd7.png "Melon butterflyfish")
+![Melon butterflyfish](https://images.diversnotes.com/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2_sc6yd7.png "Melon butterflyfish")

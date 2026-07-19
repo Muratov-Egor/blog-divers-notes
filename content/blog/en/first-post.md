@@ -4,7 +4,7 @@ description: How I got into diving
 slug: first-post
 date: 2023-07-01
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/firstPost/First_Post_Preview_xyp5qr.png
+  https://images.diversnotes.com/firstPost/First_Post_Preview_xyp5qr.png
 tags:
   - Photo & Video
   - First Experience
@@ -31,16 +31,16 @@ The depth was 1.5 meters, right next to the beach somewhere near Anapa — which
 
 In 2022, I moved to Phuket to live and work there, and I finally decided to make my old dream come true — I took the Open Water Diver course.
 
-![First time in the sea](https://f003.backblazeb2.com/file/diversnotes-images/firstPost/First_Post_1280x720_wd1iyj.png "First time in the sea")
+![First time in the sea](https://images.diversnotes.com/firstPost/First_Post_1280x720_wd1iyj.png "First time in the sea")
 
 A colleague from work recommended my instructor, and it was a great recommendation. I can say for sure that he is one of the main reasons I decided to keep diving and not stop at the basic certificate.
 
-![First dive](https://f003.backblazeb2.com/file/diversnotes-images/firstPost/First_Post_1280x720_1_apkz1w.png "First dive")
+![First dive](https://images.diversnotes.com/firstPost/First_Post_1280x720_1_apkz1w.png "First dive")
 
 After finishing the course, I went to a dive shop to buy "just a mask and fins, nothing else" so I could go diving once or twice a month. Six months later, I already had a full set of equipment, and I go diving almost every week.
 
 To keep the diving experience alive between dives, I bought a GoPro and started an [Instagram](https://instagram.com/diver_egor) where I post videos of the fish I meet underwater. I think watching your own videos and identifying the fish you saw is also a big part of why I enjoy diving so much.
 
-![A year later — giving my first briefing](https://f003.backblazeb2.com/file/diversnotes-images/firstPost/First_Post_1280x720_2_z0llc2.png "A year later — giving my first briefing")
+![A year later — giving my first briefing](https://images.diversnotes.com/firstPost/First_Post_1280x720_2_z0llc2.png "A year later — giving my first briefing")
 
 Recently, I realized that I want to share my experience and knowledge with others. That's how I got the idea to start a diving blog and write notes about it. Let's see how it goes!)

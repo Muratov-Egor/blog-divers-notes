@@ -11,8 +11,8 @@ locations:
   - Japan
   - Australia
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_jhnr9b.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_2_ovbosy.png"
+  - "https://images.diversnotes.com/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_jhnr9b.png"
+  - "https://images.diversnotes.com/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_2_ovbosy.png"
 tags:
   - Красное море
   - Индийский океан
@@ -37,7 +37,7 @@ The blue-barred parrotfish has characteristic coloration: its body shimmers with
 
 This species grows quickly and can live up to 13 years.
 
-![Blue-barred parrotfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_2_ovbosy.png "Blue-barred parrotfish")
+![Blue-barred parrotfish](https://images.diversnotes.com/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_2_ovbosy.png "Blue-barred parrotfish")
 
 Like other parrotfish, it feeds on algae, which it scrapes from rocks and corals using a powerful "beak" made of fused teeth. Thanks to this, the fish not only provides itself with food but also helps clean reefs of excess algae. In addition to vegetation, it processes coral material, turning it into sand, which plays an important role in the formation of the seabed.
 

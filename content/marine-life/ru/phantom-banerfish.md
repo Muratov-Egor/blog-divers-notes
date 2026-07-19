@@ -10,7 +10,7 @@ locations:
   - Тихий океан
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhantomBannerfish/Phantom_Banerfish_pqshp1.png"
+  - "https://images.diversnotes.com/0_maineLife/PhantomBannerfish/Phantom_Banerfish_pqshp1.png"
 tags:
   - Индийский океан
   - Тихий океан

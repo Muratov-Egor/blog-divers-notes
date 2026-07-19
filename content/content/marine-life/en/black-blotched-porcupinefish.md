@@ -11,7 +11,7 @@ locations:
   - Japan
   - Australia
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackBlotchedPorcupinefish/Black_Blotched_Porcupinefish_sgfh4k.png"
+  - "https://images.diversnotes.com/0_maineLife/BlackBlotchedPorcupinefish/Black_Blotched_Porcupinefish_sgfh4k.png"
 tags:
   - Красное море
   - Индийский океан

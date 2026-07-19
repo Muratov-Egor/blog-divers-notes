@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/rachaNoi_Preview_1366x768_qvk1hq.png
+  https://images.diversnotes.com/rachaNoi/rachaNoi_Preview_1366x768_qvk1hq.png
 date: 2024-01-21
 description: 'Dive sites around Racha Noi: an uninhabited island with great depths'
 slug: racha-noi
@@ -41,7 +41,7 @@ granite boulders the size of a three-story building. Because of the
 accessible depths, Racha Noi is popular among technical divers.
 
 ![Racha Noi
-Island](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/rachaNoi_1366x768_yh48td.png "Racha Noi Island")
+Island](https://images.diversnotes.com/rachaNoi/rachaNoi_1366x768_yh48td.png "Racha Noi Island")
 
 Dive sites around Racha Noi are divided into four main zones: north and
 south, east and west. Diving here depends on the season. From October to
@@ -52,7 +52,7 @@ winds.
 ## Banana Bay
 
 ![Banana
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/Racha_Noi_Banana_Bay_tbvuz2.png "Banana Bay")
+Bay](https://images.diversnotes.com/rachaNoi/Racha_Noi_Banana_Bay_tbvuz2.png "Banana Bay")
 
 On the eastern side of the island lies the most popular dive site ---
 **Banana Bay**. The bay is named after its banana-like shape and
@@ -78,7 +78,7 @@ occasionally, even a giant manta ray visits the bay.
 ## Marina Bay
 
 ![Marina
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/Racha_Noi_Marina_Bay_bhmrdb.png "Marina Bay")
+Bay](https://images.diversnotes.com/rachaNoi/Racha_Noi_Marina_Bay_bhmrdb.png "Marina Bay")
 
 Marina Bay is located near the middle of the west coast of Racha Noi.
 The minimum depth here is about 10 meters, so only certified divers can
@@ -135,7 +135,7 @@ pushing divers deeper.
 ## South Tip (South Pinnacle)
 
 ![South
-Tip](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/Racha_Noi_Marina_Bay_bhmrdb.png "South Tip")
+Tip](https://images.diversnotes.com/rachaNoi/Racha_Noi_Marina_Bay_bhmrdb.png "South Tip")
 
 On the southern part of the island lies the jewel of Racha Noi ---
 **South Tip**, also known as **South Pinnacle**. From October to April,
@@ -163,7 +163,7 @@ challenging.
 ## East Bay
 
 ![East
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/Racha_Noi_East_Bay_ncberq.png "East Bay")
+Bay](https://images.diversnotes.com/rachaNoi/Racha_Noi_East_Bay_ncberq.png "East Bay")
 
 The dive site "Racha Noi Bay Rock," also called East Point, is located
 in the southeast part of the island.
@@ -184,7 +184,7 @@ striking blue eyes.
 ## Camera Bay
 
 ![Camera
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaNoi/Racha_Noi_Camera_Bay_isx5ca.png "Camera Bay")
+Bay](https://images.diversnotes.com/rachaNoi/Racha_Noi_Camera_Bay_isx5ca.png "Camera Bay")
 
 At the northwest tip of Racha Noi lies a shallow bay called **Camera
 Bay**.

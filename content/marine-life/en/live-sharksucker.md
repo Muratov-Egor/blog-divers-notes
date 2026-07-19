@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_o27flf.png"
+  - "https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_o27flf.png"
 tags:
   - Атлантический океан
   - Индийский океан
@@ -32,7 +32,7 @@ The fish's body is flattened from above, the head and teeth are small. The anter
 
 The fish attaches to large marine animals, making long migrations with them, however, groups of free-swimming individuals are also found. Remoras attached to solitary host animals usually form mixed-sex pairs.
 
-![Live sharksucker](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_4_ildizf.png "Live sharksucker")
+![Live sharksucker](https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_4_ildizf.png "Live sharksucker")
 
 Juveniles first swim freely but begin to attach to moving objects when they reach a length of 40–80 millimeters. At this age, their "hosts" are often small fish such as boxfish and pufferfish.
 
@@ -42,4 +42,4 @@ The live sharksucker feeds mainly on small fish such as sardines, herring, and s
 
 The live sharksucker plays an important role in marine ecosystems, participating in food chains, cleaning the bodies of large animals from parasites, and contributing to the redistribution of nutrients in the water.
 
-![Live sharksucker](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_3_lwx0uj.png "Live sharksucker")
+![Live sharksucker](https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_3_lwx0uj.png "Live sharksucker")

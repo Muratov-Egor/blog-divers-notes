@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Western Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LambertsWormSeaCucumbers/Lamberts_Worm_Sea_Cucumbers_lidcup.png"
+  - "https://images.diversnotes.com/0_maineLife/LambertsWormSeaCucumbers/Lamberts_Worm_Sea_Cucumbers_lidcup.png"
 tags:
   - Красное море
   - Индийский океан
@@ -30,4 +30,4 @@ Synaptula lamperti, or Lambert's worm sea cucumber, is a small white species of 
 
 Sea cucumbers belong to the group of echinoderms, which also includes sea urchins and sea stars. They have radial symmetry and a water vascular system that works through hydrostatic pressure. This allows them to move using suction cups known as tube feet.
 
-![Lambert's Worm Sea Cucumbers](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LambertsWormSeaCucumbers/Lamberts_Worm_Sea_Cucumbers_1_dohfxj.png "Lambert's Worm Sea Cucumbers")
+![Lambert's Worm Sea Cucumbers](https://images.diversnotes.com/0_maineLife/LambertsWormSeaCucumbers/Lamberts_Worm_Sea_Cucumbers_1_dohfxj.png "Lambert's Worm Sea Cucumbers")

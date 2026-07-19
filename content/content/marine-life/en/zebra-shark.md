@@ -7,7 +7,7 @@ depthRange: down to 70–80 m
 locations:
   - Indo-Pacific region
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ZebraShark/Zebra_Shark_1366x768_zhzag8.png"
+  - "https://images.diversnotes.com/0_maineLife/ZebraShark/Zebra_Shark_1366x768_zhzag8.png"
 tags:
   - Индийский океан
   - Тихий океан

@@ -8,7 +8,7 @@ depthRange: 1–40 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SingjawWrasse/1_Singjaw_Wrasse_Female_ztvncz.png"
+  - "https://images.diversnotes.com/0_maineLife/SingjawWrasse/1_Singjaw_Wrasse_Female_ztvncz.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,7 +31,7 @@ conservationStatus: —
 
 Эпибула — хищник, питающийся мелкими рыбами и ракообразными. Её уникальная челюстная структура позволяет мгновенно вытягивать пасть, захватывая добычу с большого расстояния.
 
-![Slingjaw Wrasse](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SingjawWrasse/1_Singjaw_Wrasse_Male_tdg1o5.png "Slingjaw Wrasse")
+![Slingjaw Wrasse](https://images.diversnotes.com/0_maineLife/SingjawWrasse/1_Singjaw_Wrasse_Male_tdg1o5.png "Slingjaw Wrasse")
 
 Этот вид является гермафродитом, что означает способность изменять пол с женского на мужской в течение жизни. Во время брачного сезона самцы демонстрируют самкам свои яркие цвета и совершают ритуальные круги вокруг партнёрш. Нерест происходит в вечерние часы: самец и самка поднимаются в толщу воды, где выбрасывают икру и молоки.
 

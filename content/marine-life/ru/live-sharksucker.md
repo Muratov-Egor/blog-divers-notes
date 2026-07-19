@@ -10,7 +10,7 @@ locations:
   - Индийский океан
   - Тихий океан
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_o27flf.png"
+  - "https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_o27flf.png"
 tags:
   - Атлантический океан
   - Индийский океан
@@ -33,7 +33,7 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Рыба прикрепляется к крупным морским животным, совершая с ними длительные миграции, однако также встречаются группы свободноплавающих особей. Прилипалы, прикрепившиеся к одиночным животным-хозяевам, обычно образуют разнополые пары.
 
-![Live sharksucker](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_4_ildizf.png "Live sharksucker")
+![Live sharksucker](https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_4_ildizf.png "Live sharksucker")
 
 Молодь сначала плавает свободно, но начинает прикрепляться к подвижным объектам при достижении длины 40–80 миллиметров. В этом возрасте её «хозяевами» часто бывают некрупные рыбы, такие как кузовки и иглобрюхи.
 
@@ -43,4 +43,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Обыкновенная прилипала играет важную роль в морских экосистемах, участвуя в пищевых цепях, очищая тела крупных животных от паразитов и способствуя перераспределению питательных веществ в воде.
 
-![Live sharksucker](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LiveSharksucker/Live_sharksucker_3_lwx0uj.png "Live sharksucker")
+![Live sharksucker](https://images.diversnotes.com/0_maineLife/LiveSharksucker/Live_sharksucker_3_lwx0uj.png "Live sharksucker")

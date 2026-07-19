@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Western Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/HumbugDamselfish/Humbug_Damselfish_p9ilxq.png"
+  - "https://images.diversnotes.com/0_maineLife/HumbugDamselfish/Humbug_Damselfish_p9ilxq.png"
 tags:
   - Красное море
   - Индийский океан
@@ -38,4 +38,4 @@ The humbug damselfish mainly feeds on plankton and small invertebrates. They als
 
 Humbug damselfish pose no danger to divers. They are usually curious and may approach divers, but pose no threat. Their small size and peaceful nature make them harmless to humans.
 
-![Humbug damselfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/HumbugDamselfish/Humbug_Damselfish_2_n4hntx.png "Humbug damselfish")
+![Humbug damselfish](https://images.diversnotes.com/0_maineLife/HumbugDamselfish/Humbug_Damselfish_2_n4hntx.png "Humbug damselfish")

@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_2_jkrwcn.png"
+  - "https://images.diversnotes.com/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_2_jkrwcn.png"
 tags:
   - Красное море
   - Индийский океан
@@ -33,4 +33,4 @@ The banner coralfish can easily be confused with the very similar schooling bann
 
 The longfin bannerfish is widely distributed in tropical and subtropical waters of the Indo-Pacific Ocean, from the eastern coast of Africa to Polynesia and from southern Japan to the south of the Great Barrier Reef. It inhabits near the coast and reefs at depths from 1 to 75 meters, feeding on plankton. Usually found in pairs or small groups near coral reefs. Thanks to its bright coloration, the longfin bannerfish is often found in aquariums.
 
-![Longfin bannerfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_1366x768_b24hwj.png "Longfin bannerfish")
+![Longfin bannerfish](https://images.diversnotes.com/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_1366x768_b24hwj.png "Longfin bannerfish")

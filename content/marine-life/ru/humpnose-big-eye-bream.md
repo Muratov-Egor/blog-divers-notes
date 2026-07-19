@@ -10,7 +10,7 @@ locations:
   - Индийский океан
   - западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/HumpnoseBigEyeBream/Humpnose_Big_Eye_Bream_hqkvra.png"
+  - "https://images.diversnotes.com/0_maineLife/HumpnoseBigEyeBream/Humpnose_Big_Eye_Bream_hqkvra.png"
 tags:
   - Красное море
   - Индийский океан

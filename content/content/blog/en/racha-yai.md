@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_Preview_bf7zih.png
+  https://images.diversnotes.com/rachaYai/Racha_Yai_Preview_bf7zih.png
 date: 2023-07-05
 description: 'Dive sites around Racha Yai: a popular one-day trip from Phuket'
 slug: racha-yai
@@ -37,7 +37,7 @@ west or the east coast of the island.
 ## Bungalow Bay
 
 ![Bungalow
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/rachaYai_1_nhorfd.png "Bungalow Bay")
+Bay](https://images.diversnotes.com/rachaYai/rachaYai_1_nhorfd.png "Bungalow Bay")
 
 The dive site Bungalow Bay (also known as Ao Patok) is popular during
 the high season from November to May. The bay has a wide white sandy
@@ -64,12 +64,12 @@ The depth increases gradually from the shallow beach area and reaches
 reach depths of more than 40 meters.
 
 ![Bungalow Bay
-map](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_2_dyozco.png "Bungalow Bay map")
+map](https://images.diversnotes.com/rachaYai/Racha_Yai_2_dyozco.png "Bungalow Bay map")
 
 ## Bay 1 and Bay 2
 
 ![Bay 1 and Bay
-2](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_3_lknyoo.png "Bay 1 and Bay 2")
+2](https://images.diversnotes.com/rachaYai/Racha_Yai_3_lknyoo.png "Bay 1 and Bay 2")
 
 Bay 1 (Ao Lah) is located on the eastern side of the island. In the
 shallow area, from 3 to 9 meters, there is a large coral reef full of
@@ -91,7 +91,7 @@ easy to swim inside the wreck, but you should be careful, as moray eels
 often live there.
 
 ![Bay 1 and Bay 2
-map](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_4_zh2uag.png "Bay 1 and Bay 2 map")
+map](https://images.diversnotes.com/rachaYai/Racha_Yai_4_zh2uag.png "Bay 1 and Bay 2 map")
 
 ## Siam Bay
 
@@ -118,4 +118,4 @@ Marine life here is less used to divers and can be easily frightened, so
 when taking photos or videos you should be especially careful and calm.
 
 ![Siam
-Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_5_Ehonii_ky3gfi.png "Siam Bay")
+Bay](https://images.diversnotes.com/rachaYai/Racha_Yai_5_Ehonii_ky3gfi.png "Siam Bay")

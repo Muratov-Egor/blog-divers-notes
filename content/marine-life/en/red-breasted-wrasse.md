@@ -10,7 +10,7 @@ locations:
   - Red Sea
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_lc3ysz.png"
+  - "https://images.diversnotes.com/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_lc3ysz.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -34,4 +34,4 @@ The red-breasted wrasse has strong jaws used for crushing shells, and its main f
 
 It is protogynous: it starts life as a female and under certain conditions turns into a male. Spawning takes place in specific areas, and males visit these sites to check whether females are ready to mate.
 
-![Red-breasted wrasse](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_2_lwnnjq.png "Red-breasted wrasse")
+![Red-breasted wrasse](https://images.diversnotes.com/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_2_lwnnjq.png "Red-breasted wrasse")

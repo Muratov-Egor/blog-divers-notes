@@ -8,7 +8,7 @@ depthRange: до 50 м
 locations:
   - Индо-Вест Пацифика
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/TeiraBatfish/Teira_Batfish_mbtnhe.png"
+  - "https://images.diversnotes.com/0_maineLife/TeiraBatfish/Teira_Batfish_mbtnhe.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,7 +31,7 @@ conservationStatus: —
 
 С возрастом платаксы меняют форму и окраску. У молодых рыб вытянутые спинные и анальные плавники, тело окрашено в жёлтые или оранжевые тона с тремя чёрными полосами. По мере взросления плавники укорачиваются, полосы размываются, а тело приобретает серебристый цвет с вертикальными полосами на передней части.
 
-![Teira batfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/TeiraBatfish/Teira_Batfish_2_mjazgx.png "Teira batfish")
+![Teira batfish](https://images.diversnotes.com/0_maineLife/TeiraBatfish/Teira_Batfish_2_mjazgx.png "Teira batfish")
 
 Платаксы не представляют опасности для дайверов и часто проявляют к ним любопытство. Они легко подпускают к себе людей, что делает их популярными объектами наблюдений под водой.
 

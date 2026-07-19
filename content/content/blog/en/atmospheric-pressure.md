@@ -4,7 +4,7 @@ description: What happens to the body when we go underwater?
 slug: atmospheric-pressure
 date: 2023-07-24
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_Preview_ri2keb.png
+  https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_Preview_ri2keb.png
 tags:
   - Training
   - Photo & Video
@@ -18,7 +18,7 @@ When a person goes underwater, they usually feel excitement, maybe a little fear
 
 All of us are constantly under pressure. Right now, the air around you is pressing on your body. At sea level, air pressure is almost constant and is equal to **1 atmosphere** or **1 bar** (_Technically there is a small difference between a bar and an atmosphere, but it is so small that divers treat them as the same_).
 
-![Atmospheric pressure at the surface](https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_1_p7zk6h.png "Atmospheric pressure at the surface")
+![Atmospheric pressure at the surface](https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_1_p7zk6h.png "Atmospheric pressure at the surface")
 
 So, 1 bar is the pressure created by the whole column of air above us.
 
@@ -36,7 +36,7 @@ Pressure increases by 1 atmosphere every 10 meters during descent. It decreases 
 
 Fresh water is slightly lighter than salt water, so you need about **10.3 meters** of fresh water to increase pressure by 1 atmosphere. The difference is small, but it’s good to know.
 
-![Pressure change with depth](https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_2_mal4xg.png "Pressure change with depth")
+![Pressure change with depth](https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_2_mal4xg.png "Pressure change with depth")
 
 ### Relationship Between Pressure, Volume, and Air Density
 
@@ -63,7 +63,7 @@ Imagine a balloon that contains **3 liters of air** at the surface.
 
 Every 10 meters, the volume changes according to pressure.
 
-![Pressure, volume and air density relationship](https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_3_wbqm5v.png "Pressure, volume and air density relationship")
+![Pressure, volume and air density relationship](https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_3_wbqm5v.png "Pressure, volume and air density relationship")
 
 Now imagine the opposite situation.
 
@@ -102,7 +102,7 @@ There are other methods, like moving your jaw or swallowing. But gently blowing 
 
 It is very important to equalize during descent to prevent barotrauma. At the same time, do it carefully. Too much force can also cause injury.
 
-![Pressure on the ears](https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_4_eef4my.png "Pressure on the ears")
+![Pressure on the ears](https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_4_eef4my.png "Pressure on the ears")
 
 Remember:
 
@@ -112,7 +112,7 @@ Do not wait until you feel pain. If you equalize every meter (or even more often
 
 ### What About the Mask?
 
-![Pressure on the air space inside the mask](https://f003.backblazeb2.com/file/diversnotes-images/atmosphericPressure/Atmospheric_Pressure_5_zkgc4k.png "Pressure on the air space inside the mask")
+![Pressure on the air space inside the mask](https://images.diversnotes.com/atmosphericPressure/Atmospheric_Pressure_5_zkgc4k.png "Pressure on the air space inside the mask")
 
 Air inside the mask also compresses during descent. If you do not add air, the mask can squeeze your face. Small blood vessels may break, causing red eyes or bruising around them. It looks unpleasant but usually heals without serious problems.
 

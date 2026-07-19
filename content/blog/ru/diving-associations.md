@@ -3,7 +3,7 @@ title: "Ассоциации Дайвинга"
 description: "Куда пойти учиться? Обзор систем обучения и сертификации"
 slug: diving-associations
 date: 2023-09-07
-cover: "https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_Preview_trf2sx.png"
+cover: "https://images.diversnotes.com/divingAssociations/Diving_Associations_Preview_trf2sx.png"
 tags:
   - Обучение
   - Фото и видео
@@ -20,11 +20,11 @@ tags:
 
 Посмотрим на несколько из самых известных ассоциаций в мире дайвинга и их роли в обучении и сертификации дайверов.
 
-![CMAS](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_CMAS_cpviv6.png "CMAS")
+![CMAS](https://images.diversnotes.com/divingAssociations/Diving_Associations_CMAS_cpviv6.png "CMAS")
 
 **CMAS** (**[сайт](http://www.cmas.org/)**) – Всемирная Конфедерация Подводной Деятельности. Это самая первая и главная ассоциация, основанная в 1958 году самим Жак-Ив Кусто. Обучают любительскому и техническому дайвингу. Штаб-квартира в Риме. Роль CMAS в дайвинге заключается в объединении различных видов подводной деятельности и установлении всемирных стандартов, которые признаются во всем мире и служат основой для других организаций.
 
-![PADI](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_PADI_zaktic.png "PADI")
+![PADI](https://images.diversnotes.com/divingAssociations/Diving_Associations_PADI_zaktic.png "PADI")
 
 **PADI** (**[сайт](https://www.padi.com/)**) – это профессиональная ассоциация инструкторов по дайвингу, основанная в США в 1966 году. Она является одной из самых популярных и масштабных ассоциаций, сертификаты которой признаются во всем мире. Обучают любительскому и техническому дайвингу.
 
@@ -32,7 +32,7 @@ tags:
 
 Говорят, что если возникнут какие-либо проблемы, но инструктор соблюдал стандарты PADI и не нарушил их, все вопросы перенаправляются юристам PADI, но проверять мы конечно это не будем. В целом PADI топ, мой выбор 👍🏻. Хотя докину ложку дегтя, в теории курса Open Water очень много рекламы как самой организации так и последующих курсов, но при этом главное теорию дайвинга они там раскрывают очень хорошо.
 
-![SSI](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_SSI_rxtmrp.png "SSI")
+![SSI](https://images.diversnotes.com/divingAssociations/Diving_Associations_SSI_rxtmrp.png "SSI")
 
 **SSI** (**[сайт](https://www.divessi.com/)**) – это международная организация по обучению дайвингу, основанная в 1970 году также в США. Из особенностей SSI стоит отметить, что инструктора могут проводить обучения только если они присоединились к дайв-центру. Специализируются на обучении только любительскому дайвингу.
 
@@ -40,7 +40,7 @@ tags:
 
 Говорят, что в процессе обучения инструкторы SSI заставляют студентов повторять действия под водой до тех пор, пока они не будут доведены до автоматизма. Но при этом они более гибкие, чем, например, PADI, и могут адаптировать программу обучения, уделяя больше внимания тем аспектам, в которых студенты больше всего нуждаются.
 
-![IANTD](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_IANTD_c7zpjt.png "IANTD")
+![IANTD](https://images.diversnotes.com/divingAssociations/Diving_Associations_IANTD_c7zpjt.png "IANTD")
 
 **IANTD** (**[сайт](https://www.iantd.com/)**) – это международная ассоциация найтроксных и технических дайверов, основанная в 1985 году. Как можно подумать из названия обучают только технорей, но нет получить сертификат дайвера-любителя тоже можно.
 
@@ -48,7 +48,7 @@ IANTD были первыми, кто начал обучать дайверов
 
 Когда-нибудь, если я решу пойти в технари, я обязательно пойду учиться к ним, да простит меня PADI.
 
-![NDL](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_NDL_snyhhs.png "NDL")
+![NDL](https://images.diversnotes.com/divingAssociations/Diving_Associations_NDL_snyhhs.png "NDL")
 
 **NDL** (**[сайт](https://ndl-global.com/)**) – Национальная Дайв Лига, относительно молодая организация, основанная в Санкт-Петербурге в 2003 году. Они предоставляют возможность получения сертификатов как на любительском, так и на техническом уровне. Организация NDL признана во всем мире, так как успешно прошла аудит со стороны Европейской подводной федерации и Австрийского института стандартизации. Однако следует отметить, что NDL пока не так широко распространена по всему миру, как другие ассоциации.
 
@@ -58,7 +58,7 @@ IANTD были первыми, кто начал обучать дайверов
 
 Важно также отметить, что всегда есть возможность перейти из одной ассоциации в другую, пройдя более продвинутый курс. Но это касается только сертификатов любительского уровня, с профессиональными уровнями так не всегда проходит. Будучи PADI инструктором стать инструктором SSI довольно просто. Пройти перекрестный курс SSI Instructor, и через пару дней уже можно работать как инструктором SSI. В то время как переход от SSI к PADI более сложный и включает в себя курсы подготовки инструкторов (IDC) и сдачу экзамена инструктора PADI (IE), что фактически является полноценной переквалификацией.
 
-![Советы](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_Advice_x9vm2i.png "Советы")
+![Советы](https://images.diversnotes.com/divingAssociations/Diving_Associations_Advice_x9vm2i.png "Советы")
 
 И так мои советы как выбирать:
 

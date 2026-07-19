@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/drySuite/underwater_i7oi0t.png
+  https://images.diversnotes.com/drySuite/underwater_i7oi0t.png
 date: 2025-01-30
 description: 'Features, training, and first experience diving in cold water'
 slug: drysuit
@@ -35,7 +35,7 @@ and want to share my experience.
 ## The Difference Between a Dry Suit and a Wetsuit
 
 ![Dry suit vs
-wetsuit](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/dry_vs_wet_dry5m8.png "Dry suit vs wetsuit")
+wetsuit](https://images.diversnotes.com/drySuite/dry_vs_wet_dry5m8.png "Dry suit vs wetsuit")
 
 The difference seems obvious: in a wetsuit you get wet, in a dry suit
 you stay dry. Magic? Almost ✨
@@ -64,7 +64,7 @@ dry underwater.
 ### Main Elements of a Dry Suit
 
 ![Main elements of a dry
-suit](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/Deteils_RU_nqv197.png "Main elements of a dry suit")
+suit](https://images.diversnotes.com/drySuite/Deteils_RU_nqv197.png "Main elements of a dry suit")
 
 #### Waterproof Design
 
@@ -105,7 +105,7 @@ might need underwater.
 ## When Do You Need a Dry Suit?
 
 ![Just before the
-dive](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/DSC00417_ggb7od.png "Just before the dive")
+dive](https://images.diversnotes.com/drySuite/DSC00417_ggb7od.png "Just before the dive")
 
 A dry suit is used in:
 
@@ -125,7 +125,7 @@ can dive comfortably even in icy conditions.
 ## Types of Dry Suits
 
 ![Checking the suit in the parking
-lot](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/before_rhwcpd.png "Checking the suit in the parking lot")
+lot](https://images.diversnotes.com/drySuite/before_rhwcpd.png "Checking the suit in the parking lot")
 
 There is no universal "best" dry suit. The right choice depends on your
 needs, conditions, and preferences.
@@ -174,7 +174,7 @@ During training, you learn how to manage and maintain them.
 ## How to Choose the Right Suit?
 
 ![Winter
-underwater](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/underwater_i7oi0t.png "Winter underwater")
+underwater](https://images.diversnotes.com/drySuite/underwater_i7oi0t.png "Winter underwater")
 
 Your choice depends on:
 
@@ -217,7 +217,7 @@ It sounds complicated, but with practice it becomes natural.
 ## Personal Experience
 
 ![Dive center
-basement](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/Untitled-1_xpr01e.png "Dive center basement")
+basement](https://images.diversnotes.com/drySuite/Untitled-1_xpr01e.png "Dive center basement")
 
 Belgrade has only a few dive centers. I contacted three, and only one
 replied - luckily, that was enough.
@@ -235,7 +235,7 @@ kids were learning to swim nearby. Diving in a dry suit felt easier than
 expected, but very different.
 
 ![Me in dry
-suit](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/me_hjvpws.png "Me in dry suit")
+suit](https://images.diversnotes.com/drySuite/me_hjvpws.png "Me in dry suit")
 
 I used a rental membrane suit - **Ursuit Softdura**. It had a front
 zipper, thigh pockets, and built-in boots.
@@ -251,7 +251,7 @@ Finally, we scheduled a dive at [**Ada
 Lake**](https://www.google.com/maps/search/?api=1&query=44.7765494,20.3747271).
 
 ![Morning before the
-dive](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/morning_zecxq6.png "Morning before the dive")
+dive](https://images.diversnotes.com/drySuite/morning_zecxq6.png "Morning before the dive")
 
 Last Sunday of 2024. +2°C outside. Frost on the grass. We gear up in a
 quiet park near the lake. Surreal moment.

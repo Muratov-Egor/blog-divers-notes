@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/sharkPoint/Shark_Point_Preview_baekay.png
+  https://images.diversnotes.com/sharkPoint/Shark_Point_Preview_baekay.png
 date: 2024-06-11
 description: 'Dive site between Phuket and Phi Phi: pinnacles, zebra sharks, coral gardens'
 slug: sharkPoint
@@ -70,7 +70,7 @@ is possible to circle the first pinnacle and then move south toward the
 second one.
 
 ![Leopard
-shark](https://f003.backblazeb2.com/file/diversnotes-images/sharkPoint/SharkPoint_4250x2390_tkpxlt.png "Leopard shark")
+shark](https://images.diversnotes.com/sharkPoint/SharkPoint_4250x2390_tkpxlt.png "Leopard shark")
 
 The second pinnacle has a gentle slope on the north side and ends with a
 vertical wall on the south side. The top of this wall is at around 5--6
@@ -103,7 +103,7 @@ presence of currents and plankton also attracts larger marine animals
 such as manta rays and whale sharks.
 
 ![Shark Point
-map](https://f003.backblazeb2.com/file/diversnotes-images/sharkPoint/Shark_Point_Map_fhwjcx.png "Shark Point map")
+map](https://images.diversnotes.com/sharkPoint/Shark_Point_Map_fhwjcx.png "Shark Point map")
 
 Shark Point is an ideal dive site that combines beautiful underwater
 landscapes, rich marine life, and excellent opportunities for macro

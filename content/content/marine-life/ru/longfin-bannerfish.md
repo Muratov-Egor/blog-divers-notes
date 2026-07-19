@@ -10,7 +10,7 @@ locations:
   - Индийский океан
   - Тихий океан
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_2_jkrwcn.png"
+  - "https://images.diversnotes.com/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_2_jkrwcn.png"
 tags:
   - Красное море
   - Индийский океан
@@ -34,4 +34,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Длиннопёрая кабуба широко распространена в тропических и субтропических водах Индо-Тихого океана, от восточного побережья Африки до Полинезии и от юга Японии до юга Большого Барьерного рифа. Обитает вблизи побережья и рифов на глубинах от 1 до 75 метров, питается планктоном. Обычно держится парами или небольшими группами у коралловых рифов. Благодаря своей яркой окраске длиннопёрая кабуба часто встречается в аквариумах.
 
-![Longfin bannerfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_1366x768_b24hwj.png "Longfin bannerfish")
+![Longfin bannerfish](https://images.diversnotes.com/0_maineLife/LongfinBannerfish/Longfin_Bannerfish_1366x768_b24hwj.png "Longfin bannerfish")

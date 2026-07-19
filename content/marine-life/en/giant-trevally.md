@@ -9,7 +9,7 @@ locations:
   - Indian Ocean
   - Western Pacific Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/GiantTrevally/Giant_Trevally_pj3lej.png"
+  - "https://images.diversnotes.com/0_maineLife/GiantTrevally/Giant_Trevally_pj3lej.png"
 tags:
   - Красное море
   - Индийский океан

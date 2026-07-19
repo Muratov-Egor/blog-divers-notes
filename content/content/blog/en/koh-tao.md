@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/kohTao/Koh_Tao_Preview_1366x768_rmi0lz.png
+  https://images.diversnotes.com/kohTao/Koh_Tao_Preview_1366x768_rmi0lz.png
 date: 2024-04-22
 description: The island of turtles and Thailand's diving mecca
 slug: koh-tao
@@ -47,7 +47,7 @@ Its natural beauty, rich marine life, and warm clear waters have made
 Koh Tao one of the largest diving centers in the world.
 
 ![Somewhere on the
-island](https://f003.backblazeb2.com/file/diversnotes-images/kohTao/kohTao_1_oclmsy.png)
+island](https://images.diversnotes.com/kohTao/kohTao_1_oclmsy.png)
 
 On this small island of only 21 square kilometers, there are around 150
 dive centers from different associations. This is possible because more
@@ -77,7 +77,7 @@ The second option is high-speed catamarans by
 carry up to 400 passengers and travel at speeds over 45 km/h, making the
 trip relatively fast.
 
-![Catamaran](https://f003.backblazeb2.com/file/diversnotes-images/kohTao/kohTao_2_srvpgv.png)
+![Catamaran](https://images.diversnotes.com/kohTao/kohTao_2_srvpgv.png)
 
 I chose the second option, combining the trip to Koh Tao with a road
 trip across Thailand.
@@ -105,7 +105,7 @@ dives, and dive centers earn most of their money from courses.
 
 So I booked an afternoon dive and went to watch the sunset.
 
-![Sunset](https://f003.backblazeb2.com/file/diversnotes-images/kohTao/kohTao_5_ywnefh.png)
+![Sunset](https://images.diversnotes.com/kohTao/kohTao_5_ywnefh.png)
 
 Before describing the dive sites, I want to mention the infrastructure.
 A certified diver with their own equipment pays about \$13 per dive

@@ -9,7 +9,7 @@ locations:
   - Pacific Ocean
   - Red Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedLionfish/Red_Lionfish_2400x1350_yy8t5m.png"
+  - "https://images.diversnotes.com/0_maineLife/RedLionfish/Red_Lionfish_2400x1350_yy8t5m.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,10 +31,10 @@ The red lionfish has a large head with bulging eyes and a wide mouth with distin
 
 The lionfish leads a solitary, nocturnal life. By day it hides in caves, among coral and rocks, pressing its belly to the surface and displaying its venomous spines for defence. It is an ambush predator, hunting crabs, shrimp, molluscs and small fish, often camouflaging itself among colourful algae while waiting for prey.
 
-![Red lionfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedLionfish/Red_Lionfish_3_ivujb6.png "Red lionfish")
+![Red lionfish](https://images.diversnotes.com/0_maineLife/RedLionfish/Red_Lionfish_3_ivujb6.png "Red lionfish")
 
 The red lionfish lives in the tropical waters of the Indian and Pacific Oceans, including China, Japan, Australia and the Caribbean. It inhabits shallow lagoons and outer reef slopes at depths of 2 to 55 metres.
 
 The red lionfish is highly dangerous to humans because of its venom. The venom is in the fin spines and remains active even after the fish has died. A sting causes strong pain that can last for hours. In serious cases, symptoms may include paralysis of skeletal and respiratory muscles. The lionfish defends itself actively, using its dorsal spines as weapons and turning quickly to attack when threatened.
 
-![Red lionfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedLionfish/Red_Lionfish_4_vnrss3.png "Red lionfish")
+![Red lionfish](https://images.diversnotes.com/0_maineLife/RedLionfish/Red_Lionfish_4_vnrss3.png "Red lionfish")

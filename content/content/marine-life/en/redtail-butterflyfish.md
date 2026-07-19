@@ -9,7 +9,7 @@ locations:
   - Pacific Ocean
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_z2kgue.png"
+  - "https://images.diversnotes.com/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_z2kgue.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -29,4 +29,4 @@ The redtail butterflyfish, also known as the chocolate and yellow butterflyfish,
 
 This butterflyfish is fairly large, with a deep body and short snout and elegant coloration reminiscent of small angelfish. Its main feature is a net-like pattern on the body formed by dark scale edges. The front of the body is darker chocolate-brown, fading to lighter golden-brown towards the rear. The dorsal and anal fins have thin blue-black-red edges, and the tail is red with a black-blue margin. The head is black with a grey forehead and a vertical white band behind the eye. The snout is bordered by a crescent-shaped white band and the "eyebrows" above the eyes are black. Juveniles have a black band through the eye and a dark spot on the rear of the dorsal fin.
 
-![Redtail butterflyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_1_g8tooj.png "Redtail butterflyfish")
+![Redtail butterflyfish](https://images.diversnotes.com/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_1_g8tooj.png "Redtail butterflyfish")

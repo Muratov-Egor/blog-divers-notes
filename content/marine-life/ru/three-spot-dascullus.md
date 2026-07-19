@@ -8,7 +8,7 @@ depthRange: 1–55 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/Three-spotDascullus/3_Three-spot_Dascullus_w3jd49.png"
+  - "https://images.diversnotes.com/0_maineLife/Three-spotDascullus/3_Three-spot_Dascullus_w3jd49.png"
 tags:
   - Индийский океан
   - Тихий океан

@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_Preview_y3dv83.png
+  https://images.diversnotes.com/deepDiving/Deep_Diving_Preview_y3dv83.png
 date: 2023-10-07
 description: What is deep diving?
 slug: deep-diving
@@ -49,7 +49,7 @@ depth.
 In this article, I will explain what deep diving is about.
 
 ![PADI Deep diving
-course](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_1_cuytuy.png "PADI Deep diving course")
+course](https://images.diversnotes.com/deepDiving/Deep_Diving_1_cuytuy.png "PADI Deep diving course")
 
 ## What Is a Deep Dive?
 
@@ -77,7 +77,7 @@ deep dives. There are several important reasons:
     lakes, light barely reaches even 30 meters.
 
 ![Wreck at
-depth](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_2_xabbur.png "Wreck at depth")
+depth](https://images.diversnotes.com/deepDiving/Deep_Diving_2_xabbur.png "Wreck at depth")
 
 ## Goals of Deep Diving
 
@@ -168,7 +168,7 @@ Descending vertically with your head up and fins down helps prevent
 dizziness and disorientation. It also makes equalization easier.
 
 ![Diver
-descending](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_3_sgsdrx.png "Diver descending")
+descending](https://images.diversnotes.com/deepDiving/Deep_Diving_3_sgsdrx.png "Diver descending")
 
 ### Controlled Descent and Ascent
 
@@ -206,7 +206,7 @@ A 3-minute stop at 5 meters significantly reduces bubble formation ---
 even more effectively than simply slowing your ascent.
 
 ![Safety
-stop](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_4_n64m6t.png "Safety stop")
+stop](https://images.diversnotes.com/deepDiving/Deep_Diving_4_n64m6t.png "Safety stop")
 
 ## Types of Deep Dives
 
@@ -218,7 +218,7 @@ Two common types require special attention:
 ## Deep Drift Diving
 
 ![Drift
-diving](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_5_gysofi.png "Drift diving")
+diving](https://images.diversnotes.com/deepDiving/Deep_Diving_5_gysofi.png "Drift diving")
 
 Drift dives can be physically easier because you move with the current.
 However, they require good coordination.
@@ -245,7 +245,7 @@ Important recommendations:
 ## Deep Wall Diving
 
 ![Wall
-diving](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_6_jgjfm7.png "Wall diving")
+diving](https://images.diversnotes.com/deepDiving/Deep_Diving_6_jgjfm7.png "Wall diving")
 
 Wall dives can be breathtaking, especially in clear water. Follow three
 main rules:
@@ -298,7 +298,7 @@ Some dives may be credited if you already completed certain programs
 like Advanced Open Water.
 
 ![Beauty of deep
-diving](https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_7_cggsud.png "Beauty of deep diving")
+diving](https://images.diversnotes.com/deepDiving/Deep_Diving_7_cggsud.png "Beauty of deep diving")
 
 ## Conclusion
 

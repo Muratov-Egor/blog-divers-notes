@@ -10,7 +10,7 @@ locations:
   - Тихий океан
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_z2kgue.png"
+  - "https://images.diversnotes.com/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_z2kgue.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -31,4 +31,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Бабочка пакистанская представляет собой довольно крупную бабочку с высоким телом и коротким рострумом, обладающую элегантной окраской, напоминающей некрупных ангелов. Её характерным признаком является сетчатый узор на теле, образованный широкими темными каймами чешуи. Передняя часть туловища имеет более темную шоколадную окраску, которая постепенно переходит в светлую золотисто-коричневую окраску в задней части. Спинные и анальные плавники украшены тонкими сине-черно-красными окантовками, а хвостовое оперение красное с черно-голубой каймой. Голова черная с серым лбом и вертикальной белой полосой за глазом. Рострум также окружен полулунной белой полоской, а брови над глазами черные. Молодые рыбы отличаются черной полосой через глаз и темным пятном на задней лопасти спинного плавника.
 
-![Redtail butterflyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_1_g8tooj.png "Redtail butterflyfish")
+![Redtail butterflyfish](https://images.diversnotes.com/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_1_g8tooj.png "Redtail butterflyfish")

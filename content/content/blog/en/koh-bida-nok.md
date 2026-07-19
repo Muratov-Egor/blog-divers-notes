@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/kohBidaNok/Koh_Bida_Nok_Preview_zgjeyq.png
+  https://images.diversnotes.com/kohBidaNok/Koh_Bida_Nok_Preview_zgjeyq.png
 date: 2023-08-05
 description: 'Dive sites of the Phi Phi archipelago: Koh Bida Nok rock island'
 slug: koh-bida-nok
@@ -64,7 +64,7 @@ fish moving in perfect synchrony. This phenomenon is called murmurations
 Swimming next to or even inside these schools, you can easily lose track
 of time - just don't forget to check your air pressure.
 
-![Murmuration](https://f003.backblazeb2.com/file/diversnotes-images/kohBidaNok/Koh_Bida_Nok_1_jfiguw.png "Murmuration")
+![Murmuration](https://images.diversnotes.com/kohBidaNok/Koh_Bida_Nok_1_jfiguw.png "Murmuration")
 
 As you go deeper, you may find a resting leopard shark or a ray, and
 sometimes even octopuses.
@@ -74,7 +74,7 @@ common gorgonians, acropora, and other hard corals of the Andaman Sea,
 you can also see soft corals, bubble corals, and sea anemones.
 
 ![Map of Koh Bida
-Nok](https://f003.backblazeb2.com/file/diversnotes-images/kohBidaNok/Koh_Bida_Nok_2_syb3fq.png "Map of Koh Bida Nok")
+Nok](https://images.diversnotes.com/kohBidaNok/Koh_Bida_Nok_2_syb3fq.png "Map of Koh Bida Nok")
 
 This dive site is one of my personal favorites. No matter the conditions
 --- calm and clear water on a sunny day or low visibility with strong

@@ -8,7 +8,7 @@ depthRange: —
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailScad/Yellowtail_scad_v4i420.png"
+  - "https://images.diversnotes.com/0_maineLife/YellowtailScad/Yellowtail_scad_v4i420.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -30,4 +30,4 @@ conservationStatus: —
 
 Окраска желтохвостого корася характеризуется оливково-зеленым оттенком сверху, который постепенно переходит в золотисто-зеленый на брюшной стороне, а затем становится серебристо-белым. По бокам рыбы проходят вертикальные полосы серого цвета в количестве от девяти до 16 штук, а также присутствует черное пятно, меньшего размера по сравнению с глазом, на верхнем крае оперкуля и плечевой области. Хвостовой и спинной плавники имеют характерный зеленовато-желтый оттенок, брюшные плавники белого цвета, а остальные плавники прозрачные.
 
-![Желтохвостый корась](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailScad/Yellowtail_Scad_rqrspi.png "Желтохвостый корась")
+![Желтохвостый корась](https://images.diversnotes.com/0_maineLife/YellowtailScad/Yellowtail_Scad_rqrspi.png "Желтохвостый корась")

@@ -10,7 +10,7 @@ locations:
   - Тихий океан
   - Красное море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PineappleSeaCucumber/Pineapple_sea_cucumber_hcyqhh.png"
+  - "https://images.diversnotes.com/0_maineLife/PineappleSeaCucumber/Pineapple_sea_cucumber_hcyqhh.png"
 tags:
   - Индийский океан
   - Тихий океан

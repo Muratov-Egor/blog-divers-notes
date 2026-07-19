@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/kingCruiser/King_Cruiser_Preview_vhlcgu.png
+  https://images.diversnotes.com/kingCruiser/King_Cruiser_Preview_vhlcgu.png
 date: 2024-06-21
 description: The story of the sunken ferry and the King Cruiser dive site near Phuket
 slug: king-cruiser
@@ -54,7 +54,7 @@ directed onto the reef for insurance fraud, since there were no cars on
 board that day.
 
 ![King Cruiser
-wreck](https://f003.backblazeb2.com/file/diversnotes-images/kingCruiser/King_Cruiser_1_tntqrw.png "King Cruiser wreck")
+wreck](https://images.diversnotes.com/kingCruiser/King_Cruiser_1_tntqrw.png "King Cruiser wreck")
 
 After the collision, the ferry was damaged and began to sink. Over the
 course of about 2.5 hours, it descended onto a clean sandy bottom at a
@@ -75,7 +75,7 @@ have collapsed onto the main platform between the two hulls of the
 catamaran.
 
 ![King Cruiser
-underwater](https://f003.backblazeb2.com/file/diversnotes-images/kingCruiser/King_Cruiser_2_qi2us6.png "King Cruiser underwater")
+underwater](https://images.diversnotes.com/kingCruiser/King_Cruiser_2_qi2us6.png "King Cruiser underwater")
 
 The King Cruiser dive site is suitable for Advanced Open Water Divers
 and for specialty courses such as Wreck Diver and Nitrox Diver.
@@ -94,7 +94,7 @@ large groupers, snappers, and giant barracudas. The site is also home to
 lionfish, scorpionfish, and stonefish.
 
 ![Fish around the
-wreck](https://f003.backblazeb2.com/file/diversnotes-images/kingCruiser/King_Cruiser_3_bepxwp.png "Fish around the wreck")
+wreck](https://images.diversnotes.com/kingCruiser/King_Cruiser_3_bepxwp.png "Fish around the wreck")
 
 King Cruiser offers interesting diving opportunities for both
 experienced divers and beginners.
@@ -112,4 +112,4 @@ conditions. Because the ferry lies in open sea, currents are quite
 common and can sometimes be very strong.
 
 ![Wreck
-map](https://f003.backblazeb2.com/file/diversnotes-images/kingCruiser/King_Cruiser_4_v1slye.png "King Cruiser map")
+map](https://images.diversnotes.com/kingCruiser/King_Cruiser_4_v1slye.png "King Cruiser map")

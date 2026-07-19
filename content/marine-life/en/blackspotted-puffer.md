@@ -12,8 +12,8 @@ locations:
   - Australia
   - Polynesia
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_qdmeja.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_2_lg6ff9.png"
+  - "https://images.diversnotes.com/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_qdmeja.png"
+  - "https://images.diversnotes.com/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_2_lg6ff9.png"
 tags:
   - Красное море
   - Индийский океан
@@ -34,4 +34,4 @@ The blackspotted puffer is a marine inhabitant with a rounded gray or brownish-g
 
 This species inhabits coral reef areas and near rocks at depths from 3 to 35 meters. The blackspotted puffer prefers a solitary lifestyle, often resting motionless on corals. It feeds on corals, sponges, and algae. When it senses a threat, the puffer takes in air and water, transforming into a protective ball.
 
-![Blackspotted puffer](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_2_lg6ff9.png "Blackspotted puffer")
+![Blackspotted puffer](https://images.diversnotes.com/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_2_lg6ff9.png "Blackspotted puffer")

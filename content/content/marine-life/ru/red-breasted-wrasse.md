@@ -11,7 +11,7 @@ locations:
   - Красное море
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_lc3ysz.png"
+  - "https://images.diversnotes.com/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_lc3ysz.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -36,4 +36,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Красногрудый брасс является протогинным гермафродитом, начиная свою жизнь как самка и в определенных условиях превращаясь в самца. Он осуществляет нерест в специальных территориях, и самцы посещают эти места, чтобы проверить готовность самок к спариванию.
 
-![Red-breasted wrasse](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_2_lwnnjq.png "Red-breasted wrasse")
+![Red-breasted wrasse](https://images.diversnotes.com/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_2_lwnnjq.png "Red-breasted wrasse")

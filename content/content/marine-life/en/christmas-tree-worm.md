@@ -7,7 +7,7 @@ depthRange: 1–200 m
 locations:
   - Tropical seas of the World Ocean
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_y0y6rr.png"
+  - "https://images.diversnotes.com/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_y0y6rr.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -29,7 +29,7 @@ The branches of the "Christmas tree" in the marine worm are organs of respiratio
 
 The polychaete worm lives in a calcareous tube, which it builds itself, extracting calcium ions from the water and binding them with saliva. Each time, this tube is replenished with new rings and increases in size.
 
-![Christmas tree worm](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_2_ux7mgk.png "Christmas tree worm")
+![Christmas tree worm](https://images.diversnotes.com/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_2_ux7mgk.png "Christmas tree worm")
 
 Most often, Christmas tree worms inhabit large coral species, such as stony corals, for example, porites, and brain corals. When the Christmas tree worm retreats into its tube, it can seal it by closing with a lid-like structure called an operculum, which is additionally protected by sharp spines. Very sensitive to danger, at the slightest touch or even a falling shadow, they quickly retreat into their burrows.
 
@@ -37,4 +37,4 @@ Like a Christmas tree, marine worms are colored in rich colors, their shades can
 
 Spirobranchus giganteus live differently, everything depends on the species: smaller worms – several months, while larger species – up to 4-8 years.
 
-![Christmas tree worm](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_3_a7e7ix.png "Christmas tree worm")
+![Christmas tree worm](https://images.diversnotes.com/0_maineLife/ChristmasTreeWorm/Christmas_Tree_Worm_3_a7e7ix.png "Christmas tree worm")

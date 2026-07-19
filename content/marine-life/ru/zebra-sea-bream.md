@@ -9,7 +9,7 @@ locations:
   - Восточная Атлантика
   - Индийский океан
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ZebraSeaBream/Zebra_Sea_Bream_wszzpi.png"
+  - "https://images.diversnotes.com/0_maineLife/ZebraSeaBream/Zebra_Sea_Bream_wszzpi.png"
 tags:
   - Атлантический океан
   - Индийский океан

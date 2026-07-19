@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/montenegro/DSC00814-Enhanced-NR_pyober.png
+  https://images.diversnotes.com/montenegro/DSC00814-Enhanced-NR_pyober.png
 date: 2025-06-16
 description: Why Montenegro in May is not the best idea
 slug: montenegro-expectations-vs-reality
@@ -41,7 +41,7 @@ May - come and dive.
 On May 8, I flew to Tivat, rented a car, and drove to Herceg Novi for my
 first dive.
 
-![](https://f003.backblazeb2.com/file/diversnotes-images/montenegro/Symphodus_tinca_copy_qr7xyh.png)
+![](https://images.diversnotes.com/montenegro/Symphodus_tinca_copy_qr7xyh.png)
 
 ## Herceg Novi
 

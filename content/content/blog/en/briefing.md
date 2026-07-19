@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_Preview_d3mu9z.png
+  https://images.diversnotes.com/briefing/Briefing_Preview_d3mu9z.png
 date: 2023-07-13
 description: Briefing for certified divers
 slug: briefing
@@ -60,7 +60,7 @@ Now let's move to the actual briefing in first person.
 ## Part 1. Boat Briefing
 
 ![Typical dive
-boat](https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_Preview_d3mu9z.png "Typical dive boat")
+boat](https://images.diversnotes.com/briefing/Briefing_Preview_d3mu9z.png "Typical dive boat")
 
 As soon as we board the boat, I gather everyone together, put on life
 jackets, and begin:
@@ -119,7 +119,7 @@ will take about 1.5--2 hours to reach the island, depending on the sea
 conditions. On the way, we will pass Ko Lon and Ko He.
 
 ![On the way to Racha
-Yai](https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_2_wimxfp.png "On the way to Racha Yai")
+Yai](https://images.diversnotes.com/briefing/Briefing_2_wimxfp.png "On the way to Racha Yai")
 
 The dive sites are two nearby bays. In the shallow protected area, at
 about 7--8 meters, there is a large coral reef with many different fish.
@@ -159,7 +159,7 @@ Once on the surface, inflate your BCD if needed and give the "OK"
 signal.
 
 ![OK
-signal](https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_3_s8iccc.png "OK signal")
+signal](https://images.diversnotes.com/briefing/Briefing_3_s8iccc.png "OK signal")
 
 When everyone is ready, I will show the "down" signal (thumb down) and
 we descend vertically. Release air slowly from the BCD. Descend slowly
@@ -186,7 +186,7 @@ Monitor your air regularly. Show me at 100 bar. Show me again at 60 bar - that m
 When I show the "up" signal (thumb up), we ascend slowly, releasing air
 from the BCD.
 
-![Ascent](https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_4_smpww3.png "Ascent")
+![Ascent](https://images.diversnotes.com/briefing/Briefing_4_smpww3.png "Ascent")
 
 At the surface, fully inflate your BCD, lie on your back, and swim to
 the boat.
@@ -204,7 +204,7 @@ reunited after one minute, ascend slowly (skip safety stop). Inflate BCD
 and wait on the surface.
 
 ![Stay
-close](https://f003.backblazeb2.com/file/diversnotes-images/briefing/Briefing_5_ofikbb.png "Stay close")
+close](https://images.diversnotes.com/briefing/Briefing_5_ofikbb.png "Stay close")
 
 If you run out of air, signal your buddy, use the alternate air source,
 and perform a controlled emergency ascent (no safety stop).

@@ -12,8 +12,8 @@ locations:
   - Юго-Восточная Азия
   - Северная Австралия
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2477x1394_amj3km.png"
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png"
+  - "https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2477x1394_amj3km.png"
+  - "https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png"
 tags:
   - Красное море
   - Индийский океан
@@ -39,4 +39,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Питается в основном мелкой рыбой и ракообразными. Они часто охотятся группами, используя свои большие глаза для обнаружения добычи в условиях слабого освещения. Также они потребляют различных беспозвоночных.
 
-![Большеглазый луциан](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png "Bigeye snapper")
+![Большеглазый луциан](https://images.diversnotes.com/0_maineLife/BigeyeSnapper/Bigeye_Snapper_2_xnsxnk.png "Bigeye snapper")

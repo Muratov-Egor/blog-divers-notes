@@ -10,7 +10,7 @@ locations:
   - Red Sea
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_2_k3squx.png"
+  - "https://images.diversnotes.com/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_2_k3squx.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -32,7 +32,7 @@ Phyllidia varicosa is widespread in the Indo-Pacific. This mollusc is found in t
 
 Besides its wide range, Phyllidia varicosa is notable for its size. Average length is 8–10 cm, but some individuals grow to 12 cm.
 
-![Phyllidia varicosa](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_bo6ozi.png "Phyllidia varicosa")
+![Phyllidia varicosa](https://images.diversnotes.com/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_bo6ozi.png "Phyllidia varicosa")
 
 Phyllidia varicosa has an elongated oval body with characteristic longitudinal ridges that make it easy to recognise. The ridges and tubercle bases are grey-blue or blue, and the tubercle tips are bright yellow. The ridges may be continuous or broken, with black space between them. The mantle edges also have semicircular ridges with yellow tubercles. The rhinophores (sensory organs) are bright yellow. The foot sole has a black longitudinal stripe.
 

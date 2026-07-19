@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Kas_iu9lhn.png
+  https://images.diversnotes.com/divingInKas/Kas_iu9lhn.png
 date: 2025-11-07
 description: 'Dive sites and personal diving experience in Kaş, Turkey'
 slug: diving-in-kas
@@ -40,7 +40,7 @@ The vibe of Kaş reminded me of [Koh
 Tao](/blog/koh-tao) - relaxed
 atmosphere, calm rhythm, and many dive centers along the coast.
 
-![Kas](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Kas_2_aiykfv.png "Kas")
+![Kas](https://images.diversnotes.com/divingInKas/Kas_2_aiykfv.png "Kas")
 
 I dived with [Nautilus Diving](https://www.nautilusdivingkas.com). I
 chose them using a simple rule: "Whoever replies first on Instagram,
@@ -59,7 +59,7 @@ Turkish tea and enjoyed the sea view, so I forgive them 🙂
 ### Neptune Gardens
 
 ![Neptune
-Gardens](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/1._Neptune_Gardens_1_w4wgnn.png "Neptune Gardens")
+Gardens](https://images.diversnotes.com/divingInKas/1._Neptune_Gardens_1_w4wgnn.png "Neptune Gardens")
 
 Despite the word "Gardens" in the name, this site is not really a
 garden. It consists of large rocks and ridges descending step by step
@@ -81,7 +81,7 @@ And yes - after 15 minutes we fell behind because we were
 photographing a small lionfish.
 
 ![Hermodice
-carunculata](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/1._Neptune_Gardens_2_oy2imf.png "Hermodice carunculata")
+carunculata](https://images.diversnotes.com/divingInKas/1._Neptune_Gardens_2_oy2imf.png "Hermodice carunculata")
 
 There is also a small canyon (more like a crack in the wall), where many
 bearded fireworms (Hermodice carunculata) live. Luckily we were alone
@@ -92,7 +92,7 @@ there - with a full group it would have been crowded.
 ### Güvercin Island
 
 ![Güvercin
-Island](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/2._Hermodice_carunculata_-_Tank_ikvqw3.png "Güvercin Island")
+Island](https://images.diversnotes.com/divingInKas/2._Hermodice_carunculata_-_Tank_ikvqw3.png "Güvercin Island")
 
 The main attraction is a deliberately sunk American tank from the 1960s.
 It was first placed temporarily at 5 meters in Kaş marina, then moved
@@ -105,7 +105,7 @@ Not far from it, we saw eagle rays and a spotted ray, but the tank was
 definitely the highlight of the dive.
 
 ![Eagle
-rays](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/2._Hermodice_carunculata_-_Ray_gybbwt.png "Eagle rays")
+rays](https://images.diversnotes.com/divingInKas/2._Hermodice_carunculata_-_Ray_gybbwt.png "Eagle rays")
 
 We again separated from the group and swam deeper. At one point, we were
 close to our no-decompression limit - less than five minutes
@@ -124,7 +124,7 @@ by boat from Kaş.
 ### Amphora Corner
 
 ![Amphora
-Corner](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/3._Amphora_Corner_qufw8q.png "Amphora Corner")
+Corner](https://images.diversnotes.com/divingInKas/3._Amphora_Corner_qufw8q.png "Amphora Corner")
 
 This site got its name from amphoras found there - some intact, some
 broken - along with stone and metal anchors.
@@ -150,7 +150,7 @@ fish, groupers, barracudas, sometimes turtles and squid.
 In the middle of flat sandy bottom rises a reef rock, with its top
 around 16 meters.
 
-![Oasis](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/4._Oasis_-_FIsh_orqkgo.png "Oasis")
+![Oasis](https://images.diversnotes.com/divingInKas/4._Oasis_-_FIsh_orqkgo.png "Oasis")
 
 
 Groupers confidently guard the cracks and allow divers surprisingly
@@ -171,7 +171,7 @@ relaxed dive.
 
 ## Day 3. Pina Banko and Wreck TCSG-119
 
-![Neptun](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Neptun_wmancd.png "Neptun")
+![Neptun](https://images.diversnotes.com/divingInKas/Neptun_wmancd.png "Neptun")
 
 Day three was stressful - mostly because of the group.
 
@@ -184,7 +184,7 @@ slightly annoyed.
 ### Pina Banko
 
 ![Pina
-Banko](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/5._Pina_Banko_2_kcrk1g.png "Pina Banko")
+Banko](https://images.diversnotes.com/divingInKas/5._Pina_Banko_2_kcrk1g.png "Pina Banko")
 
 Also called Pina Reef or Pen Shell Reef. The name comes from pen shell
 mollusks (Pinna species), once common here.
@@ -203,7 +203,7 @@ you can still see pen shells.
 ### Wreck TCSG-119
 
 ![Wreck
-TCSG-119](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/6._Neptun_Wreck_fogyrd.png "Wreck TCSG-119")
+TCSG-119](https://images.diversnotes.com/divingInKas/6._Neptun_Wreck_fogyrd.png "Wreck TCSG-119")
 
 This is a former Turkish Coast Guard patrol boat, about 29 meters long,
 sunk in 2011 as an artificial reef.
@@ -217,7 +217,7 @@ settled deeper.
 Excellent visibility allows viewing it from above.
 
 ![Baby Lion
-fish](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/6._Neptun_Wreck_-_Baby__detqzf.png "Baby Lion fish")
+fish](https://images.diversnotes.com/divingInKas/6._Neptun_Wreck_-_Baby__detqzf.png "Baby Lion fish")
 
 
 
@@ -228,7 +228,7 @@ atmosphere.
 
 ### Canyon
 
-![Canyon](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/7._Canyon_vkcmid.png "Canyon")
+![Canyon](https://images.diversnotes.com/divingInKas/7._Canyon_vkcmid.png "Canyon")
 
 A narrow underwater passage starting at shallow depth (3--5 m) and
 descending to 18--22 m, opening to a dramatic outer wall.
@@ -247,7 +247,7 @@ at the entrance.
 ### Plane (C-47 Dakota)
 
 ![Plane (C-47
-Dakota)](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/8._Plane_2_pzrkca.png "Plane-C-47 Dakota")
+Dakota)](https://images.diversnotes.com/divingInKas/8._Plane_2_pzrkca.png "Plane-C-47 Dakota")
 
 An intentionally sunk transport aircraft C-47 Dakota (wingspan \~29 m,
 length \~20 m), sunk in 2009 as an artificial reef.

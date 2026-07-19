@@ -8,7 +8,7 @@ locations:
   - Indian Ocean (Maldives)
   - Indian Ocean (Andaman Islands)
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
+  - "https://images.diversnotes.com/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
 tags:
   - Индийский океан
   - Моллюски

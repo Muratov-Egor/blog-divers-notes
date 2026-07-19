@@ -11,7 +11,7 @@ locations:
   - Красное море
   - Андаманское море
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ScarusNiger/Dusky_Parrotfish_ez51oy.png"
+  - "https://images.diversnotes.com/0_maineLife/ScarusNiger/Dusky_Parrotfish_ez51oy.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -37,7 +37,7 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Тёмный скар имеет продолговатое тело, покрытое крупной чешуей. Окраска варьируется в зависимости от возраста и пола, но часто включает оттенки синего, зелёного, фиолетового и чёрного. Молодые особи окрашены более тускло, а взрослые самцы обладают яркими цветами.
 
-![Dusky parrotfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ScarusNiger/Dusky_Parrotfish_2400x1349_vioyrh.png "Dusky parrotfish")
+![Dusky parrotfish](https://images.diversnotes.com/0_maineLife/ScarusNiger/Dusky_Parrotfish_2400x1349_vioyrh.png "Dusky parrotfish")
 
 В спинном плавнике насчитывается 9 колючих и 10 мягких лучей, а в анальном плавнике — 3 колючих и 9 мягких лучей.
 

@@ -8,7 +8,7 @@ depthRange: 1–48 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SnowflakeMoray/Snowflake_Moray_remuuc.png"
+  - "https://images.diversnotes.com/0_maineLife/SnowflakeMoray/Snowflake_Moray_remuuc.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -27,13 +27,13 @@ conservationStatus: —
 
 Её гавайское название "puhi-kapa" происходит от прозвища, данного королём Камехамеха I. Название рода происходит от греческого слова "echidna", что переводится как "гадюка", а видовое название "nebulosa" происходит от латинского "nebulosus", означающего "туманный" или "облачный".
 
-![Snowflake moray](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SnowflakeMoray/Snowflake_Moray_2_s3yuid.png "Snowflake moray")
+![Snowflake moray](https://images.diversnotes.com/0_maineLife/SnowflakeMoray/Snowflake_Moray_2_s3yuid.png "Snowflake moray")
 
 Размеры звездчатой мурены могут достигать до 100 см, но обычно они встречаются размером около 50 см. Эти рыбы обитают на глубинах от 1 до 48 метров.
 
 Звездчатые мурены населяют пещеры и расщелины рифов Индо-Тихоокеанского региона, начиная от Гавайских островов и до Австралии, простираясь на запад через острова Индо-Тихоокеании, до Восточных Индийских островов и через Индийский океан до побережья Африки.
 
-![Snowflake moray](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SnowflakeMoray/Snowflake_Moray_3_ogo7x8.png "Snowflake moray")
+![Snowflake moray](https://images.diversnotes.com/0_maineLife/SnowflakeMoray/Snowflake_Moray_3_ogo7x8.png "Snowflake moray")
 
 Их тело окрашено в белый или кремовый цвет с черными дендритными или зубчатыми пятнами, иногда с жёлтыми точками. Глаза мурен окрашены в жёлтый цвет, а на голове видны жёлтые отметины. Из ноздрей выступают две жёлтые трубчатые ноздри, склонённые вниз, а ещё одна пара ближе к глазам. Их зрение слабое, но они компенсируют это развитым обонянием. Зубы звездчатой мурены приспособлены для поедания ракообразных, а их коническая форма помогает дробить экзоскелеты беспозвоночных. В дикой природе эти мурены обычно питаются большей частью рыбы.
 

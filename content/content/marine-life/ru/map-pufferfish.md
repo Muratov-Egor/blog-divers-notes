@@ -8,7 +8,7 @@ depthRange: 4–30 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_Pufferfish_idt0bd.png"
+  - "https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_Pufferfish_idt0bd.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -30,7 +30,7 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Питается преимущественно твёрдокожими беспозвоночными, такими как моллюски, крабы и морские ежи. Аротрон использует свои мощные челюсти для разгрызания твёрдых раковин и кораллов.
 
-![Map pufferfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_pufferfish__vf7cw0.png "Map pufferfish")
+![Map pufferfish](https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_pufferfish__vf7cw0.png "Map pufferfish")
 
 Как и многие рыбы из семейства фугу, мозаичный аротрон может быть опасен для человека из-за содержания в его тканях тетродотоксина. Этот яд смертельно опасен при употреблении в пищу. Однако при встрече под водой аротрон не представляет угрозы для человека, так как не агрессивен.
 
@@ -40,4 +40,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 В случае опасности аротрон способен раздуваться, увеличиваясь в размерах и отпугивая потенциальных хищников.
 
-![Map pufferfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_pufferfish_2_jb5faz.png "Map pufferfish")
+![Map pufferfish](https://images.diversnotes.com/0_maineLife/MapPufferfish/Map_pufferfish_2_jb5faz.png "Map pufferfish")

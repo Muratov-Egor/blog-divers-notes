@@ -10,7 +10,7 @@ locations:
   - Индийский океан
   - западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/HumbugDamselfish/Humbug_Damselfish_p9ilxq.png"
+  - "https://images.diversnotes.com/0_maineLife/HumbugDamselfish/Humbug_Damselfish_p9ilxq.png"
 tags:
   - Красное море
   - Индийский океан
@@ -39,4 +39,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Дасциллы трёхполосые не представляют опасности для дайверов. Они обычно любопытны и могут приближаться к дайверам, но не представляют угрозы. Их небольшой размер и мирный характер делают их безвредными для человека.
 
-![Humbug damselfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/HumbugDamselfish/Humbug_Damselfish_2_n4hntx.png "Humbug damselfish")
+![Humbug damselfish](https://images.diversnotes.com/0_maineLife/HumbugDamselfish/Humbug_Damselfish_2_n4hntx.png "Humbug damselfish")

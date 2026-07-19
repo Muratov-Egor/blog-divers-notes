@@ -3,7 +3,7 @@ title: "Остров Рача Яй"
 description: "Дайв-сайты на острове Рача Яй: популярный однодневный маршрут с Пхукета"
 slug: racha-yai
 date: 2023-07-05
-cover: "https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_Preview_bf7zih.png"
+cover: "https://images.diversnotes.com/rachaYai/Racha_Yai_Preview_bf7zih.png"
 tags:
   - Дайв-сайты
   - Пхукет
@@ -31,7 +31,7 @@ tags:
 
 ## Bungalow Bay
 
-![Bungalow Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/rachaYai_1_nhorfd.png "Bungalow Bay")
+![Bungalow Bay](https://images.diversnotes.com/rachaYai/rachaYai_1_nhorfd.png "Bungalow Bay")
 
 Дайв-сайт Bungalow Bay или Ao Patok - популярное место в высокий сезон с ноября по май. В бухте есть широкий белоснежный пляж и красивые каменистые скалы, на которых можно увидеть диких козлов, наблюдающих за прибывшими туристами.
 
@@ -43,11 +43,11 @@ tags:
 
 Глубина бухты нарастает с мелководья пляжа и достигает 20-25 метров на выходе из бухты. А если продолжить движение, то можно достичь глубины более 40 метров.
 
-![Cхема Bungalow Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_2_dyozco.png "Cхема Bungalow Bay")
+![Cхема Bungalow Bay](https://images.diversnotes.com/rachaYai/Racha_Yai_2_dyozco.png "Cхема Bungalow Bay")
 
 ## Bay 1 и Bay 2
 
-![Bay 1 и Bay 2](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_3_lknyoo.png "Bay 1 и Bay 2")
+![Bay 1 и Bay 2](https://images.diversnotes.com/rachaYai/Racha_Yai_3_lknyoo.png "Bay 1 и Bay 2")
 
 Дайв-сайт Bay 1 или Ao Lah расположен на восточной стороне острова. В мелкой части, от 3 до 9 метров, располагается большой коралловый риф, в котором обитает большое количество разнообразных рыб.
 
@@ -57,7 +57,7 @@ tags:
 
 Дальше в море находится затонувший корабль Haruby Star. Дно затонувшего судна находится на глубине около 20 метров, а верх - на глубине около 14 метров. Можно легко проплыть внутри корабля, но стоит быть очень внимательным, так как в корабле можно встретить мурен.
 
-![Схема Bay 1 и Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_4_zh2uag.png "Схема Bay 1 и Bay")
+![Схема Bay 1 и Bay](https://images.diversnotes.com/rachaYai/Racha_Yai_4_zh2uag.png "Схема Bay 1 и Bay")
 
 ## Siam Bay
 
@@ -73,4 +73,4 @@ tags:
 
 Подводные жители не столь привыкшие к дайверам, поэтому их намного легче спугнуть, поэтому делая фото или видео нужно быть придельно аккуратным.
 
-![Siam Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_5_Ehonii_ky3gfi.png "Siam Bay")
+![Siam Bay](https://images.diversnotes.com/rachaYai/Racha_Yai_5_Ehonii_ky3gfi.png "Siam Bay")

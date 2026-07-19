@@ -9,7 +9,7 @@ locations:
   - Индийский океан (Мальдивы)
   - Индийский океан (Андаманские острова)
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
+  - "https://images.diversnotes.com/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
 tags:
   - Индийский океан
   - Моллюски

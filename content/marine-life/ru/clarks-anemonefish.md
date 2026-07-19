@@ -8,7 +8,7 @@ depthRange: 1–70 м
 locations:
   - Индо-Западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_jsp7bs.png"
+  - "https://images.diversnotes.com/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_jsp7bs.png"
 tags:
   - Тихий океан
   - Рыбы
@@ -34,4 +34,4 @@ conservationStatus: Least Concern (LC) — не находится под угр
 
 Рыба-клоун Кларка могут стать агрессивными, защищая свою територию, если чувствуют угрозу. Укусы могут быть неприятными, но они не ядовиты и не представляют серьезной угрозы.
 
-![Clark's anemonefish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_2477x1392_yqzuzi.png "Clark's anemonefish")
+![Clark's anemonefish](https://images.diversnotes.com/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_2477x1392_yqzuzi.png "Clark's anemonefish")

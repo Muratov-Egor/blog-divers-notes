@@ -7,7 +7,7 @@ depthRange: down to 50 m
 locations:
   - Indo-Pacific region
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_2_byvmgv.png"
+  - "https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_2_byvmgv.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -29,7 +29,7 @@ On the chest there are two dark bands that meet under the pectoral fin, forming 
 
 The longfin grouper lives in the Indo-Pacific, including the Indo-Malay archipelago, the Andaman Islands and the north coast of Australia. It prefers muddy reefs and sandy bottom at depths down to 50 metres.
 
-![Longfin grouper](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_t5tugn.png "Longfin grouper")
+![Longfin grouper](https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_t5tugn.png "Longfin grouper")
 
 It feeds on worms, small fish and crustaceans. It is an active predator and often hunts from ambush.
 
@@ -39,4 +39,4 @@ The longfin grouper is a hermaphrodite. All fish start as females and reach matu
 
 This species was first described in 1830 by the French zoologist Achille Valenciennes and was named after the naturalist Jean René Constant Quoy.
 
-![Longfin grouper](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_3_uzw5ne.png "Longfin grouper")
+![Longfin grouper](https://images.diversnotes.com/0_maineLife/LongfinGrouper/Longfin_Grouper_3_uzw5ne.png "Longfin grouper")

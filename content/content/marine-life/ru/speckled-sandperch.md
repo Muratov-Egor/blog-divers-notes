@@ -8,7 +8,7 @@ depthRange: до 18 м
 locations:
   - Индо-Западная часть Тихого океана
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpeckledSandperch/Speckled_Sandperch_otviwl.png"
+  - "https://images.diversnotes.com/0_maineLife/SpeckledSandperch/Speckled_Sandperch_otviwl.png"
 tags:
   - Тихий океан
   - Рыбы
@@ -27,7 +27,7 @@ conservationStatus: —
 
 Крапчатый окунь имеет слегка сжатое цилиндрическое тело, которое сужается к задней части. Глаза расположены высоко на голове, близко друг к другу. Губы у этой рыбы довольно мясистые. Спинной плавник простирается вдоль тела, а анальный плавник, начинающийся в середине тела, также пропорционально длинный. Брюшные плавники также длинные.
 
-![Speckled sandperch](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpeckledSandperch/Speckled_Sandperch_1_gjxko3.png "Speckled sandperch")
+![Speckled sandperch](https://images.diversnotes.com/0_maineLife/SpeckledSandperch/Speckled_Sandperch_1_gjxko3.png "Speckled sandperch")
 
 Самки имеют ряд пятен вдоль верхней части тела и 7-8 вертикальных полос на животе. На некоторых из этих полос могут быть желтые пятна, обведенные черным. Лицо покрыто мелкими пятнышками. На хвосте имеется заметное черное пятно.
 
@@ -35,7 +35,7 @@ conservationStatus: —
 
 Крапчатые окуни обычно встречаются на песчаных участках и среди обломков между рифами. Они сидят на дне, опираясь на грудные плавники, и делают резкие броски вверх. У них, похоже, очень хорошее зрение. При приближении дайвера они обычно остаются на дне, но если подойти слишком близко, рыбы быстро уплывают. Часто их можно увидеть парами.
 
-![Speckled sandperch](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpeckledSandperch/Speckled_Sandperch_2_hbunpu.png "Speckled sandperch")
+![Speckled sandperch](https://images.diversnotes.com/0_maineLife/SpeckledSandperch/Speckled_Sandperch_2_hbunpu.png "Speckled sandperch")
 
 Крапчатый окунь встречается в Индо-Западной части Тихого океана. Обычно они обитают на песчаных и галечных участках между рифами. Можно встретить на глубине до 18 метров.
 
@@ -43,4 +43,4 @@ conservationStatus: —
 
 О брачных привычках этого вида известно немного. Как и у большинства песчаных окуней, они являются последовательными гермафродитами, начиная свою взрослую жизнь как самки и позже становясь самцами, вероятно, под воздействием социальных сигналов. Самок вокруг значительно больше, чем самцов, и каждый самец охраняет гарем из двух-трех самок. Нерест происходит на закате. Самец и самка поднимаются над дном и выпускают икру и сперму в воду.
 
-![Speckled sandperch](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpeckledSandperch/Speckled_Sandperch_3_y6sh4l.png "Speckled sandperch")
+![Speckled sandperch](https://images.diversnotes.com/0_maineLife/SpeckledSandperch/Speckled_Sandperch_3_y6sh4l.png "Speckled sandperch")

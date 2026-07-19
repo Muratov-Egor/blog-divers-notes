@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://f003.backblazeb2.com/file/diversnotes-images/kohTao2/Preview_rqo7h0.png
+  https://images.diversnotes.com/kohTao2/Preview_rqo7h0.png
 date: 2025-05-03
 description: Returning to the island of divers
 slug: koh-tao-diving-second-trip
@@ -57,7 +57,7 @@ By evening, we reached the pier and stayed overnight nearby. The day
 ended with a beautiful sunset. The journey had begun.
 
 ![Thai
-sunset](https://f003.backblazeb2.com/file/diversnotes-images/kohTao2/2_jxpkh5.png)
+sunset](https://images.diversnotes.com/kohTao2/2_jxpkh5.png)
 
 ## Day 2 -- Dive Center
 

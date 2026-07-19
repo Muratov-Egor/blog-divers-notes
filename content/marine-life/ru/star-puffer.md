@@ -8,7 +8,7 @@ depthRange: до 60 м
 locations:
   - Индо-Тихоокеанский регион
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/StarPuffer/Star_Puffer_1366x768_ex0qsq.png"
+  - "https://images.diversnotes.com/0_maineLife/StarPuffer/Star_Puffer_1366x768_ex0qsq.png"
 tags:
   - Индийский океан
   - Тихий океан

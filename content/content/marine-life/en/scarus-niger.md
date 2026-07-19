@@ -10,7 +10,7 @@ locations:
   - Red Sea
   - Andaman Sea
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ScarusNiger/Dusky_Parrotfish_ez51oy.png"
+  - "https://images.diversnotes.com/0_maineLife/ScarusNiger/Dusky_Parrotfish_ez51oy.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -35,7 +35,7 @@ Adults reach about 23–24 cm in length and weigh around 240 g. Maximum body len
 
 The dusky parrotfish has an oblong body covered with large scales. Coloration varies with age and sex but often includes shades of blue, green, purple and black. Juveniles are duller; adult males are more brightly coloured.
 
-![Dusky parrotfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ScarusNiger/Dusky_Parrotfish_2400x1349_vioyrh.png "Dusky parrotfish")
+![Dusky parrotfish](https://images.diversnotes.com/0_maineLife/ScarusNiger/Dusky_Parrotfish_2400x1349_vioyrh.png "Dusky parrotfish")
 
 The dorsal fin has 9 spines and 10 soft rays, and the anal fin has 3 spines and 9 soft rays.
 

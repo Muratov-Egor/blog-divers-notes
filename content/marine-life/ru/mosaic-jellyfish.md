@@ -9,7 +9,7 @@ locations:
   - Индийский океан
   - Тихий океан
 images:
-  - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_h6mfnd.png"
+  - "https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_h6mfnd.png"
 tags:
   - Индийский океан
   - Тихий океан
@@ -27,7 +27,7 @@ conservationStatus: Not Evaluated (NE) — вид не оценивался IUCN
 
 Обитает в тёплых водах Индо-Тихоокеанского региона, особенно у берегов Австралии, Японии и Индии. Она населяет мелководные лагуны и внешние склоны коралловых рифов на глубинах от 2 до 55 метров.
 
-![Mosaic jellyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_2400x1350_ina0fx.png "Mosaic jellyfish")
+![Mosaic jellyfish](https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_2400x1350_ina0fx.png "Mosaic jellyfish")
 
 Питается планктоном, мелкими рыбами и ракообразными. Мозаичная медуза фильтрует воду своими щупальцами, захватывая пищу.
 
@@ -35,4 +35,4 @@ conservationStatus: Not Evaluated (NE) — вид не оценивался IUCN
 
 Мозаичные медузы считаются важной частью экосистемы коралловых рифов, так как участвуют в питании и движении питательных веществ.
 
-![Mosaic jellyfish](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_3_cc5e6w.png "Mosaic jellyfish")
+![Mosaic jellyfish](https://images.diversnotes.com/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_3_cc5e6w.png "Mosaic jellyfish")
