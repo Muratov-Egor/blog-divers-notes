@@ -6,7 +6,14 @@ import Lightbox from "../components/Lightbox.astro";
 import PostCard from "../components/PostCard.astro";
 import TagList from "../components/TagList.astro";
 import { t, formatDate, type Locale } from "../lib/i18n";
-import { getBlogPosts, relatedPosts, readingTime, type BlogPost } from "../lib/content";
+import {
+  getBlogPosts,
+  postExistsInLocale,
+  relatedPosts,
+  readingTime,
+  type BlogPost,
+} from "../lib/content";
+import { localePath } from "../lib/i18n";
 import { resolveImage } from "../lib/images";
 
 interface Props {
@@ -19,6 +26,33 @@ const all = await getBlogPosts(locale);
 const related = relatedPosts(post, all);
 const ogImage = post.data.cover ? resolveImage(post.data.cover).src : undefined;
 const minutes = readingTime(post.body);
+const site = Astro.site!.href.replace(/\/$/, "");
+const postUrl = site + localePath(locale, `/blog/${post.data.slug}`);
+// Only claim a cross-locale alternate if the translation actually exists.
+const hasAlternate = await postExistsInLocale(post.data.slug, locale === "ru" ? "en" : "ru");
+
+const blogPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  url: postUrl,
+  inLanguage: locale,
+  datePublished: post.data.date.toISOString(),
+  dateModified: (post.data.updatedAt ?? post.data.date).toISOString(),
+  ...(ogImage ? { image: ogImage } : {}),
+  mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
+  author: { "@type": "Organization", name: "Diver's Notes" },
+  publisher: { "@type": "Organization", name: "Diver's Notes" },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: t(locale, "nav.blog"), item: site + localePath(locale, "/blog") },
+    { "@type": "ListItem", position: 2, name: post.data.title, item: postUrl },
+  ],
+};
 // Article "depth": ~5 m per minute of reading, in sane diving bounds (10–60 m).
 const maxDepth = Math.min(60, Math.max(10, minutes * 5));
 ---
@@ -30,6 +64,8 @@ const maxDepth = Math.min(60, Math.max(10, minutes * 5));
   path={`/blog/${post.data.slug}`}
   ogImage={ogImage}
   ogType="article"
+  hasAlternate={hasAlternate}
+  jsonLd={[blogPostingSchema, breadcrumbSchema]}
 >
   <div class="relative mx-auto max-w-[60rem]">
     <!-- Depth scale: reading progress rendered as a dive from 0 m.

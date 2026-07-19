@@ -21,6 +21,7 @@ function bucketKey(url) {
   for (const prefix of B2_PREFIXES) {
     if (url.startsWith(prefix)) return url.slice(prefix.length);
   }
+  if (url.startsWith(CDN + "/")) return url.slice(CDN.length + 1);
   return null;
 }
 

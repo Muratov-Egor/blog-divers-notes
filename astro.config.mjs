@@ -14,7 +14,14 @@ export default defineConfig({
     locales: ["ru", "en"],
     routing: { prefixDefaultLocale: false },
   },
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      i18n: {
+        defaultLocale: "ru",
+        locales: { ru: "ru", en: "en" },
+      },
+    }),
+  ],
   vite: { plugins: [tailwindcss()] },
   markdown: {
     rehypePlugins: [rehypeSlug, rehypeImages, rehypeYoutube],

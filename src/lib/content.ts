@@ -35,6 +35,12 @@ export async function getBlogPosts(locale: Locale): Promise<BlogPost[]> {
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
+/** Whether a published post with this slug exists in the given locale. */
+export async function postExistsInLocale(slug: string, locale: Locale): Promise<boolean> {
+  const posts = await getBlogPosts(locale);
+  return posts.some((p) => p.data.slug === slug);
+}
+
 /** Marine life entries for a locale, sorted by title. */
 export async function getMarineLife(locale: Locale): Promise<MarineEntry[]> {
   const entries = await getCollection("marineLife", (e) =>

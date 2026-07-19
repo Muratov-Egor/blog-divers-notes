@@ -12,14 +12,30 @@ interface Props {
   path: string;
   ogImage?: string;
   ogType?: "website" | "article";
+  /** Whether the same page exists in the other locale (controls hreflang). */
+  hasAlternate?: boolean;
+  /** Extra JSON-LD to emit alongside the site-wide WebSite schema. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { locale, title, description, path, ogImage, ogType = "website" } = Astro.props;
+const {
+  locale,
+  title,
+  description,
+  path,
+  ogImage,
+  ogType = "website",
+  hasAlternate = true,
+  jsonLd,
+} = Astro.props;
 const site = Astro.site!.href.replace(/\/$/, "");
 const canonical = site + localePath(locale, path);
 const alternate = site + alternatePath(locale, path);
+// x-default points at the default-locale (ru) version of the page.
+const xDefault = locale === "ru" ? canonical : alternate;
 const desc = description ?? t(locale, "metadata.siteDescription");
 const og = ogImage ?? `${site}/og-default.png`;
+const extraJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
 ---
 
@@ -31,8 +47,13 @@ const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
     <title>{title}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang={locale === "ru" ? "en" : "ru"} href={alternate} />
     <link rel="alternate" hreflang={locale} href={canonical} />
+    {hasAlternate && (
+      <>
+        <link rel="alternate" hreflang={locale === "ru" ? "en" : "ru"} href={alternate} />
+        <link rel="alternate" hreflang="x-default" href={xDefault} />
+      </>
+    )}
     <link rel="icon" href="/logo.png" />
     <link
       rel="alternate"
@@ -40,13 +61,21 @@ const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
       title="Diver's Notes"
       href={localePath(locale, "/rss.xml")}
     />
+    <meta property="og:site_name" content="Diver's Notes" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={og} />
+    <meta property="og:image:alt" content={title} />
     <meta property="og:locale" content={locale === "ru" ? "ru_RU" : "en_US"} />
+    {hasAlternate && (
+      <meta property="og:locale:alternate" content={locale === "ru" ? "en_US" : "ru_RU"} />
+    )}
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={og} />
     <script is:inline>
       const theme =
         localStorage.getItem("theme") ??
@@ -64,6 +93,11 @@ const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         description: desc,
       })}
     />
+    {
+      extraJsonLd.map((schema) => (
+        <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+      ))
+    }
     {
       cfAnalyticsToken && (
         <script
