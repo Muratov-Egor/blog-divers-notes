@@ -2391,5 +2391,323 @@
         }
       }
     ]
+  },
+    {
+    "region": {
+      "ru": "Brothers & Daedalus, Египет 🇪🇬",
+      "en": "Brothers & Daedalus, Egypt 🇪🇬",
+      "links": [],
+      "regionName": {
+        "en": "Brothers & Daedalus",
+        "ru": "Brothers & Daedalus"
+      },
+      "country": {
+        "code": "EG",
+        "en": "Egypt",
+        "ru": "Египет"
+      },
+      "slugs": {
+        "country": "egypt",
+        "region": "brothers-and-daedalus"
+      },
+      "seo": {
+        "intro": {
+          "en": "",
+          "ru": ""
+        },
+        "highlights": {
+          "en": [],
+          "ru": []
+        }
+      }
+    },
+    "sites": [
+      {
+        "name": "Ras Abu Soma",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 26.84458,
+          "lng": 34.00472
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=26.84458,34.00472",
+        "id": "egypt-brothers-and-daedalus-ras-abu-soma",
+        "slugs": {
+          "site": "ras-abu-soma"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Panorama Reef Safaga",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 26.75296,
+          "lng": 34.08001
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=26.75296,34.08001",
+        "id": "egypt-brothers-and-daedalus-panorama-reef-safaga",
+        "slugs": {
+          "site": "panorama-reef-safaga"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "The Big Brother",
+        "dives": 2,
+        "type": "wall",
+        "coordinates": {
+          "lat": 26.31383,
+          "lng": 34.84479
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=26.31383,34.84479",
+        "id": "egypt-brothers-and-daedalus-the-big-brother",
+        "slugs": {
+          "site": "the-big-brother"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "The Little Brother",
+        "dives": 1,
+        "type": "wall",
+        "coordinates": {
+          "lat": 26.30177,
+          "lng": 34.86256
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=26.30177,34.86256",
+        "id": "egypt-brothers-and-daedalus-the-little-brother",
+        "slugs": {
+          "site": "the-little-brother"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Daedalus Reef",
+        "dives": 6,
+        "type": "reef",
+        "coordinates": {
+          "lat": 24.95,
+          "lng": 35.83333
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=24.95,35.83333",
+        "id": "egypt-brothers-and-daedalus-daedalus-reef",
+        "slugs": {
+          "site": "daedalus-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Elphinstone Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 25.3,
+          "lng": 34.83333
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=25.3,34.83333",
+        "id": "egypt-brothers-and-daedalus-elphinstone-reef",
+        "slugs": {
+          "site": "elphinstone-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Marsa Shouna",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 25.46964,
+          "lng": 34.68153
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=25.46964,34.68153",
+        "id": "egypt-brothers-and-daedalus-marsa-shouna",
+        "slugs": {
+          "site": "marsa-shouna"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Ras Torombi Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 25.66298,
+          "lng": 34.58778
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=25.66298,34.58778",
+        "id": "egypt-brothers-and-daedalus-ras-torombi-reef",
+        "slugs": {
+          "site": "ras-torombi-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Sgarm Fugani Reef",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 25.87002,
+          "lng": 34.42276
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=25.87002,34.42276",
+        "id": "egypt-brothers-and-daedalus-sgarm-fugani-reef",
+        "slugs": {
+          "site": "sgarm-fugani-reef"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Ras Disha",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.04115,
+          "lng": 33.90713
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.04115,33.90713",
+        "id": "egypt-brothers-and-daedalus-ras-disha",
+        "slugs": {
+          "site": "ras-disha"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Gotta Abu Ramada",
+        "dives": 1,
+        "type": "reef",
+        "coordinates": {
+          "lat": 27.13944,
+          "lng": 33.95435
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=27.13944,33.95435",
+        "id": "egypt-brothers-and-daedalus-gotta-abu-ramada",
+        "slugs": {
+          "site": "gotta-abu-ramada"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    ]
   }
 ]
